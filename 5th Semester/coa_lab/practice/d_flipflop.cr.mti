@@ -1,0 +1,71 @@
+E:/University/semester_5/coa_lab/practice/jk_flipflop.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/jk_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jk_flipflop
+
+Top level modules:
+	jk_flipflop
+
+} {} {}} E:/University/semester_5/coa_lab/practice/sr_flipflop.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/sr_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sr_flipflop
+
+Top level modules:
+	sr_flipflop
+
+} {} {}} E:/University/semester_5/coa_lab/practice/sr_latch.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/sr_latch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sr_latch
+
+Top level modules:
+	sr_latch
+
+} {} {}} E:/University/semester_5/coa_lab/practice/t_flipflopTB.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/t_flipflopTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module t_flipflopTB
+
+Top level modules:
+	t_flipflopTB
+
+} {} {}} E:/University/semester_5/coa_lab/practice/d_flipflopTB.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/d_flipflopTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_flipflop_tb
+
+Top level modules:
+	d_flipflop_tb
+
+} {} {}} E:/University/semester_5/coa_lab/practice/jk_flipflopTB.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/jk_flipflopTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jk_flipflopTB
+
+Top level modules:
+	jk_flipflopTB
+
+} {} {}} E:/University/semester_5/coa_lab/practice/tffTB.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/tffTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jk_flipflop_tb
+
+Top level modules:
+	jk_flipflop_tb
+
+} {} {}} E:/University/semester_5/coa_lab/practice/sr_latchTB.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/sr_latchTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sr_latchTB
+
+Top level modules:
+	sr_latchTB
+
+} {} {}} E:/University/semester_5/coa_lab/practice/sr_flipflopTB.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/sr_flipflopTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sr_flipflopTB
+
+Top level modules:
+	sr_flipflopTB
+
+} {} {}} E:/University/semester_5/coa_lab/practice/d_flipflop.v {1 {vlog -work work -stats=none E:/University/semester_5/coa_lab/practice/d_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_flipflop
+
+Top level modules:
+	d_flipflop
+
+} {} {}}

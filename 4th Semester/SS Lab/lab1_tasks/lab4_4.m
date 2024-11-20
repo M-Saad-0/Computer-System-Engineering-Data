@@ -1,0 +1,10 @@
+x = [1:0.2:10];
+y1 = 2*x + 3;
+y2 = 4*x + 3;
+xlabel('X-AXIS');
+ylabel('Y-AXIS');
+title('Different Plot Styles');
+subplot(1, 2, 1);
+plot(x, y1, '--');
+subplot(1, 2, 2);
+plot(x, y2, '+');

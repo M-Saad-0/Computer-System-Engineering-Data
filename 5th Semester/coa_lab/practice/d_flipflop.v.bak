@@ -1,0 +1,11 @@
+module d_flipflop(D, C, Q, Q_);
+	input D, C;
+	output Q, Q_;
+	wire nD, e, f;
+
+	not n1(nD, D);
+	and a1(e, D, C);
+	and a2(f, nD, C);
+	and a3(Q, Q_, e);
+	and a4(Q_, Q, f);
+endmodule

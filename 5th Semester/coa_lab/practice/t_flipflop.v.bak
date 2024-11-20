@@ -1,0 +1,13 @@
+module t_flipflop(T, C, Q, Q_);
+	input T, C;
+	output Q, Q_;
+	wire d;	
+	xor x(d, Q, T);
+	wire nd, e, f;
+
+	not n1(nd, d);
+	nand a1(e, d, C);
+	nand a2(f, nd, C);
+	nand a3(Q, Q_, e);
+	nand a4(Q_, Q, f);
+endmodule

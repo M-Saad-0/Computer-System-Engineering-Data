@@ -1,0 +1,50 @@
+<!--
+<script>
+    class Book{
+        constructor(author)
+        {
+            this._author=author;
+        }
+    
+    get writer()
+    {
+        return this._author;
+    }
+    set writer(updatedAuthor)
+        {
+            this._author=updatedAuthor;
+        }
+        }
+    
+</script>-->
+
+<script>
+    function makeClass()
+    {
+        class thermostat
+        {
+            constructor(temp)
+            {
+                this._temp=5/9*(temp-32);
+            }
+            get temperature()
+            {
+                return this._temp;
+            }
+            set temperature(updatedTemp)
+            {
+                this._temp=updatedTemp;
+            }
+        }
+        return thermostat;
+        
+    }
+    const Thermostat = makeClass();
+    const thermo = new Thermostat(76);
+    let temp = thermo.temperature;
+    thermo.temperature=26;
+    temp=thermo.temperature;
+    console.log(temp);
+    
+
+</script>

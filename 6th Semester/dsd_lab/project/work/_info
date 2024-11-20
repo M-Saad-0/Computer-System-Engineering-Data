@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/semester6/dsdT
+vautomatic_washing_machine
+Z0 !s110 1719290788
+!i10b 1
+!s100 D5?PH60oEne[3IH<9GlX@2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6bR8cUnOeNcHn?[Kzc64<0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/semester6/dsd_lab/project
+w1719230898
+8D:/University/semester6/dsd_lab/project/Washing_Machine_Automatic_HDL.v
+FD:/University/semester6/dsd_lab/project/Washing_Machine_Automatic_HDL.v
+!i122 8
+L0 6 199
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1719290788.000000
+!s107 D:/University/semester6/dsd_lab/project/Washing_Machine_Automatic_HDL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsd_lab/project/Washing_Machine_Automatic_HDL.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vnew_test
+R0
+!i10b 1
+!s100 XWBcb2[N7LWGXR<]E3CjF3
+R1
+Inz^<[:09bag7GmMOQCIb?3
+R2
+R3
+w1707930438
+8D:\University\semester6\dsd_lab\project\new_test.v
+FD:\University\semester6\dsd_lab\project\new_test.v
+!i122 7
+L0 1 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\University\semester6\dsd_lab\project\new_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\University\semester6\dsd_lab\project\new_test.v|
+!i113 1
+R6
+R7
+vtest_1
+R0
+!i10b 1
+!s100 YgHYRD4lZ]c:<0i7Fdo2I1
+R1
+IbYnZPgfME:LY`3nb]5RD;0
+R2
+R3
+w1719290784
+8D:/University/semester6/dsd_lab/project/test_1.v
+FD:/University/semester6/dsd_lab/project/test_1.v
+!i122 9
+L0 1 83
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/semester6/dsd_lab/project/test_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsd_lab/project/test_1.v|
+!i113 1
+R6
+R7

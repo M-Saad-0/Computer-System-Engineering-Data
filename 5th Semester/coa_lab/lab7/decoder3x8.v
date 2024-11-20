@@ -1,0 +1,8 @@
+module decoder3x8(A, B, e, I1, I2);
+	input A, B, e;
+	output [3:0]I1, I2;
+	wire ne;
+	not n1(ne, e);
+	decoder2x4 d1(A, B, ne, I1);
+	decoder2x4 d2(A, B, e, I2);
+endmodule

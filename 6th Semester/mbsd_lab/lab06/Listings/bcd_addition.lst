@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  BCD_ADDITION                                                         04/02/2024 09:22:27 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\bcd_addition.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE bcd_addition.a51 SET(SMALL) DEBUG PRINT(.\Listings\bcd_addition.lst) OB
+                      JECT(.\Objects\bcd_addition.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00H
+0000 7828              2             MOV R0, #40
+0002 7A05              3             MOV R2, #5
+0004 E500              4             MOV A, 00H
+0006 FF                5             MOV R7, A
+                       6             
+0007 26                7             AGAIN:  ADD A, @R0
+0008 D4                8                             DA A
+0009 5001              9                             JNC NEXT
+000B 0F               10                             INC R7
+                      11                             
+000C 08               12             NEXT:   INC R0
+000D DAF8             13                             DJNZ R2, AGAIN
+*** WARNING #A41 IN 13 (bcd_addition.a51, LINE 13): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  BCD_ADDITION                                                         04/02/2024 09:22:27 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   0007H   A   
+NEXT . . . . . . .  C ADDR   000CH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

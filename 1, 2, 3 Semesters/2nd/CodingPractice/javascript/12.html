@@ -1,0 +1,59 @@
+<script>
+    function isLess(a, b)
+    {
+        return a<b;
+    }
+    document.write(isLess(10, 15));
+    
+    
+    
+    function abTest(a, b)
+    {
+        if(a<0 || b<0)
+            {
+                return undefined;
+            }
+        return Math.round(Math.pow(Math.sqrt(a)+Math.sqrt(b), 2))
+    }
+    document.write("\n"+abTest(2, 2));
+    
+    
+    var count = 0;
+    function cc(card)
+    {
+        switch (card)
+            {
+                case 1:
+//                    break;
+                case 2:
+//                    break;
+                case 3:
+//                    break;
+                case 4:
+//                    break;
+                case 5:
+//                    break;
+                case 6;
+                    count++;
+                    break;
+                case 'j':
+                case 'q':
+                case 'k':
+                case 'A':
+                    count --;
+                    break; 
+            }
+        var holdbet ='Hold';
+        if(count>0)
+            {
+                holdbet='Bet';
+            }
+        return holdbet;
+    }
+//    cc(2);
+//    cc(3);
+//    cc(7);
+//    cc('k');
+//    cc('A');
+    document.write(cc(4));
+</script>

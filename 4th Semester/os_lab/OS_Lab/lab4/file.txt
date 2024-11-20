@@ -1,0 +1,682 @@
+    1  sudo apt update && sudo apt upgrade
+    2  sudo dpkg -i code_1.75.1-1675893397_amd64.deb ./software/BlueJ-linux-510.deb
+    3  sudo dpkg -i code_1.75.1-1675893397_amd64.deb ./software/BlueJ-linux-510.deb && sudo apt install openjdk-17-jre openjdk-17-jdk vlc htop gcc
+    4  sudo apt update && sudo apt upgrade
+    5  sudo dpkg -i code_1.75.1-1675893397_amd64.deb ./software/BlueJ-linux-510.deb && sudo apt install openjdk-17-jre openjdk-17-jdk vlc htop gcc && sudo apt update && sudo apt upgrade
+    6  cd
+    7  clear
+    8  sudo apt install geany
+    9  sudo apt install geany-plugins
+   10  clear
+   11  ls
+   12  clear
+   13  git clone https://github.com/ok9xnirab/macOs-icon-theme ~/.icons/La-Sierra
+   14  sudo ./install.sh -g -c dark -t default
+   15  sudo apt install sassc
+   16  sudo ./install.sh -g -c dark -t default
+   17  ./install.sh --tweaks round -c dark -l
+   18  ./install.sh --tweaks image square round
+   19  sudo apt install gnome-tweaks
+   20  sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+   21  cd Music
+   22  git clonehttps://github.com/vinceliuice/Qogir-theme.git
+   23  git clone https://github.com/vinceliuice/Qogir-theme.git
+   24  sudo apt isntall git
+   25  sudo apt install git
+   26  ls
+   27  git clone https://github.com/vinceliuice/Qogir-theme.git
+   28  ls
+   29  cd Qogir-theme
+   30  ./install.sh
+   31  ./install.sh --tweaks round -c dark -l
+   32  ./install.sh --tweaks image square round
+   33  sudo ./install.sh -g -c dark -t default
+   34  sudo snap install gnome-extension-manager
+   35  htop
+   36  gcc
+   37  java --version
+   38  sudo apt install gc
+   39  sudo apt install gcc
+   40  sudo apt install g++
+   41  cd "/media/sd/2EB4BCFFB4BCCA9B/Uni_Folder/4th Semester/dsa/lab1/output"
+   42  ./"Task_4"
+   43  ls
+   44  ./pr1.sh
+   45  gedit ./pr1.sh
+   46  ./pr1.sh f
+   47  clear
+   48  ./pr2.sh
+   49  gedit ./pr2.sh
+   50  ./pr2.sh
+   51  gedit ./pr2.sh
+   52  ./pr2.sh
+   53  gedit ./pr2.sh
+   54  ./pr2.sh
+   55  gedit ./pr2.sh
+   56  ./pr2.sh
+   57  gedit ./pr2.sh
+   58  ./pr2.sh
+   59  gedit ./pr2.sh
+   60  ./pr2.sh
+   61  ./pr2.sh p
+   62  ./pr2.sh pr2.sh
+   63  clear
+   64  ls
+   65  ./pr2.sh pr2.sh
+   66  gedit ./pr2.sh
+   67  ./pr2.sh pr2.sh
+   68  gedit ./pr2.sh
+   69  ./pr2.sh pr2.sh
+   70  gedit ./pr2.sh
+   71  ./pr2.sh pr2.sh
+   72  gedit ./pr2.sh
+   73  ./pr2.sh pr2.sh
+   74  gedit ./pr2.sh
+   75  ./pr2.sh pr2.sh
+   76  gedit ./pr2.sh
+   77  ./pr2.sh pr2.sh
+   78  gedit ./pr2.sh
+   79  ./pr2.sh pr2.sh
+   80  gedit ./pr2.sh
+   81  ./pr2.sh pr2.sh
+   82  gedit ./pr2.sh
+   83  ./pr2.sh pr2.sh
+   84  gedit ./pr2.sh
+   85  ./pr2.sh pr2.sh
+   86  gedit ./pr2.sh
+   87  ./pr2.sh pr2.sh
+   88  gedit ./pr2.sh
+   89  ./pr2.sh pr2.sh
+   90  ./pr2.sh pr2
+   91  ./pr2.sh f
+   92  gedit ./pr2.sh
+   93  gedit ./pr2.sh f
+   94  ./pr2.sh f
+   95  ./pr2.sh p
+   96  gedit ./pr2.sh
+   97  gedit ./pr2.sh
+   98  gedit ./pr2.sh p
+   99  ./pr2.sh p
+  100  gedit ./pr2.sh p
+  101  ./pr2.sh p
+  102  ./pr2.sh pr2.sh
+  103  ./pr2.sh fd
+  104  gedit ./pr2.sh p
+  105  ./pr2.sh fd
+  106  gedit ./pr2.sh p
+  107  ./pr2.sh fd
+  108  ./pr2.sh l
+  109  ./pr2.sh -l
+  110  gedit ./pr2.sh
+  111  ./pr2.sh 
+  112  ./pr2.sh sad
+  113  gedit ./pr2.sh
+  114  ./pr2.sh sad
+  115  ./pr2.sh p
+  116  ./pr2.sh pr2.sh
+  117  ./pr2.sh sadclear
+  118  clear
+  119  cd Desktop/OS_Lab/lab3
+  120  clear
+  121  ls
+  122  gedit pr3.sh
+  123  ./pr3.sh
+  124  chmod 777 ./pr3.sh
+  125  clar
+  126  clear
+  127  ./pr3.sh
+  128  gedit  ./pr3.sh
+  129  ./pr3.sh
+  130  gedit  ./pr3.sh
+  131  ./pr3.sh
+  132  gedit  ./pr3.sh
+  133  ./pr3.sh
+  134  clear
+  135  gedit  ./pr3.sh
+  136  clear
+  137  ./pr3.sh
+  138  clear
+  139  gedit  ./pr3.sh
+  140  ./pr3.sh
+  141  gedit  ./pr3.sh
+  142  ls /Home
+  143  ls ./Home
+  144  ls /Home/Desktop
+  145  clear
+  146  ls Home
+  147  ls ../../Home
+  148  ls ../../
+  149  ls ../../..
+  150  clear
+  151  gedit  ./pr3.sh
+  152  cd Home
+  153  cd /Home
+  154  gedit  ./pr3.sh
+  155  ./pr3.sh
+  156  clear
+  157  gedit  ./pr3.sh
+  158  clear
+  159  gedit pr4.sh
+  160  ./pr4.sh
+  161  chmod 777 ./pr4.sh
+  162  clear
+  163  ./pr4.sh
+  164  gedit pr4.sh
+  165  ./pr4.sh
+  166  gedit pr4.sh
+  167  ./pr4.sh
+  168  gedit pr4.sh
+  169  ./pr4.sh
+  170  clear
+  171  gedit pr4.sh
+  172  ./pr4.sh
+  173  gedit pr4.sh
+  174  ./pr4.sh
+  175  clear
+  176  gedit pr4.sh
+  177  ./pr4.sh
+  178  clear
+  179  ./pr4.sh
+  180  gedit pr4.sh
+  181  ./pr4.sh
+  182  gedit pr4.sh
+  183  ./pr4.sh
+  184  gedit pr4.sh
+  185  ./pr4.sh
+  186  gedit pr4.sh
+  187  ./pr4.sh
+  188  clear
+  189  gedit pr4.sh
+  190  ./pr4.sh
+  191  gedit pr4.sh
+  192  ./pr4.sh
+  193  sudo apt install telegram-desktop
+  194  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  195  sudo apt update && upgrade
+  196  sudo apt upgrade
+  197  apt-get update or try with --fix-missing
+  198  sudo apt upgrade
+  199  who
+  200  clear
+  201  gcc
+  202  clear
+  203  gcc
+  204  clear
+  205  cd Desktop/OS_Lab/
+  206  mkdir lab4
+  207  cd lab4
+  208  vim task1.c
+  209  vi task1.c
+  210  gcc
+  211  clear
+  212  vim task1.c
+  213  vi task1.c
+  214  gcc task1.c -o t1.o
+  215  ./t1
+  216  ./t1/o
+  217  ./t1.o
+  218  gedit task1.c
+  219  gcc task1.c -o t1.o
+  220  ./t1.o
+  221  gedit task1.c
+  222  gcc task1.c -o t1.o
+  223  gedit task1.c
+  224  gcc task1.c -o t1.o
+  225  ./t1.o
+  226  gedit task2.c
+  227  gcc task2.c
+  228  gedit task2.c
+  229  gcc task2.c
+  230  gedit task2.c
+  231  gcc task2.c
+  232  gedit task2.c
+  233  gcc task2.c
+  234  gcc task2.c -o t2.o
+  235  ./t2.o
+  236  gedit task3.c
+  237  gcc task3.c -o t3.o
+  238  gedit task2.c
+  239  gedit task3.c
+  240  gcc task3.c -o t3.o
+  241  gedit task3.c
+  242  gcc task3.c -o t3.o
+  243  gedit task3.c
+  244  gcc task3.c -o t3.o
+  245  gedit task3.c
+  246  gcc task3.c -o t3.o
+  247  ./t3.o
+  248  gcc task3.c -o t3.o
+  249  gedit task3.c
+  250  gcc task3.c -o t3.o
+  251  gedit task3.c
+  252  gcc task3.c -o t3.o
+  253  ./t3.o
+  254  gedit task3.c
+  255  gcc task3.c -o t3.o
+  256  gedit task3.c
+  257  gcc task3.c -o t3.o
+  258  gedit task3.c
+  259  gcc task3.c -o t3.o
+  260  ./t3.o
+  261  gedit task4.c
+  262  gedit task3.c
+  263  gedit task4.c
+  264  gcc task4.c
+  265  gedit task4.c
+  266  gcc task4.c
+  267  gedit task4.c
+  268  gcc task4.c
+  269  gedit task4.c
+  270  gcc task4.c
+  271  gedit task4.c
+  272  gcc task4.c
+  273  gedit task4.c
+  274  gcc task4.c
+  275  gedit task4.c
+  276  gcc task4.c
+  277  gedit task4.c
+  278  gcc task4.c
+  279  gedit task4.c
+  280  gcc task4.c
+  281  gedit task4.c
+  282  gcc task4.c
+  283  gedit task4.c
+  284  gcc task4.c
+  285  gedit let.c
+  286  gcc let.c
+  287  gedit let.c
+  288  gcc let.c
+  289  gedit let.c
+  290  gcc let.c
+  291  gedit let.c
+  292  gcc let.c
+  293  gedit let.c
+  294  gcc let.c
+  295  gedit let.c
+  296  gcc let.c
+  297  ./a
+  298  ls
+  299  ./a.out
+  300  gedit let.c
+  301  gcc let.c
+  302  ./a.out
+  303  gedit task4.c
+  304  gcc task4.c -o t4.o
+  305  gedit task4.c
+  306  gcc task4.c -o t4.o
+  307  gedit task4.c
+  308  gcc task4.c -o t4.o
+  309  gedit task4.c
+  310  gcc task4.c -o t4.o
+  311  gedit task4.c
+  312  gcc task4.c -o t4.o
+  313  gedit task4.c
+  314  gcc task4.c -o t4.o
+  315  gedit task4.c
+  316  gedit task5.c
+  317  gcc task5.c
+  318  gedit task5.c
+  319  gcc task5.c
+  320  gedit task5.c
+  321  gcc task5.c
+  322  gedit task5.c
+  323  gcc task5.c
+  324  gedit task5.c
+  325  gcc task5.c
+  326  gedit task5.c
+  327  gcc task5.c
+  328  gedit task5.c
+  329  gcc task5.c
+  330  gedit task5.c
+  331  gcc task5.c
+  332  gedit task5.c
+  333  gcc task5.c
+  334  ./a.out
+  335  gedit task5.c
+  336  ./a.out
+  337  gedit task5.c
+  338  ./a.out
+  339  clear
+  340  gcc task4.c
+  341  ./a.out
+  342  gcc task4.c
+  343  ./a.out
+  344  gcc task4.c
+  345  ./a.out
+  346  gcc task4.c
+  347  ./a.out
+  348  gcc task4.c
+  349  ./a.out
+  350  gcc task4.c
+  351  gedit task4.c
+  352  gcc task4.c
+  353  ./a.out
+  354  gcc task4.c
+  355  ./a.out
+  356  cd Desktop
+  357  cd OS_Lab
+  358  cd lab3
+  359  ls
+  360  gedit ss1.sh && chmod 777 ./ss1.sh && ./ss1.sh 2 3 4 5 7
+  361  gedit ss2.sh && chmod 777 ./ss2.sh && ./ss2.sh 2 3 4 5 7
+  362  gedit ss3.sh && chmod 777 ./ss3.sh && ./ss3.sh 2 3 4 5 7
+  363  gedit ss4.sh && chmod 777 ./ss4.sh && ./ss4.sh 2 3 4 5 7
+  364  gedit ss5.sh && chmod 777 ./ss5.sh && ./ss5.sh 2 3 4 5 7
+  365  gedit ss6.sh && chmod 777 ./ss6.sh && ./ss6.sh
+  366  gedit ss7.sh && chmod 777 ./ss7.sh && ./ss7.sh
+  367  ./ss7.sh sd ds
+  368  gedit ss7.sh && chmod 777 ./ss7.sh && ./ss7.sh
+  369  ./ss7.sh sd ds
+  370  gedit ss7.sh && chmod 777 ./ss7.sh && ./ss7.sh
+  371  gedit ss8.sh && chmod 777 ./ss8.sh && ./ss8.sh
+  372  gedit ss9.sh && chmod 777 ./ss9.sh && ./ss9.sh
+  373  gedit ss10.sh && chmod 777 ./ss10.sh && ./ss10.sh
+  374  clear
+  375  gedit ss11.sh && chmod 777 ./ss11.sh && ./ss11.sh
+  376  cd Desktop/OS_Lab/lab3
+  377  gedit ss12.sh && chmod 777 ./ss12.sh && ./ss12.sh
+  378  cd Musix
+  379  cd Music
+  380  ls
+  381  git clone https://github.com/pop-os/fonts.git
+  382  ls
+  383  cd fonts
+  384  sudo make install
+  385  sudo apt install build-essential
+  386  sudo make install
+  387  cd
+  388  sudo nautilus /usr/lib/share/fonts
+  389  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+  390  sudo apt install curl
+  391  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+  392  gedit ./ss1.sh
+  393  clear
+  394  gedit ./ss1.sh
+  395  ./ss1.sh 34 53 65 76 23
+  396  clear
+  397  ./ss1.sh 34 53 65 76 23
+  398  clear
+  399  ./ss2.sh 34 53 65 76 23
+  400  gedit ./ss2.sh
+  401  clear
+  402  gedit ./ss3.sh
+  403  clear
+  404  ./ss3.sh
+  405  clear
+  406  ./ss3.sh 1 2 3 4 5 6
+  407  clear
+  408  gedit ./ss4.sh
+  409  clear
+  410  ./ss4.sh
+  411  clear
+  412  gedit ./ss5.sh
+  413  clear
+  414  ./ss5.sh
+  415  clear
+  416  ./ss5.sh
+  417  clear
+  418  gedit ./ss6.sh
+  419  clear
+  420  ./ss6.sh
+  421  clear
+  422  ./ss6.sh
+  423  clear
+  424  gedit ss7.sh
+  425  ./ss7.sh
+  426  clear
+  427  ./ss7.sh
+  428  clear
+  429  ./ss7.sh sd student
+  430  clear
+  431  gedit ss.sh
+  432  gedit ss8.sh
+  433  clear
+  434  ./ss8.sh
+  435  clear
+  436  gedit ss9.sh
+  437  clear
+  438  ./ss9.sh
+  439  clear
+  440  ./ss9.sh
+  441  clear
+  442  gedit ss10.sh
+  443  clear
+  444  ./ss10.sh
+  445  clear
+  446  gedit ss11.sh
+  447  ./ss11.sh
+  448  gedit ss11.sh
+  449  ./ss11.sh
+  450  gedit ss11.sh
+  451  clear
+  452  gedit ss12.sh
+  453  ./ss12.sh
+  454  clear
+  455  gedit pr1.sh
+  456  clear
+  457  ./pr1.sh ss
+  458  clear
+  459  gedit pr2.sh
+  460  clear
+  461  ./pr2.sh
+  462  clear
+  463  ./pr2.sh ss3.sh
+  464  ./pr2.sh fd
+  465  ls
+  466  clear
+  467  gedit pr3.sh
+  468  clear
+  469  pr3.sh
+  470  Desktop
+  471  pr3.sh
+  472  Home
+  473  pr3.sh
+  474  clear
+  475  ./pr3.sh
+  476  ls
+  477  clear
+  478  ./pr3.sh
+  479  clear
+  480  ./pr3.sh
+  481  ls ../../
+  482  clear
+  483  gedit pr3.sh
+  484  clear
+  485  gedit pr3.sh
+  486  clear
+  487  ./pr3.sh
+  488  ls
+  489  clear
+  490  ./pr3.sh
+  491  ls ../../
+  492  clear
+  493  gedit pr4.sh
+  494  clear
+  495  ./pr4.sh
+  496  clear
+  497  ./pr4.sh
+  498  gedit pr4.sh
+  499  clear
+  500  gedit pr4.sh
+  501  clear
+  502  ./pr4.sh
+  503  sudo apt update
+  504  sudo apt upgrade | wc -w
+  505  sudo apt upgrade
+  506  gcc task4.c
+  507  gcc task4.c -o t4.o
+  508  ./t4
+  509  ./t4.o
+  510  gcc task4.c -o t4.o
+  511  ./t4.o
+  512  ./VentoyGUI.x86_64
+  513  touch task5.c
+  514  gedit task4.c
+  515  gedit task5.c
+  516  gedit task6.c
+  517  gcc task6.c
+  518  gedit task6.c
+  519  gcc task6.c
+  520  gedit task6.c
+  521  gcc task6.c
+  522  gedit task6.c
+  523  gcc task6.c
+  524  gedit task6.c
+  525  gedit task7.c
+  526  gcc task4.sc
+  527  gcc task4.c
+  528  gcc task6.c
+  529  gedit t6.c
+  530  gcc t6.c
+  531  ls
+  532  gcc t6.c -o a.o
+  533  ./a.o
+  534  gcc t6.c -o a.o
+  535  ./a.o
+  536  gcc t6.c -o a.o
+  537  ./a.o
+  538  gcc t6.c -o a.o
+  539  ./a.o
+  540  gcc t6.c -o a.o 
+  541  ./a.o
+  542  gcc t6.c -o a.o 
+  543  ./a.o
+  544  gcc t6.c -o a.o 
+  545  ./a.o
+  546  gcc t6.c -o a.o 
+  547  ./a.o
+  548  gcc task7.c -o t7.o 
+  549  ./t7.o
+  550  gcc task7.c -o t7.o 
+  551  ./t7.o
+  552  gcc task7.c -o t7.o 
+  553  ./t7.o
+  554  gcc task7.c -o t7.o 
+  555  ./t7.o
+  556  gcc task7.c -o t7.o 
+  557  ./t7.o
+  558  gcc task7.c -o t7.o 
+  559  ./t7.o
+  560  gcc task7.c -o t7.o 
+  561  ./t7.o
+  562  gcc task7.c -o t7.o 
+  563  ./t7.o
+  564  gcc task7.c
+  565  gcc task6.c
+  566  gcc task6.c -o t6.o
+  567  ./t6.o
+  568  gcc task6.c -o t6.o
+  569  ./t6.o
+  570  gcc task7.c -o t7.o
+  571  ./t7.o
+  572  gcc task6.c -o t6.o
+  573  ./t6.o 
+  574  gcc task7.c -o t7.o
+  575  ./t7.o
+  576  gcc task7.c -o t7.o
+  577  ./t7.o
+  578  gcc task7.c -o t7.o
+  579  ./t7.o
+  580  gcc task7.c -o t7.o
+  581  ./t7.o
+  582  0
+  583  gcc task7.c -o t7.o
+  584  ./t7.o
+  585  gcc task7.c -o t7.o
+  586  ./t7.o
+  587  gcc task7.c -o t7.o
+  588  ./t7.o
+  589  gcc task7.c -o t7.o
+  590  ./t7.o
+  591  gcc task7.c -o t7.o
+  592  ./t7.o
+  593  gcc task7.c -o t7.o
+  594  ./t7.o
+  595  gcc task7.c -o t7.o
+  596  ./t7.o
+  597  gcc task7.c -o t7.o
+  598  ./t7.o
+  599  4643
+  600  clear
+  601  touch task8.c
+  602  gcc task8.c -o t8.o && ./t8.o
+  603  touch task8.c
+  604  gcc task8.c -o t8.o && ./t8.o
+  605  clear
+  606  gcc task8.c
+  607  sudo apt update
+  608  code .
+  609  ls
+  610  ./c_1
+  611  g++ c_1.cpp
+  612  ./a
+  613  ./a.out
+  614  g++ c_1.cpp
+  615  ./a.out
+  616  lspci -k | grep -EA3 'VGA|3D|Display'
+  617  neofetch
+  618  sudo apt install neofetch
+  619  neofetch
+  620  sudo apt-get install intel-linux-graphics-installer
+  621  code .
+  622  sudo apt update
+  623  sudo apt upgrade
+  624  g++ c_2.cpp
+  625  gedit task8.c
+  626  gcc task8.c
+  627  g++ c_2.cpp
+  628  gcc task8.c
+  629  ./a.out
+  630  rm *.o
+  631  rm *.oout
+  632  rm *.out
+  633  gedit
+  634  gedit task1.c
+  635  clear
+  636  gcc task1.c -o task1.o
+  637  ./task1.o
+  638  clear
+  639  gcc task1.c -o task1.o
+  640  ./task1.o
+  641  clear
+  642  gedit task2.c
+  643  gcc task2.c -o task2.o
+  644  ./task2.o
+  645  clear
+  646  gedit task3.c
+  647  clear
+  648  gcc task3.c -o task3.o
+  649  ./task3.o
+  650  clear && gedit task4.c
+  651  gcc task4.c -o task4.o
+  652  ./task4.o
+  653  clear && gedit task4.c
+  654  gcc task4.c -o task4.o
+  655  ./task4.o
+  656  gedit task5.c
+  657  gcc task5.c -o task5.o
+  658  gedit task5.c
+  659  gcc task5.c -o task5.o
+  660  gedit task5.c
+  661  gcc task5.c -o task5.o
+  662  ./task5.o
+  663  gcc task5.c -o task5.o
+  664  gedit task5.c
+  665  clear
+  666  gedit task6.c
+  667  clear
+  668  gcc task6.c -o task6.o
+  669  ./task6.o
+  670  gedit task7.c
+  671  gcc task7.c -o task7.o
+  672  ./task7.o
+  673  gcc task8.c -o taask8.o
+  674  ./taask8.o
+  675  touch file.txt && cat > history file.txt
+  676  nano file.txt
+  677  cat history
+  678  history > cat file.txt
+  679  history
+  680  history | cat file.txt
+  681  nano file.txt
+  682  history > cat > file.txt

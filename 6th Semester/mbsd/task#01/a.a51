@@ -1,0 +1,20 @@
+ORG 00
+	HERE: 
+	CLR P1.0
+	ACALL DELAY
+	SETB P1.0
+	LJMP HERE
+	
+	
+DELAY:
+    MOV R2, #10   
+ODELAY:
+    MOV R1, #256 
+IDELAY:
+    DJNZ R1, IDELAY 
+    DJNZ R2, ODELAY
+    RET            
+
+
+END
+	

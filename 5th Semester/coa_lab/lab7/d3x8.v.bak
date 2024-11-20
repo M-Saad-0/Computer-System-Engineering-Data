@@ -1,0 +1,20 @@
+module d3x8(A, B, C, e, I);
+	input A, B, C, e;
+	output [0:7]I;
+	wire nA;
+	wire nB;
+	wire nC;
+	not n1(nA, A);
+	not n2(nB, B);
+	not n3(nC, C);
+	
+	and a1(nA, nB, nC, e, I[0]);
+	and a2(nA, nB, C, e, I[1]);
+	and a3(nA, B, nC, e, I[2]);
+	and a4(nA, B, C, e, I[3]);
+	and a5(A, nB, nC, e, I[4]);
+	and a6(A, nB, C, e, I[5]);
+	and a7(A, B, nC, e, I[6]);
+	and a8(A, B, C, e, I[7]);
+
+endmodule

@@ -1,0 +1,16 @@
+E:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v {2 {vlog -work work -stats=none E:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module stim_Ha
+** Warning: E:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v(25): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	stim_Ha
+
+} {} {}} E:/Uni_Folder/semester_5/coa_lab/lab6/halfAdder.v {1 {vlog -work work -stats=none E:/Uni_Folder/semester_5/coa_lab/lab6/halfAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HalfAdder
+
+Top level modules:
+	HalfAdder
+
+} {} {}}

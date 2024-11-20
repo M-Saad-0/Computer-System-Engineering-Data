@@ -1,0 +1,15 @@
+D:/University/semester6/dsd_lab/project/test_1.v {1 {vlog -work work -stats=none D:/University/semester6/dsd_lab/project/test_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_1
+
+Top level modules:
+	test_1
+
+} {} {}} D:/University/semester6/dsd_lab/project/new_test.v {1 {vlog -work work -stats=none {D:\University\semester6\dsd_lab\project\new_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module new_test
+
+Top level modules:
+	new_test
+
+} {} {}}

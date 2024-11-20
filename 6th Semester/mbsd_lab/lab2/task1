@@ -1,0 +1,10 @@
+;MOV A, #0
+;MOV R2, #10
+;NEXT:
+;MOV R3, #8
+;AGAIN:
+;ADD A, #3
+;DJNZ R2, AGAIN
+;DJNZ R3, NEXT
+;MOV R5, A
+	

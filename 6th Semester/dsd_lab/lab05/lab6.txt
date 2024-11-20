@@ -1,0 +1,217 @@
+t1
+ucf
+
+# PlanAhead Generated IO constraints 
+
+NET "A[3]" PULLUP;
+NET "A[2]" PULLUP;
+NET "A[1]" PULLUP;
+NET "A[0]" PULLUP;
+NET "O[6]" SLEW = FAST;
+NET "O[5]" SLEW = FAST;
+NET "O[4]" SLEW = FAST;
+NET "O[3]" SLEW = FAST;
+NET "O[2]" SLEW = FAST;
+NET "O[1]" SLEW = FAST;
+NET "O[0]" SLEW = FAST;
+
+# PlanAhead Generated physical constraints 
+
+NET "A[3]" LOC = F17;
+NET "A[2]" LOC = F18;
+NET "A[1]" LOC = E16;
+NET "A[0]" LOC = E18;
+NET "O[0]" LOC = A3;
+NET "O[1]" LOC = B4;
+NET "O[2]" LOC = A4;
+NET "O[3]" LOC = C4;
+NET "O[4]" LOC = C5;
+NET "O[5]" LOC = D6;
+NET "O[6]" LOC = C6;
+NET "dp" LOC = B3;
+NET "en" LOC = C17;
+
+
+t1 verilog
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    12:16:55 03/20/2024 
+// Design Name: 
+// Module Name:    adder 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module disp(O, dp, A, en );
+output reg [6:0]O;
+output dp;
+input [3:0]A;
+input en;
+
+assign dp = 0;
+
+always@(*) begin
+	if(A==4'b0000)
+		O <= 7'b1000000;//0
+		
+	else if(A==4'b0001)
+		O <= 7'b1111001;//1
+		
+	else if(A==4'b0010)
+		O <= 7'b0100100;//2
+		
+	else if(A==4'b0011)
+		O <= 7'b0110000;//3
+		
+	else if(A==4'b0100)
+		O <= 7'b0011001;//4
+		
+	else if(A==4'b0101)
+		O <= 7'b0010010;//5
+		
+	else if(A==4'b0110)
+		O <= 7'b0000010;//6
+		
+	else if(A==4'b0111)
+		O <= 7'b1111000;//7
+		
+	else if(A==4'b1000)
+		O <= 7'b0000000;//8
+		
+	else if(A==4'b1001)
+		O <= 7'b0010000;//9
+		
+		
+	
+	end
+endmodule
+
+
+t2
+
+
+ucf
+
+
+NET "A[3]" PULLUP;
+NET "A[2]" PULLUP;
+NET "A[1]" PULLUP;
+NET "A[0]" PULLUP;
+NET "O[6]" SLEW = FAST;
+NET "O[5]" SLEW = FAST;
+NET "O[4]" SLEW = FAST;
+NET "O[3]" SLEW = FAST;
+NET "O[2]" SLEW = FAST;
+NET "O[1]" SLEW = FAST;
+NET "O[0]" SLEW = FAST;
+
+
+NET "A[3]" LOC = F17;
+NET "A[2]" LOC = F18;
+NET "A[1]" LOC = E16;
+NET "A[0]" LOC = E18;
+NET "O[0]" LOC = A3;
+NET "O[1]" LOC = B4;
+NET "O[2]" LOC = A4;
+NET "O[3]" LOC = C4;
+NET "O[4]" LOC = C5;
+NET "O[5]" LOC = D6;
+NET "O[6]" LOC = C6;
+NET "dp" LOC = B3;
+NET "en" LOC = V16;
+
+
+NET "B[3]" LOC = D18;
+NET "B[2]" LOC = D17;
+NET "B[1]" LOC = C18;
+NET "B[0]" LOC = C17;
+
+# PlanAhead Generated IO constraints 
+
+NET "B[3]" PULLUP;
+NET "B[2]" PULLUP;
+NET "B[1]" PULLUP;
+NET "B[0]" PULLUP;
+
+
+verilog
+
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    12:16:55 03/20/2024 
+// Design Name: 
+// Module Name:    adder 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module disp(O, dp, A, B, en );
+output reg [6:0]O;
+output reg dp;
+input [3:0]A, B;
+input en;
+
+
+wire [3:0]sum;
+assign sum = A+B; 
+
+always@(*) begin
+	if(sum==4'b0000)
+		O <= 7'b1000000;//0
+		
+	else if(sum==4'b0001)
+		O <= 7'b1111001;//1
+		
+	else if(sum==4'b0010)
+		O <= 7'b0100100;//2
+		
+	else if(sum==4'b0011)
+		O <= 7'b0110000;//3
+		
+	else if(sum==4'b0100)
+		O <= 7'b0011001;//4
+		
+	else if(sum==4'b0101)
+		O <= 7'b0010010;//5
+		
+	else if(sum==4'b0110)
+		O <= 7'b0000010;//6
+		
+	else if(sum==4'b0111)
+		O <= 7'b1111000;//7
+		
+	else if(sum==4'b1000)
+		O <= 7'b0000000;//8
+		
+	else if(sum==4'b1001)
+		O <= 7'b0010000;//9
+	else if(sum>4'd9) 
+		begin
+		dp <= 0;
+		O <= 0;
+		end
+	end
+endmodule
+tt2

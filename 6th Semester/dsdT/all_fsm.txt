@@ -1,0 +1,57 @@
+//fsms lock
+
+
+module mooreLockFSM(input b, input clk, input rst, output lock);
+    reg lock;
+    parameter A = 0, B=1, C=2, D=3, E=4;
+    reg [2:0]state, nextState;
+    always @(posedge clk) begin
+        if(rst)
+            state = A;
+        else                            //FlipFlop
+            state = nextState;
+    end 
+    
+    always @(state or b)
+        case(state)
+            A: nextState <= b? B:A;
+            B: nextState <= b? C:A;
+            A: nextState <= ~b? D:A;    //nextState Login
+            A: nextState <= b? E:A;
+            default: nextState <= A;
+        endcase
+
+
+          assign lock = state == E;                            //Output Logic
+            
+endmodule
+
+
+
+
+
+module LockFSM(input b, input clk, input rst, output lock);
+    reg [2:0]state, nextState;
+    parameter A = 0, B = 1, C = 2, D = 3, E = 4;
+    always(posedge clk)
+        if(rst)
+            state = A;
+        else
+            state = nextState;
+        
+    always @(state)
+        case(state)
+            A: nextState = b? B:A;
+            B: nextState = b? C:A;
+            C: nextState = ~b? D:A;
+            D: nextState = b? E:A;
+            default: nextState = A;
+        endcase
+    
+    always@(b and state)
+        if(state == E && b==1)
+            lock = 1
+        else 
+            lock=0;
+
+endmodule

@@ -1,0 +1,191 @@
+# Compile of adder.v was successful.
+# Compile of clock.v was successful.
+# Compile of controller.v was successful.
+# Compile of ir.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc.v was successful.
+# Compile of reg_a.v was successful.
+# Compile of reg_b.v was successful.
+# Compile of top.v failed with 20 errors.
+# Compile of top_tb.v failed with 23 errors.
+# 10 compiles, 2 failed with 43 errors.
+# Compile of adder.v was successful.
+# Compile of clock.v was successful.
+# Compile of controller.v was successful.
+# Compile of ir.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc.v was successful.
+# Compile of reg_a.v was successful.
+# Compile of reg_b.v was successful.
+# Compile of top.v failed with 15 errors.
+# Compile of top_tb.v failed with 23 errors.
+# 10 compiles, 2 failed with 38 errors.
+# Compile of adder.v was successful.
+# Compile of clock.v was successful.
+# Compile of controller.v was successful.
+# Compile of ir.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc.v was successful.
+# Compile of reg_a.v was successful.
+# Compile of reg_b.v was successful.
+# Compile of top.v failed with 15 errors.
+# Compile of top_tb.v failed with 23 errors.
+# 10 compiles, 2 failed with 38 errors.
+# Compile of adder.v was successful.
+# Compile of clock.v was successful.
+# Compile of controller.v was successful.
+# Compile of ir.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc.v was successful.
+# Compile of reg_a.v was successful.
+# Compile of reg_b.v was successful.
+# Compile of top.v failed with 15 errors.
+# Compile of top_tb.v failed with 23 errors.
+# Compile of o.v failed with 3 errors.
+# 11 compiles, 3 failed with 41 errors.
+# Compile of adder.v was successful.
+# Compile of clock.v was successful.
+# Compile of controller.v was successful.
+# Compile of ir.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc.v was successful.
+# Compile of reg_a.v was successful.
+# Compile of reg_b.v was successful.
+# Compile of top.v failed with 15 errors.
+# Compile of top_tb.v failed with 23 errors.
+# Compile of o.v failed with 3 errors.
+# 11 compiles, 3 failed with 41 errors.
+# Compile of adder.v was successful.
+# Compile of clock.v was successful.
+# Compile of controller.v was successful.
+# Compile of ir.v was successful.
+# Compile of memory.v was successful.
+# Compile of pc.v was successful.
+# Compile of reg_a.v was successful.
+# Compile of reg_b.v was successful.
+# Compile of top.v failed with 15 errors.
+# Compile of top_tb.v failed with 23 errors.
+# Compile of o.v was successful.
+# 11 compiles, 2 failed with 38 errors.
+vsim -gui work.sap1_tb
+# vsim -gui work.sap1_tb 
+# Start time: 19:19:55 on Jan 31,2024
+# Loading work.sap1_tb
+# Loading work.reg_b
+# Loading work.alu
+# Loading work.controller
+# Loading work.mar
+# Loading work.pc
+# Loading work.ir
+# Loading work.memory
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b_reg'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/b_reg File: D:/University/semester_5/coa_lab/project/o.v Line: 239
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (8) for port 'load'. The port definition is at: D:/University/semester_5/coa_lab/project/reg_b.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/b_reg File: D:/University/semester_5/coa_lab/project/o.v Line: 239
+# ** Warning: (vsim-3722) D:/University/semester_5/coa_lab/project/o.v(239): [TFMPC] - Missing connection for port 'bus'.
+# ** Error (suppressible): (vsim-3389) Port 'hlt' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'pc_inc' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'pc_en' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'mar_load' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'mem_en' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'ir_load' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'ir_en' not found in the connected module (10th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'a_load' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'a_en' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'b_load' not found in the connected module (13th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'adder_sub' not found in the connected module (14th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Error (suppressible): (vsim-3389) Port 'adder_en' not found in the connected module (15th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/control_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 258
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pc_unit'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/pc_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 284
+# ** Error: (vsim-3063) Port 'clk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/pc_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 284
+# ** Error: (vsim-3063) Port 'rst' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/pc_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 284
+# ** Error: (vsim-3063) Port 'inc' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/pc_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 284
+# ** Error: (vsim-3063) Port 'out' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/pc_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 284
+# ** Warning: (vsim-3722) D:/University/semester_5/coa_lab/project/o.v(284): [TFMPC] - Missing connection for port 'Cp'.
+# ** Warning: (vsim-3722) D:/University/semester_5/coa_lab/project/o.v(284): [TFMPC] - Missing connection for port 'nCLK'.
+# ** Warning: (vsim-3722) D:/University/semester_5/coa_lab/project/o.v(284): [TFMPC] - Missing connection for port 'nCLR'.
+# ** Warning: (vsim-3722) D:/University/semester_5/coa_lab/project/o.v(284): [TFMPC] - Missing connection for port 'Ep'.
+# ** Warning: (vsim-3722) D:/University/semester_5/coa_lab/project/o.v(284): [TFMPC] - Missing connection for port 'WBUSlower'.
+# ** Error: (vsim-3063) Port 'ld' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/ir_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 291
+# ** Error: (vsim-3063) Port 'in' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/ir_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 291
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/ir_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 291
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'out'. The port definition is at: D:/University/semester_5/coa_lab/project/ir.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /sap1_tb/ir_unit File: D:/University/semester_5/coa_lab/project/o.v Line: 291
+# Error loading design
+# End time: 19:19:56 on Jan 31,2024, Elapsed time: 0:00:01
+# Errors: 19, Warnings: 21
+vsim -gui work.sap1main
+# vsim -gui work.sap1main 
+# Start time: 19:21:27 on Jan 31,2024
+# Loading work.sap1main
+# Loading work.pc
+# Loading work.inputMAR
+# Loading work.ram
+# Loading work.IR
+# Loading work.control_unit
+# Loading work.accumulator
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'addsub'.
+#    Time: 0 ps  Iteration: 0  Instance: /sap1main File: D:/University/semester_5/coa_lab/project/o.v Line: 239
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'regB'.
+#    Time: 0 ps  Iteration: 0  Instance: /sap1main File: D:/University/semester_5/coa_lab/project/o.v Line: 241
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'outreg'.
+#    Time: 0 ps  Iteration: 0  Instance: /sap1main File: D:/University/semester_5/coa_lab/project/o.v Line: 243
+# Error loading design
+# End time: 19:21:28 on Jan 31,2024, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+vsim -gui work.control_unit
+# vsim -gui work.control_unit 
+# Start time: 19:22:51 on Jan 31,2024
+# Loading work.control_unit
+add wave -position insertpoint sim:/control_unit/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists

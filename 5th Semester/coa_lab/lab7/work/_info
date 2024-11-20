@@ -1,0 +1,593 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vd3x8
+Z0 !s110 1703863196
+!i10b 1
+!s100 n_jVXRK=7D_kIaOFSi1bH1
+I;RcGJ>UZNbNI21TdNY]TV0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/software/University/semester_5/coa_lab/lab7
+w1702624149
+8F:/software/University/semester_5/coa_lab/lab7/d3x8.v
+FF:/software/University/semester_5/coa_lab/lab7/d3x8.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1703863196.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/d3x8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/d3x8.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vd3x8TB
+R0
+!i10b 1
+!s100 h?fEH:zYf<BG>P7_jOe5K3
+IgC7UoOKcjIjcMh242QkWH2
+R1
+R2
+w1702643866
+8F:/software/University/semester_5/coa_lab/lab7/d3x8TB.v
+FF:/software/University/semester_5/coa_lab/lab7/d3x8TB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/software/University/semester_5/coa_lab/lab7/d3x8TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/d3x8TB.v|
+!i113 1
+R5
+R6
+nd3x8@t@b
+vD_flipflop
+Z7 !s110 1703863198
+!i10b 1
+!s100 L>ASOzDQI:RH[5oH_9XkP1
+I[D[hnK?chb378VEZKPiOP2
+R1
+R2
+w1703860990
+8F:/software/University/semester_5/coa_lab/lab7/D_flipflop.v
+FF:/software/University/semester_5/coa_lab/lab7/D_flipflop.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z8 !s108 1703863198.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/D_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/D_flipflop.v|
+!i113 1
+R5
+R6
+n@d_flipflop
+vD_flipflop_tb
+R7
+!i10b 1
+!s100 Y4Aa1cGNKAMMc>;m4YIQN1
+IOi=]jk@i__ZImRSH_cnIW0
+R1
+R2
+w1703860983
+8F:/software/University/semester_5/coa_lab/lab7/D_flipflop_tb.v
+FF:/software/University/semester_5/coa_lab/lab7/D_flipflop_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/software/University/semester_5/coa_lab/lab7/D_flipflop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/D_flipflop_tb.v|
+!i113 1
+R5
+R6
+n@d_flipflop_tb
+vdecoder2x4
+Z9 !s110 1703863195
+!i10b 1
+!s100 h:ijhZEID_LPDTaQ2z1J>3
+IL1FHCaK3QB3=K;6]f17If1
+R1
+R2
+w1702443843
+8F:/software/University/semester_5/coa_lab/lab7/decoder2x4.v
+FF:/software/University/semester_5/coa_lab/lab7/decoder2x4.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1703863195.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/decoder2x4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/decoder2x4.v|
+!i113 1
+R5
+R6
+vdecoder2x4TB
+R9
+!i10b 1
+!s100 lS]k@nCEQzUU6VibiBHi63
+I1OoE=g=EmV1kH:WHN`1cd0
+R1
+R2
+w1702625009
+8F:/software/University/semester_5/coa_lab/lab7/decoder2x4TB.v
+FF:/software/University/semester_5/coa_lab/lab7/decoder2x4TB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 F:/software/University/semester_5/coa_lab/lab7/decoder2x4TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/decoder2x4TB.v|
+!i113 1
+R5
+R6
+ndecoder2x4@t@b
+vdecoder3x8
+R9
+!i10b 1
+!s100 hE4TSdi@9<VHYMI9GnoS11
+ICK]9AicnXJz2cSk77Uo^52
+R1
+R2
+w1702621588
+8F:/software/University/semester_5/coa_lab/lab7/decoder3x8.v
+FF:/software/University/semester_5/coa_lab/lab7/decoder3x8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 F:/software/University/semester_5/coa_lab/lab7/decoder3x8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/decoder3x8.v|
+!i113 1
+R5
+R6
+vdecoder3x8TB
+R0
+!i10b 1
+!s100 W0;T_`h53Kk_ce1Fl2mCb3
+Ig:^MhL1nM;h`fKC8Xak^A1
+R1
+R2
+w1702623131
+8F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.v
+FF:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.v|
+!i113 1
+R5
+R6
+ndecoder3x8@t@b
+vdecoder4x16
+R0
+!i10b 1
+!s100 g`65iPGZd=?laE8@0PbTi2
+IO[WzU_4JDLbzIO=?[U4QI2
+R1
+R2
+w1702630161
+8F:/software/University/semester_5/coa_lab/lab7/decoder4x16.v
+FF:/software/University/semester_5/coa_lab/lab7/decoder4x16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/software/University/semester_5/coa_lab/lab7/decoder4x16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/decoder4x16.v|
+!i113 1
+R5
+R6
+vdecoder4x16TB
+R0
+!i10b 1
+!s100 TezWSlUO81[PJ=zQECe2_0
+I@Z`Bh0zabefbUOYiDDCDW0
+R1
+R2
+w1702630269
+8F:/software/University/semester_5/coa_lab/lab7/decoder4x16TB.v
+FF:/software/University/semester_5/coa_lab/lab7/decoder4x16TB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/software/University/semester_5/coa_lab/lab7/decoder4x16TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/decoder4x16TB.v|
+!i113 1
+R5
+R6
+ndecoder4x16@t@b
+vJK_flipflop
+R7
+!i10b 1
+!s100 :8G>nj5e07?koiVEzdR380
+I88E<b1?]:9U2J=K@AT9cQ2
+R1
+R2
+w1703860980
+8F:/software/University/semester_5/coa_lab/lab7/JK_flipflop.v
+FF:/software/University/semester_5/coa_lab/lab7/JK_flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/software/University/semester_5/coa_lab/lab7/JK_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/JK_flipflop.v|
+!i113 1
+R5
+R6
+n@j@k_flipflop
+vJK_flipflop_tb
+Z11 !s110 1703863197
+!i10b 1
+!s100 WT_Mc6WYEHDWUHS^<XEc10
+IkD;>[dniY;fjkLF15>hO73
+R1
+R2
+w1703860979
+8F:/software/University/semester_5/coa_lab/lab7/JK_flipflop_tb.v
+FF:/software/University/semester_5/coa_lab/lab7/JK_flipflop_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/software/University/semester_5/coa_lab/lab7/JK_flipflop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/JK_flipflop_tb.v|
+!i113 1
+R5
+R6
+n@j@k_flipflop_tb
+vmux2x1
+Z12 !s110 1702085471
+!i10b 1
+!s100 5Gb9;:iel4j@U<jXifaC@0
+Ic3>oePdfjIaW:9:G`0bcG0
+R1
+R2
+w1702082643
+8F:/software/University/semester_5/coa_lab/lab7/mux2x1.v
+FF:/software/University/semester_5/coa_lab/lab7/mux2x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1702085470.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/mux2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/mux2x1.v|
+!i113 1
+R5
+R6
+vmux4x1
+R12
+!i10b 1
+!s100 XmD:=65K9g6NalkR;7k@e1
+IBlb5<Cmz;Pm6GfTJCY4hQ3
+R1
+R2
+w1702080171
+8F:/software/University/semester_5/coa_lab/lab7/mux4x1.v
+FF:/software/University/semester_5/coa_lab/lab7/mux4x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z13 !s108 1702085471.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/mux4x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/mux4x1.v|
+!i113 1
+R5
+R6
+vmux_4to1
+!s110 1702085474
+!i10b 1
+!s100 8cb2_T@d=RBJLO[1OogG=3
+IVkEOHLAPI_9DDl3`W_zjn0
+R1
+R2
+w1702083502
+8F:/software/University/semester_5/coa_lab/lab7/task3.v
+FF:/software/University/semester_5/coa_lab/lab7/task3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1702085473.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/task3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/task3.v|
+!i113 1
+R5
+R6
+vmux_4to1_tb
+!s110 1702085487
+!i10b 1
+!s100 hh_[NS]RYj]WACe5;Gf8a0
+IiWaN>3:kjFm0JBn9>zkYb0
+R1
+R2
+w1702083773
+8F:/software/University/semester_5/coa_lab/lab7/t2test.v
+FF:/software/University/semester_5/coa_lab/lab7/t2test.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1702085487.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/t2test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/t2test.v|
+!i113 1
+R5
+R6
+vSR_flipflop
+R11
+!i10b 1
+!s100 kLJgFj91=OJczKT[h_U]W3
+ILh_VJS6ONY8aLOV?MO;7;0
+R1
+R2
+w1703860977
+8F:/software/University/semester_5/coa_lab/lab7/SR_flipflop.v
+FF:/software/University/semester_5/coa_lab/lab7/SR_flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z14 !s108 1703863197.000000
+!s107 F:/software/University/semester_5/coa_lab/lab7/SR_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/SR_flipflop.v|
+!i113 1
+R5
+R6
+n@s@r_flipflop
+vSR_flipflop_tb
+!s110 1703861331
+!i10b 1
+!s100 OL6h3iYVb>=B7_g92SCm;3
+IiYGZkbBZdV:OfPjA@Lkd=3
+R1
+R2
+Z15 w1703860975
+Z16 8F:/software/University/semester_5/coa_lab/lab7/SR_flipflop_tb.v
+Z17 FF:/software/University/semester_5/coa_lab/lab7/SR_flipflop_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1703861331.000000
+Z18 !s107 F:/software/University/semester_5/coa_lab/lab7/SR_flipflop_tb.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/SR_flipflop_tb.v|
+!i113 1
+R5
+R6
+n@s@r_flipflop_tb
+vSR_latch
+R11
+!i10b 1
+!s100 ^dZ307[i5eGI21a3AObRV3
+IQda^7nPSN79`[GKiPgd7f2
+R1
+R2
+R15
+8F:/software/University/semester_5/coa_lab/lab7/SR_latch.v
+FF:/software/University/semester_5/coa_lab/lab7/SR_latch.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 F:/software/University/semester_5/coa_lab/lab7/SR_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/SR_latch.v|
+!i113 1
+R5
+R6
+n@s@r_latch
+vSR_latch_tb
+R11
+!i10b 1
+!s100 VNc1Z_GBRIN6L=?80TO882
+I`iehU<Hn0jACbU5`^1hIm0
+R1
+R2
+w1703860973
+8F:/software/University/semester_5/coa_lab/lab7/SR_latch_tb.v
+FF:/software/University/semester_5/coa_lab/lab7/SR_latch_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 F:/software/University/semester_5/coa_lab/lab7/SR_latch_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/SR_latch_tb.v|
+!i113 1
+R5
+R6
+n@s@r_latch_tb
+vstm_mux2x1
+R12
+!i10b 1
+!s100 =_MMaOLFc04MC:QUld6F;1
+IK0418O29And^>7UKSQ0m13
+R1
+R2
+w1702084852
+8F:/software/University/semester_5/coa_lab/lab7/mux2x1_tb.v
+FF:/software/University/semester_5/coa_lab/lab7/mux2x1_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 F:/software/University/semester_5/coa_lab/lab7/mux2x1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/mux2x1_tb.v|
+!i113 1
+R5
+R6
+vT_flipflop
+R11
+!i10b 1
+!s100 UkVKWcKLTFm[>H9LCXzLj3
+IN4LNZ<Le2h=c:7A_7K6;W3
+R1
+R2
+w1703860968
+8F:/software/University/semester_5/coa_lab/lab7/T_flipflop.v
+FF:/software/University/semester_5/coa_lab/lab7/T_flipflop.v
+L0 2
+R3
+r1
+!s85 0
+31
+R14
+!s107 F:/software/University/semester_5/coa_lab/lab7/T_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/T_flipflop.v|
+!i113 1
+R5
+R6
+n@t_flipflop
+vT_flipflop_tb
+R11
+!i10b 1
+!s100 ;L69[4z7Vc0[9kh@K6SZ61
+IXoho0JPK05`C2O9@2Vcdf3
+R1
+R2
+w1703860964
+8F:/software/University/semester_5/coa_lab/lab7/T_flipflop_tb.v
+FF:/software/University/semester_5/coa_lab/lab7/T_flipflop_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R14
+!s107 F:/software/University/semester_5/coa_lab/lab7/T_flipflop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/T_flipflop_tb.v|
+!i113 1
+R5
+R6
+n@t_flipflop_tb
+vtest_mux4x1
+R12
+!i10b 1
+!s100 X:dai3EC[;L<K@U>F>P_n1
+IU`ZMdeEDF]QmT^oDhh<Pz1
+R1
+R2
+w1702080589
+8F:/software/University/semester_5/coa_lab/lab7/mux4x1_tb.v
+FF:/software/University/semester_5/coa_lab/lab7/mux4x1_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 F:/software/University/semester_5/coa_lab/lab7/mux4x1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/software/University/semester_5/coa_lab/lab7/mux4x1_tb.v|
+!i113 1
+R5
+R6
+vtff
+!s110 1703862324
+!i10b 1
+!s100 0S4n>mEbON73J1S682?Sf2
+IL8;IM:NLc8Ua:7HYV>J=O3
+R1
+R2
+w1703862265
+R16
+R17
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1703862324.000000
+R18
+R19
+!i113 1
+R5
+R6
+vTFlipFlop
+R11
+!i10b 1
+!s100 <iCnB`nl5EAJU^g^4<1@J0
+I2LXf>8Pl12TLMC?TD1Wej3
+R1
+R2
+Z20 w1703863188
+R16
+R17
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+R18
+R19
+!i113 1
+R5
+R6
+n@t@flip@flop
+vTFlipFlopTB
+R11
+!i10b 1
+!s100 VBDJgB>1DWNd>4BH`]bjo2
+Ibff0ee_jR<P;FCBVn[;W^2
+R1
+R2
+R20
+R16
+R17
+L0 20
+R3
+r1
+!s85 0
+31
+R14
+R18
+R19
+!i113 1
+R5
+R6
+n@t@flip@flop@t@b

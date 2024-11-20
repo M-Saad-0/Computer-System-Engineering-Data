@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb_isim_beh.exe" -prj "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb_beh.prj" "work.tb" "work.glbl" 

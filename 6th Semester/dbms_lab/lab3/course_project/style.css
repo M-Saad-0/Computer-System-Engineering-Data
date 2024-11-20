@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .nav1 {
+    background-color: #c00000; /* Dark red for nav1 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .bbc_logo,
+  .user_image {
+    width: 80px;
+    height: auto;
+  }
+  
+  .links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #fff; /* White text for nav1 links */
+    margin-right: 20px;
+  }
+  
+  select {
+    border: 0px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #c00000;
+    color: aliceblue;
+  }
+  
+  .search-form { /* Add styling for the search form (not included in provided HTML) */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  header.head {
+    background-color: red; /* Red for heading */
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff; /* White text for heading */
+  }
+  
+  .nav2,
+  .nav3 {
+    background-color: #600000; /* Dark red for nav2 and nav3 */
+    padding: 5px 10px;
+  }
+  .nav2 a, .nav3 a {
+    margin-right: 10px;
+  }
+  .nav2 a:hover {
+    border-bottom: 4px solid white;
+  }
+  .nav3 a:hover {
+    border-bottom: 4px solid #333;
+  }
+  
+  .nav1 div a:hover{
+    border-bottom: 4px solid white;
+  }
+  .nav2 a:active {
+    background-color: rgb(49, 19, 19);
+  }
+  .nav3 a:active {
+    background-color: 4px solid #b3afaf;
+  }
+  
+  .nav1 div a:active{
+    background-color: 4px solid rgb(119, 5, 5);
+  }
+  .nav2 a,
+  .nav3 a {
+    text-decoration: none;
+    color: #fff; /* White text for nav2 and nav3 links */
+    font-size: 14px;
+  }
+  
+  .nav3 { /* White background for nav3 */
+    background-color: white;
+  }
+  .nav3 a{
+    color: #333;
+  }  
+  main {
+    padding: 10px 20px;
+  }
+  main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+div img {
+    height: 100px;
+    height: auto;
+    position: relative;
+    top: -100px;
+}
+
+aside {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+main div {
+    display: flex;
+    width: 60%;
+}
+
+.b {
+    font-size: larger;
+    font-weight: bold;
+}
+
+input {
+    padding: 17px;
+    padding-left: 55px;
+    width: 300px;
+    border: 1px solid #f5f5f5;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-image: url('http://i47.tinypic.com/r02vbq.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: 0;
+    background-color: #640b0b;
+  }

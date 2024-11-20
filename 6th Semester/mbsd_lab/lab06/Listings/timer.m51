@@ -1,0 +1,249 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    04/02/2024  09:22:58  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\delay.obj, .\Objects\copying_80_bits.obj, .\Objects\adding_
+>> 4_bites.obj, .\Objects\bcd_addition.obj, .\Objects\setting_bits.obj, .\Objects\mem_addr.obj TO .\Objects\timer PRINT 
+>> (.\Listings\timer.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (?C_STARTUP)
+  .\Objects\delay.obj (DELAY)
+  .\Objects\copying_80_bits.obj (COPYING_80_BITS)
+  .\Objects\adding_4_bites.obj (ADDING_4_BITES)
+  .\Objects\bcd_addition.obj (BCD_ADDITION)
+  .\Objects\setting_bits.obj (SETTING_BITS)
+  .\Objects\mem_addr.obj (MEM_ADDR)
+
+
+LINK MAP OF MODULE:  .\Objects\timer (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+* OVERLAP * CODE    0000H     001BH     ABSOLUTE     
+* OVERLAP * CODE    0000H     001BH     ABSOLUTE     
+* OVERLAP * CODE    0000H     000DH     ABSOLUTE     
+* OVERLAP * CODE    0000H     000FH     ABSOLUTE     
+* OVERLAP * CODE    0000H     001AH     ABSOLUTE     
+* OVERLAP * CODE    0000H     0329H     ABSOLUTE     
+                    0329H     04D7H                  *** GAP ***
+            CODE    0800H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+UNRESOLVED EXTERNAL SYMBOLS:
+   ?C_START
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\timer (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:0800H         SEGMENT       ?C_C51STARTUP
+  I:0008H         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  04/02/2024  09:22:58  PAGE 2
+
+
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:0803H         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:0800H         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:0800H         LINE#         133
+  C:0802H         LINE#         134
+  C:0803H         LINE#         135
+  C:0804H         LINE#         136
+  C:0806H         LINE#         185
+  C:0809H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        DELAY
+  C:0010H         SYMBOL        AGAIN
+  C:000EH         SYMBOL        DELAY
+  C:0006H         SYMBOL        HERE
+  C:0012H         SYMBOL        ONCE
+  C:000EH         SYMBOL        START
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  C:0006H         LINE#         6
+  C:0007H         LINE#         7
+  C:0008H         LINE#         8
+  C:0009H         LINE#         9
+  C:000AH         LINE#         10
+  C:000CH         LINE#         11
+  C:000EH         LINE#         15
+  C:0010H         LINE#         16
+  C:0012H         LINE#         17
+  C:0014H         LINE#         18
+  C:0016H         LINE#         19
+  C:0018H         LINE#         20
+  C:001AH         LINE#         21
+  -------         ENDMOD        DELAY
+
+  -------         MODULE        COPYING_80_BITS
+  C:0010H         SYMBOL        AGAIN
+  C:000EH         SYMBOL        DELAY
+  C:0006H         SYMBOL        HERE
+  C:0012H         SYMBOL        ONCE
+  C:000EH         SYMBOL        START
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  04/02/2024  09:22:58  PAGE 3
+
+
+  C:0004H         LINE#         4
+  C:0006H         LINE#         6
+  C:0007H         LINE#         7
+  C:0008H         LINE#         8
+  C:0009H         LINE#         9
+  C:000AH         LINE#         10
+  C:000CH         LINE#         11
+  C:000EH         LINE#         15
+  C:0010H         LINE#         16
+  C:0012H         LINE#         17
+  C:0014H         LINE#         18
+  C:0016H         LINE#         19
+  C:0018H         LINE#         20
+  C:001AH         LINE#         21
+  -------         ENDMOD        COPYING_80_BITS
+
+  -------         MODULE        ADDING_4_BITES
+  C:0006H         SYMBOL        AGAIN
+  C:000AH         SYMBOL        NEXT
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  C:0005H         LINE#         5
+  C:0006H         LINE#         6
+  C:0007H         LINE#         7
+  C:0009H         LINE#         8
+  C:000AH         LINE#         10
+  C:000BH         LINE#         11
+  -------         ENDMOD        ADDING_4_BITES
+
+  -------         MODULE        BCD_ADDITION
+  C:0007H         SYMBOL        AGAIN
+  C:000CH         SYMBOL        NEXT
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  C:0006H         LINE#         5
+  C:0007H         LINE#         7
+  C:0008H         LINE#         8
+  C:0009H         LINE#         9
+  C:000BH         LINE#         10
+  C:000CH         LINE#         12
+  C:000DH         LINE#         13
+  -------         ENDMOD        BCD_ADDITION
+
+  -------         MODULE        SETTING_BITS
+  C:0004H         SYMBOL        L1
+  C:000BH         SYMBOL        NEXT
+  D:0090H         SYMBOL        P1
+  C:0012H         SYMBOL        SETP10
+  C:0016H         SYMBOL        SETP17
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         5
+  C:0007H         LINE#         6
+  C:0009H         LINE#         7
+  C:000BH         LINE#         9
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  04/02/2024  09:22:58  PAGE 4
+
+
+  C:000EH         LINE#         10
+  C:0010H         LINE#         11
+  C:0012H         LINE#         13
+  C:0014H         LINE#         14
+  C:0016H         LINE#         16
+  C:0018H         LINE#         17
+  -------         ENDMOD        SETTING_BITS
+
+  -------         MODULE        MEM_ADDR
+  C:0005H         SYMBOL        COPY_LOOP
+  C:000CH         SYMBOL        EXIT
+  C:0300H         SYMBOL        ROM_SENTENCE
+  C:0000H         LINE#         4
+  C:0003H         LINE#         5
+  C:0005H         LINE#         8
+  C:0006H         LINE#         9
+  C:0007H         LINE#         10
+  C:0008H         LINE#         11
+  C:000AH         LINE#         12
+  C:000BH         LINE#         13
+  C:000CH         LINE#         15
+  -------         ENDMOD        MEM_ADDR
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      0002H
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      001AH
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      001AH
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      001AH
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      001AH
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      001AH
+
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ?C_START
+    MODULE:  .\Objects\STARTUP.obj (?C_STARTUP)
+
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?C_START
+    MODULE:  .\Objects\STARTUP.obj (?C_STARTUP)
+    ADDRESS: 080AH
+
+******************************************************************************
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  04/02/2024  09:22:58  PAGE 5
+
+
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00B2H BYTE ( 8%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=932
+LINK/LOCATE RUN COMPLETE.  8 WARNING(S),  0 ERROR(S)

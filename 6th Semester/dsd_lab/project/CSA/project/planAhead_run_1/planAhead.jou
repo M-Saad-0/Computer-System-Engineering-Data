@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jun 24 19:13:43 2024
+# Process ID: 6208
+# Log file: C:/Users/PC/Documents/CSA/project/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/PC/Documents/CSA/project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/PC/Documents/CSA/project/pa.fromNetlist.tcl
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports cycle_timeout]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports detergent_added]
+endgroup
+startgroup
+set_property package_pin F16 [get_ports door_close]
+endgroup
+startgroup
+set_property package_pin E18 [get_ports drained]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports door_close]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports filled]
+endgroup
+set_property package_pin "" [get_ports [list  reset]]
+set_property package_pin "" [get_ports [list  motor_on]]
+set_property package_pin "" [get_ports [list  reset]]
+startgroup
+set_property package_pin D17 [get_ports reset]
+endgroup
+set_property package_pin "" [get_ports [list  spin_timeout]]
+set_property package_pin "" [get_ports [list  soap_wash]]
+startgroup
+set_property package_pin C18 [get_ports spin_timeout]
+endgroup
+startgroup
+set_property package_pin C17 [get_ports start]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports done]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports door_lock]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports drain_value_on]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports fill_value_on]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports motor_on]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports soap_wash]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports water_wash]
+endgroup
+save_constraints

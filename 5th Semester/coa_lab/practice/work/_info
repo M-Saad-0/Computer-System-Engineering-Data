@@ -1,0 +1,245 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vd_flipflop
+Z0 !s110 1703070234
+!i10b 1
+!s100 Ao^=BN4ORM@XAQNK=ffaj2
+IU5BkX@EhHQb0jmMMPKYEJ1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/University/semester_5/coa_lab/practice
+w1703023649
+8E:/University/semester_5/coa_lab/practice/d_flipflop.v
+FE:/University/semester_5/coa_lab/practice/d_flipflop.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1703070234.000000
+!s107 E:/University/semester_5/coa_lab/practice/d_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/d_flipflop.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vd_flipflop_tb
+R0
+!i10b 1
+!s100 U8IoAh_CH?9nG;RXlI`oa3
+IiIZ;DobeLK8;TMUMECcDL0
+R1
+R2
+w1703056633
+8E:/University/semester_5/coa_lab/practice/d_flipflopTB.v
+FE:/University/semester_5/coa_lab/practice/d_flipflopTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/University/semester_5/coa_lab/practice/d_flipflopTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/d_flipflopTB.v|
+!i113 1
+R5
+R6
+vjk_flipflop
+Z7 !s110 1703070235
+!i10b 1
+!s100 0f=2DE1d2Ql_WJiI^C6RS3
+Iz^ZPKJBB20R=lNPQ8FA<f3
+R1
+R2
+w1703031451
+8E:/University/semester_5/coa_lab/practice/jk_flipflop.v
+FE:/University/semester_5/coa_lab/practice/jk_flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1703070235.000000
+!s107 E:/University/semester_5/coa_lab/practice/jk_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/jk_flipflop.v|
+!i113 1
+R5
+R6
+vjk_flipflop_tb
+R7
+!i10b 1
+!s100 XQ^[SF:0V2:=h1Co<SGz]0
+Il3fLHch88F^dS0LU[[Ok?2
+R1
+R2
+w1703069099
+8E:/University/semester_5/coa_lab/practice/tffTB.v
+FE:/University/semester_5/coa_lab/practice/tffTB.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/University/semester_5/coa_lab/practice/tffTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/tffTB.v|
+!i113 1
+R5
+R6
+vjk_flipflopTB
+R7
+!i10b 1
+!s100 NT36X4KH3;Q:SDPEW[gNW3
+IWTbfX=`<]z4J0lTl0Ig@c2
+R1
+R2
+w1703070226
+8E:/University/semester_5/coa_lab/practice/jk_flipflopTB.v
+FE:/University/semester_5/coa_lab/practice/jk_flipflopTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/University/semester_5/coa_lab/practice/jk_flipflopTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/jk_flipflopTB.v|
+!i113 1
+R5
+R6
+njk_flipflop@t@b
+vsr_flipflop
+R0
+!i10b 1
+!s100 AhWg@OAfW_7Vj>zST<I_k3
+IZEokVB]VgXeJgY3jZ4?WG3
+R1
+R2
+w1703029900
+8E:/University/semester_5/coa_lab/practice/sr_flipflop.v
+FE:/University/semester_5/coa_lab/practice/sr_flipflop.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/University/semester_5/coa_lab/practice/sr_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/sr_flipflop.v|
+!i113 1
+R5
+R6
+vsr_flipflopTB
+R0
+!i10b 1
+!s100 Kozn0^@n2M4l<neY^hYNG2
+Ib05:HG:Z8z`4EX`0AfdQC2
+R1
+R2
+w1703052364
+8E:/University/semester_5/coa_lab/practice/sr_flipflopTB.v
+FE:/University/semester_5/coa_lab/practice/sr_flipflopTB.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/University/semester_5/coa_lab/practice/sr_flipflopTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/sr_flipflopTB.v|
+!i113 1
+R5
+R6
+nsr_flipflop@t@b
+vsr_latch
+R0
+!i10b 1
+!s100 =FV9O^fSB<_8DSmBb5[m[1
+IJY205JDoZdi<]gIV;9mW02
+R1
+R2
+w1703029302
+8E:/University/semester_5/coa_lab/practice/sr_latch.v
+FE:/University/semester_5/coa_lab/practice/sr_latch.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/University/semester_5/coa_lab/practice/sr_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/sr_latch.v|
+!i113 1
+R5
+R6
+vsr_latchTB
+R0
+!i10b 1
+!s100 Bg1<gM>DK@izQ8keih65D2
+IfKD06H<Alb>e`z8APS9Y^0
+R1
+R2
+w1703029472
+8E:/University/semester_5/coa_lab/practice/sr_latchTB.v
+FE:/University/semester_5/coa_lab/practice/sr_latchTB.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/University/semester_5/coa_lab/practice/sr_latchTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/sr_latchTB.v|
+!i113 1
+R5
+R6
+nsr_latch@t@b
+vt_flipflop
+R7
+!i10b 1
+!s100 CQai=<6OAi^PlQZY]GYcd2
+Izd^n;f^22jEiA1jYHeOfC3
+R1
+R2
+w1703069981
+8E:/University/semester_5/coa_lab/practice/t_flipflop.v
+FE:/University/semester_5/coa_lab/practice/t_flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/University/semester_5/coa_lab/practice/t_flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/t_flipflop.v|
+!i113 1
+R5
+R6
+vt_flipflopTB
+R7
+!i10b 1
+!s100 1:TOV3VbfZ_aHHbCaUi0a3
+IV6ESRnQ0bEXnJd`5nn;]Q2
+R1
+R2
+w1703070230
+8E:/University/semester_5/coa_lab/practice/t_flipflopTB.v
+FE:/University/semester_5/coa_lab/practice/t_flipflopTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/University/semester_5/coa_lab/practice/t_flipflopTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/University/semester_5/coa_lab/practice/t_flipflopTB.v|
+!i113 1
+R5
+R6
+nt_flipflop@t@b

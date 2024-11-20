@@ -1,0 +1,51 @@
+A51 MACRO ASSEMBLER  A                                                                    03/19/2024 00:53:20 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\a.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE a.a51 SET(SMALL) DEBUG PRINT(.\Listings\a.lst) OBJECT(.\Objects\a.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00
+0000                   2             HERE: 
+0000 D290              3             SETB P1.0
+0002 110B              4             ACALL DELAY
+0004 C290              5             CLR P1.0
+0006 110B              6             ACALL DELAY
+0008 020000            7             LJMP HERE
+                       8             
+                       9             
+000B                  10     DELAY:
+000B 7A12             11         MOV R2, #18  ;1MC
+000D                  12     ODELAY:
+000D 79FF             13         MOV R1, #255        ;18MC
+000F                  14     IDELAY:
+000F D9FE             15         DJNZ R1, IDELAY     ;9000MC
+0011 DAFA             16         DJNZ R2, ODELAY             ;36MC
+0013 22               17         RET            
+                      18     
+                      19     
+                      20     END
+                                     
+                                     ;1+18+9180+36 = 9235 * 1.082e-6
+                                     ; = 0.00999227e-6 =~10ms
+A51 MACRO ASSEMBLER  A                                                                    03/19/2024 00:53:20 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY. . . . . . .  C ADDR   000BH   A   
+HERE . . . . . . .  C ADDR   0000H   A   
+IDELAY . . . . . .  C ADDR   000FH   A   
+ODELAY . . . . . .  C ADDR   000DH   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

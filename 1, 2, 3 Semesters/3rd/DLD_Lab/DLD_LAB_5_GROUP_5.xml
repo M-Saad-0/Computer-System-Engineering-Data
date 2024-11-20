@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="Image1" object_type="graphic"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object index="12" name="Table1" object_type="table"/>
+ <paragraph index="14" node_type="writer" parent_index="12">A</paragraph>
+ <paragraph index="17" node_type="writer" parent_index="12">B</paragraph>
+ <paragraph index="20" node_type="writer" parent_index="12">S(A, B)</paragraph>
+ <paragraph index="23" node_type="writer" parent_index="12">C(A, B)</paragraph>
+ <paragraph index="26" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="29" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="32" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="35" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="38" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="41" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="44" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="47" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="50" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="53" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="56" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="59" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="62" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="65" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="68" node_type="writer" parent_index="12">0</paragraph>
+ <paragraph index="71" node_type="writer" parent_index="12">1</paragraph>
+ <paragraph index="74" node_type="writer">Half Adder</paragraph>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object index="80" name="Table2" object_type="table"/>
+ <paragraph index="82" node_type="writer" parent_index="80">A</paragraph>
+ <paragraph index="85" node_type="writer" parent_index="80">B</paragraph>
+ <paragraph index="88" node_type="writer" parent_index="80">D(A, B)</paragraph>
+ <paragraph index="91" node_type="writer" parent_index="80">Bo(A, B)</paragraph>
+ <paragraph index="94" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="97" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="100" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="103" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="106" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="109" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="112" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="115" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="118" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="121" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="124" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="127" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="130" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="133" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="136" node_type="writer" parent_index="80">0</paragraph>
+ <paragraph index="139" node_type="writer" parent_index="80">1</paragraph>
+ <paragraph index="142" node_type="writer">Half Subtractor</paragraph>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object index="148" name="Table3" object_type="table"/>
+ <paragraph index="150" node_type="writer" parent_index="148">A</paragraph>
+ <paragraph index="153" node_type="writer" parent_index="148">B</paragraph>
+ <paragraph index="156" node_type="writer" parent_index="148">Cin</paragraph>
+ <paragraph index="159" node_type="writer" parent_index="148">S(A, B, Cin)</paragraph>
+ <paragraph index="162" node_type="writer" parent_index="148">Cout(A, B. Cin)</paragraph>
+ <paragraph index="165" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="168" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="171" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="174" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="177" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="180" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="183" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="186" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="189" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="192" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="195" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="198" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="201" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="204" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="207" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="210" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="213" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="216" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="219" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="222" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="225" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="228" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="231" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="234" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="237" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="240" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="243" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="246" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="249" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="252" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="255" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="258" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="261" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="264" node_type="writer" parent_index="148">0</paragraph>
+ <paragraph index="267" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="270" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="273" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="276" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="279" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="282" node_type="writer" parent_index="148">1</paragraph>
+ <paragraph index="285" node_type="writer">Full Adder</paragraph>
+ <object index="288" name="Table4" object_type="table"/>
+ <paragraph index="290" node_type="writer" parent_index="288">A</paragraph>
+ <paragraph index="293" node_type="writer" parent_index="288">B</paragraph>
+ <paragraph index="296" node_type="writer" parent_index="288">Bin</paragraph>
+ <paragraph index="299" node_type="writer" parent_index="288">D(A, B, Bin)</paragraph>
+ <paragraph index="302" node_type="writer" parent_index="288">Bout(A, B. Bin)</paragraph>
+ <paragraph index="305" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="308" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="311" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="314" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="317" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="320" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="323" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="326" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="329" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="332" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="335" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="338" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="341" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="344" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="347" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="350" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="353" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="356" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="359" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="362" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="365" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="368" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="371" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="374" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="377" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="380" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="383" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="386" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="389" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="392" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="395" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="398" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="401" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="404" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="407" node_type="writer" parent_index="288">0</paragraph>
+ <paragraph index="410" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="413" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="416" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="419" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="422" node_type="writer" parent_index="288">1</paragraph>
+ <paragraph index="425" node_type="writer">Full Subtractor</paragraph>
+ <object alt="" name="Image5" object_type="graphic"/>
+ <object alt="" name="Image7" object_type="graphic"/>
+ <object alt="" name="Image6" object_type="graphic"/>
+ <object alt="" name="Image8" object_type="graphic"/>
+ <paragraph index="443" node_type="writer">	</paragraph>
+ <paragraph index="444" node_type="writer">Lab report 05</paragraph>
+ <paragraph index="445" node_type="writer">Adder and Subtractor</paragraph>
+ <paragraph index="446" node_type="writer">_____________________________</paragraph>
+ <paragraph index="448" node_type="writer">Group No 05</paragraph>
+ <paragraph index="458" node_type="writer">202L-Digital Logic Design Lab</paragraph>
+ <paragraph index="459" node_type="writer">Department of Computer System Engineering</paragraph>
+ <paragraph index="460" node_type="writer">University of Engineering and Technology Peshawar</paragraph>
+ <paragraph index="461" node_type="writer">      </paragraph>
+ <paragraph index="463" node_type="writer">Submitted to: Engr. Rehmat Ullah</paragraph>
+ <paragraph index="465" node_type="writer">Submitted by</paragraph>
+ <paragraph index="466" node_type="writer">Muhammad Zaid      (1991) </paragraph>
+ <paragraph index="467" node_type="writer">Muhammad Saad     (1997)</paragraph>
+ <paragraph index="468" node_type="writer">Muhsin Shah    (2018)</paragraph>
+ <paragraph index="470" node_type="writer">DCSE, Batch 23, Section “B”</paragraph>
+ <paragraph index="479" node_type="writer">Adder and Subtractor</paragraph>
+ <paragraph index="481" node_type="writer">Objective:</paragraph>
+ <paragraph index="482" node_type="writer">To design half adder, half subtractor, full adder and full subtractor and verify their truth table</paragraph>
+ <paragraph index="484" node_type="writer">Apparatus:</paragraph>
+ <paragraph index="485" node_type="writer">Logic gates</paragraph>
+ <paragraph index="486" node_type="writer">AND gate (IC 7408)</paragraph>
+ <paragraph index="487" node_type="writer">OR gate (IC 7432)</paragraph>
+ <paragraph index="488" node_type="writer">XOR gate (IC 7486)</paragraph>
+ <paragraph index="489" node_type="writer">NOT gate (IC 7404)</paragraph>
+ <paragraph index="490" node_type="writer">2.	LEDs</paragraph>
+ <paragraph index="491" node_type="writer">3. 	DIP Switch</paragraph>
+ <paragraph index="492" node_type="writer">4.	520 Ω / 1k Ω resistors</paragraph>
+ <paragraph index="494" node_type="writer">Theory:</paragraph>
+ <paragraph index="495" node_type="writer">	An adder or subtractor adds or subtracts two binary inputs of one bit. Half adder and half subtractor can only add two one bit binary numbers and in output it has also two numbers one is the sum and other is the carry or borrow. But as it can only operate on two inputs and there room for carry or borrow from the previous stage makes it limiting and that is why it is called half adder and subtractor. A full adder on the other hand can also take another input of carry or borrow from previous stage and therefore can add any two numbers. We can also chain multiple full adders which is called ripple carry adder.</paragraph>
+ <paragraph index="501" node_type="writer">Circuit Diagrams and truth tables</paragraph>
+ <paragraph index="503" node_type="writer">Half Adder:</paragraph>
+ <paragraph index="504" node_type="writer">	It is a one bit adder which add two one bit numbers and then gives the result as sum and carry. </paragraph>
+ <paragraph index="508" node_type="writer">  </paragraph>
+ <paragraph index="512" node_type="writer">Fig. 01  Half adder circuit diagram</paragraph>
+ <paragraph index="514" node_type="writer">S(A, B)= A⊕B</paragraph>
+ <paragraph index="515" node_type="writer">C(A, B) = A.B</paragraph>
+ <paragraph index="525" node_type="writer">Half Subtractor:</paragraph>
+ <paragraph index="526" node_type="writer">	 It also adds two one bit numbers and gives the result as difference and borrow. The connections are according to circuit diagrams.</paragraph>
+ <paragraph index="533" node_type="writer">Fig 02. Half subtractor</paragraph>
+ <paragraph index="535" node_type="writer">D(A, B)= A⊕B</paragraph>
+ <paragraph index="536" node_type="writer">Bo(A, B) = A’ . B</paragraph>
+ <paragraph index="547" node_type="writer">Full Adder:</paragraph>
+ <paragraph index="548" node_type="writer">	Full adder takes two inputs and one comes Cin comes from the previous stage.</paragraph>
+ <paragraph index="549" node_type="writer">Fig 03. Full Adder</paragraph>
+ <paragraph index="551" node_type="writer">S(A, B, Cin) = A⊕B⊕Cin</paragraph>
+ <paragraph index="552" node_type="writer">Cout = A⊕B.Cin + A.B</paragraph>
+ <paragraph index="563" node_type="writer">Full Subtractor:</paragraph>
+ <paragraph index="564" node_type="writer">		Full subtractor like full adder has two input and third input called Borrow (Bin ). The result is a difference and borrow.</paragraph>
+ <paragraph index="573" node_type="writer">Fig 04. Full Subtractor</paragraph>
+ <paragraph index="575" node_type="writer">S(A, B, Cin) = A⊕B⊕Bin</paragraph>
+ <paragraph index="576" node_type="writer">Bout = A⊕B.Bin’ + A’ . B</paragraph>
+ <paragraph index="589" node_type="writer">Experiment Pictures</paragraph>
+ <object name="Frame2" alt="" object_type="shape" description=""/>
+ <object name="Frame2" alt="" object_type="shape" description=""/>
+ <object name="Frame2" alt="" object_type="shape" description=""/>
+ <object name="Frame 1" alt="" object_type="shape" description=""/>
+</indexing>

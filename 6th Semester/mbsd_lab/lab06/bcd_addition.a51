@@ -1,0 +1,13 @@
+ORG 00H
+	MOV R0, #40
+	MOV R2, #5
+	MOV A, 00H
+	MOV R7, A
+	
+	AGAIN:	ADD A, @R0
+			DA A
+			JNC NEXT
+			INC R7
+			
+	NEXT:	INC R0
+			DJNZ R2, AGAIN

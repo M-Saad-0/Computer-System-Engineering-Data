@@ -1,0 +1,187 @@
+C51 COMPILER V9.60.7.0   TASK                                                              05/21/2024 11:00:23 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK
+OBJECT MODULE PLACED IN .\Objects\task.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE task.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\task
+                    -.lst) TABS(2) OBJECT(.\Objects\task.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #include <stdio.h>
+   3          
+   4          sbit port =P1^1;
+   5          sbit button=P3^2;
+   6          int val;
+   7          int c=1;
+   8          void delay(unsigned int x);
+   9          void sine_wave();
+  10          void square();
+  11          void traingular_wave();
+  12          void sawtooth_wave();
+  13          
+  14          void delay(unsigned int x){
+  15   1        unsigned int i;
+  16   1        for(i=0;i<x;i++);
+  17   1        
+  18   1      }
+  19          void sine_wave(){
+  20   1        int sine[]={128,192,238,255,238,192,128,64,17,0,17,64, 128,192,238,255,238,192,128,64,17,0,17,64};
+  21   1        int i;
+  22   1        for(i=0;i<23; i++){
+  23   2          P1=sine[i];
+  24   2          delay(15);  
+  25   2        } 
+  26   1      }
+  27          void square(){
+  28   1        P1=0x00;
+  29   1        delay(100);
+  30   1        P1=0xFF;
+  31   1        delay(100);
+  32   1        
+  33   1      
+  34   1        
+  35   1      }
+  36          
+  37          void triangular_wave() {
+  38   1          int i;
+  39   1          for(i = 0; i < 256; i++) {
+  40   2              P1 = i;  
+  41   2              delay(10);
+  42   2          }
+  43   1          for(i = 255; i >= 0; i--) {
+  44   2              P1 = i;  
+  45   2              delay(10);
+  46   2          }
+  47   1      }
+  48          
+  49          void sawtooth_wave() {
+  50   1          int i;
+  51   1          for(i = 0; i < 256; i++) {
+  52   2              P1 = i;  
+  53   2              delay(10);
+  54   2          }
+C51 COMPILER V9.60.7.0   TASK                                                              05/21/2024 11:00:23 PAGE 2   
+
+  55   1      }
+  56          
+  57          void init_interrupt() {
+  58   1          IT0 = 1;  
+  59   1          EX0 = 1;  
+  60   1          EA = 1;   
+  61   1      }
+  62          
+  63          void i_e() interrupt 0{
+  64   1        
+  65   1        c++;
+  66   1        if(c==4){
+  67   2          c=0;
+  68   2        }
+  69   1        
+  70   1        
+  71   1      }
+  72          
+  73          /*void main(void) {
+  74              init_interrupt();
+  75          
+  76              while(1) {
+  77                  if(c == 1) {
+  78                      sine_wave();
+  79                  }
+  80                else if(c == 2) {
+  81                      square_wave();
+  82                  } else if(c == 3) {
+  83                      triangular_wave();
+  84                  } else if(c == 4) {
+  85                      sawtooth_wave();
+  86                  }
+  87                  
+  88                
+  89              }
+  90          }
+  91          */
+  92          
+  93          
+  94          
+  95          
+  96          void main(void)
+  97           { 
+  98   1         
+  99   1         init_interrupt(); 
+ 100   1         while(1)
+ 101   1         {   
+ 102   2        if(c<3 && button==0)
+ 103   2        {
+ 104   3            c++;
+ 105   3        }
+ 106   2        else if(c==3 && button==0)
+ 107   2        {
+ 108   3            c=0;
+ 109   3        }
+ 110   2        if(c==0)
+ 111   2        {
+ 112   3            if(button==0)
+ 113   3            {
+ 114   4               c=1;
+ 115   4            }
+ 116   3            else
+C51 COMPILER V9.60.7.0   TASK                                                              05/21/2024 11:00:23 PAGE 3   
+
+ 117   3            {
+ 118   4              sine_wave();
+ 119   4             }
+ 120   3        }
+ 121   2        
+ 122   2        else if(c==1)
+ 123   2        {
+ 124   3            if(button==0)
+ 125   3            {
+ 126   4              c=2;
+ 127   4            }
+ 128   3            else
+ 129   3            {
+ 130   4      
+ 131   4            square();
+ 132   4            }
+ 133   3        }
+ 134   2        else if(c==2)
+ 135   2        {
+ 136   3                     if(button==0)
+ 137   3               {
+ 138   4                   c=3;
+ 139   4               }
+ 140   3                     else
+ 141   3               {
+ 142   4                 triangular_wave();
+ 143   4               }
+ 144   3         }
+ 145   2         
+ 146   2        else if(c==3)
+ 147   2        {
+ 148   3            if(button==0)
+ 149   3            {
+ 150   4               c=0;
+ 151   4            }
+ 152   3                  else
+ 153   3            {
+ 154   4              sawtooth_wave();
+ 155   4            } 
+ 156   3        }
+ 157   2         }
+ 158   1      
+ 159   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    312    ----
+   CONSTANT SIZE    =     48    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4      48
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

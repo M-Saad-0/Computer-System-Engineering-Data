@@ -1,0 +1,23 @@
+* F:\CS Lab\labno11.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Jun 28 03:45:08 2022
+
+
+
+** Analysis setup **
+.tran 0ns 1000000ns SKIPBP
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "labno11.net"
+.INC "labno11.als"
+
+
+.probe
+
+
+.END

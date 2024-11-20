@@ -1,0 +1,82 @@
+<script>
+    var ourDog={
+        "name":"Camper",
+        "legs":4,
+        "tails":2,
+        "friends":["everything"]
+    };
+    ourDog.friends=ourDog.name;
+    document.write(ourDog.friends);
+    
+    var testObj={
+        "an entree":"hamburger",
+        "my side":"veggies",
+        "the drink":"water"
+        
+    };
+    var entreeValue=testObj["an entree"];
+    var drinkValue=testObj["my side"];
+    document.write(entreeValue);
+    ourDog.name="Happy Coder";
+    ourDog.lo="low";
+    
+    delete ourDog.lo;
+    document.write(ourDog.lo);
+    var lookUp={
+        "alpha":"Adams",
+        "beta":"Chicago"
+    };//can be used instead of condition statement each property has one value
+    var myObj=
+        {
+            "gift":"pony",
+            "pet":"kitten",
+            "bed":"sleigh"
+        };
+    function check(prop)
+    {
+        if(myObj.hasOwnProperty(prop))
+        {
+            return myObj[prop];
+        }
+        else
+        {
+            return "Not Found";
+        }
+    }
+    var p="";
+    prompt(p);
+    var c=check("gift");
+    document.write(c);
+    
+    
+    var myMusic=[
+        {
+            "artist":"Billy Joel",
+            "title":"Piano Man",
+            "release_year":1993,
+            "format":["CD", "8T", "LP"],
+            "gold":"true"
+        },
+        {
+            "artist":"Justine Biber",
+            "title":"Stay",
+            "release_year":2022,
+            "format":["CD", "8T", "LP"],
+            "gold":"true"
+        }
+    ];
+    //this is an array of objects
+    var cars=
+    {
+      "Bmw":{
+          two_seated:"v*",
+          four_seated:"u*"
+      },
+        "nissan":{
+            two_seated:"Mazda",
+            four_seated:"Skyline"
+        }
+    };
+    document.write("<br>Nissan "+cars.nissan.four_seated);
+    document.write(myMusic[1].artist);
+</script>       

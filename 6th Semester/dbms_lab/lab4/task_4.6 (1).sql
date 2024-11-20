@@ -1,0 +1,37 @@
+CREATE TABLE Member (
+  MemberID INT PRIMARY KEY,
+  FirstName VARCHAR(255) NOT NULL,
+  LastName VARCHAR(255) NOT NULL,
+  MemberType VARCHAR(255),
+  Phone VARCHAR(255),
+  Handicap INT,
+  JoinDate DATE,
+  Gender VARCHAR(255)
+);
+
+CREATE TABLE Team (
+  TeamID INT PRIMARY KEY,
+  TeamName VARCHAR(255) NOT NULL,
+  Manager INT,
+  PracticeNight VARCHAR(255)
+);
+
+CREATE TABLE Tournament (
+  TourID INT PRIMARY KEY,
+  Year INT,
+  TourName VARCHAR(255) NOT NULL,
+  TourType VARCHAR(255)
+);
+
+CREATE TABLE Entry (
+  MemberID INT,
+  TourID INT
+);
+
+
+ALTER TABLE Team
+ADD CONSTRAINT FK_Team_Member FOREIGN KEY (MemberID) REFERENCES Member(MemberID);
+
+ALTER TABLE Entry
+ADD CONSTRAINT FK_Entry_Member FOREIGN KEY (MemberID) REFERENCES Member(MemberID),
+ADD CONSTRAINT FK_Entry_Tournament FOREIGN KEY (TourID) REFERENCES Tournament(TourID);

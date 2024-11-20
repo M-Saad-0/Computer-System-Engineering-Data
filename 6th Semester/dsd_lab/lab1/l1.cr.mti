@@ -1,0 +1,33 @@
+D:/University/semester6/dsd_lab/lab1/design.v {0 {vlog -work work -stats=none {D:\University\semester6\dsd_lab\lab1\design.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Error: (vlog-13069) D:\University\semester6\dsd_lab\lab1\design.v(1): near "design": syntax error, unexpected design.
+
+} {3.0 4.0} {}} D:/University/semester6/dsd_lab/lab1/orGate.v {1 {vlog -work work -stats=none {D:\University\semester6\dsd_lab\lab1\orGate.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OR
+
+Top level modules:
+	OR
+
+} {} {}} D:/University/semester6/dsd_lab/lab1/buffer.v {1 {vlog -work work -stats=none D:/University/semester6/dsd_lab/lab1/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} D:/University/semester6/dsd_lab/lab1/orGateTB.v {1 {vlog -work work -stats=none {D:\University\semester6\dsd_lab\lab1\orGateTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ORtb
+
+Top level modules:
+	ORtb
+
+} {} {}} D:/University/semester6/dsd_lab/lab1/bufferTB.v {1 {vlog -work work -stats=none D:/University/semester6/dsd_lab/lab1/bufferTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bufferTB
+
+Top level modules:
+	bufferTB
+
+} {} {}}

@@ -1,0 +1,76 @@
+DSP COURSE FOR FINALS
+
+▪️/*Continuous and Discrete time signal
+▪️Impulse, unit step,sin, exponential, parabolic, gaussian, ramp, signum, triangular signals
+▪️System->Ideal delay, moving average, memory vs memoryless, linear vs non linear, causal vs non causal.
+▪️Shifting and scaling of DTS
+▪️Even, Odd, periodic and aperiodic signals
+▪️Energy and Power of signals 
+*/
+
+▪️/*Causal and Non Causal
+▪️Linear Systems And Non linear Systems 
+▪️Time Invariant and Variant Systems
+▪️Static vs dynamic systems
+▪️Stable vs unstable systems
+▪️LTI systems
+▪️LTV systems
+▪️Invertible and Non invertible systems
+▪️Impulse response and transfer function
+▪️Convolution
+*/
+/*
+▪️Properties of Convolution
+▪️Graphical/manual method of doing Convolution
+▪️DFT and it's derivation
+▪️DTFT
+*/
+/*
+▪️Z transform
+▪️Topic to be covered on Monday(15 Jan)
+*/
+***************************
+
+EE course for Finals
+
+Chapter 3
+▪️Why Consider Return to Capital? 
+▪️The origins of interest
+▪️Simple Interest
+▪️Compound interest
+▪️The concept of equivalence
+▪️Cash flow Diagram
+▪️Interest formula relating present and future equivalent values of single cash flows
+▪️Interest formulas relating a uniform series (annuity) to its present and future equivalent value
+▪️Interest formulas for discrete compounding and discrete cash flows
+▪️Deferred annuities
+▪️Uniform series with beginning of period cash flows
+▪️Equivalence calculations involving multiple interest formulas
+▪️Interest formulas rating a uniform gradient of cash flows to its annual and present worths
+
+Chapter 4
+▪️Determine the minimum attractive rate of return
+▪️The present birth method
+▪️The future worth method
+▪️The annual worth method
+▪️The internal rate of return method
+▪️The cost benefit ratio method
+▪️The payback period method
+
+***************************
+
+COA
+    Lecture 1 to 7
+
+***************************
+
+SP
+    Files, Directories, Signals, Processes ....
+
+***************************
+
+CS
+    AM, FM, PM, PCM, Cellular concepts and trunnking.->Done(__NGE__)
+
+***************************
+

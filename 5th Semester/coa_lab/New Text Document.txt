@@ -1,0 +1,61 @@
+module dff(clk,d,q);
+input clk,d;
+output reg q;
+
+always @ (posedge clk)begin
+    q <= d;
+end
+                
+endmodule
+
+
+module dff(clk,reset,d,q);
+input clk,reset,d;
+output reg q;
+
+always @ (posedge clk)begin
+    if(reset)
+        q <= 0;
+    else
+        q <= d;
+end
+                
+endmodule
+
+
+module dff_tb;
+    reg clk;
+    reg reset;
+    reg d;
+    wire q;
+    dff dut (.clk(clk), .reset(reset), .d(d), .q(q));
+    initial begin
+        clk = 0;
+        reset = 0;
+        d = 0;
+        #10 reset = 1;
+        #10 reset = 0;
+        #10 d = 1;
+        #10 d = 0;
+        #10 $finish;
+    end
+    always #5 clk = ~clk;
+endmodule
+
+
+
+
+
+
+module dff(clk,reset,d,q);
+input clk,reset,d;
+output reg q;
+
+always @ (posedge clk or negedge reset)begin
+    if(~reset)
+        q <= 0;
+    else
+        q <= d;
+end
+                
+endmodule

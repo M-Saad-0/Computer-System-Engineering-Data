@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\serialTransfer.obj" 
+TO ".\Objects\taskTransfer" 
+PRINT(".\Listings\taskTransfer.m51")

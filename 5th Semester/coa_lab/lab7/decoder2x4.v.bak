@@ -1,0 +1,11 @@
+module decoder2x4(A, B, e, I);
+	input A, B, e;
+	output [3:0]I;
+	wire nA, nB;
+	not n1(nA, A);
+	not n2(nB, B);
+	and i1(I[0], nA, nB, e);
+	and i2(I[1], nA, B, e);
+	and i3(I[2], nA, B, e);
+	and i4(I[3], nA, B, e);
+endmodule

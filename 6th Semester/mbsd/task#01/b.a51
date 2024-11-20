@@ -1,0 +1,29 @@
+	ORG 00
+		J:
+		SETB P1.1
+		ACALL DELAY8ms
+		CLR P1.1
+		ACALL DELAY4ms
+		SETB P1.1
+		LJMP J
+		
+		
+		DELAY4ms:	
+		MOV R2, #19  ;1
+		ODELAY4:
+		MOV R1, #97	;19
+		IDELAY4:
+		DJNZ R1, IDELAY4 	;3648
+		DJNZ R2, ODELAY4	;38
+		RET 
+		
+		DELAY8ms:
+		MOV R2, #14  ;1	
+		ODELAY8:
+		MOV R1, #255 	;14
+		IDELAY8:
+		DJNZ R1, IDELAY8	;7140
+		DJNZ R2, ODELAY8  	;28
+		RET 
+	END
+						

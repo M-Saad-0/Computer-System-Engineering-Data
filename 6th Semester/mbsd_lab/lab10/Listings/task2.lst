@@ -1,0 +1,92 @@
+C51 COMPILER V9.60.7.0   TASK2                                                             05/25/2024 23:07:29 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK2
+OBJECT MODULE PLACED IN .\Objects\task2.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE task2.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\tas
+                    -k2.lst) TABS(2) OBJECT(.\Objects\task2.obj)
+
+line level    source
+
+   1          
+   2          #include <reg51.h>
+   3          
+   4          sbit E = P3^6; 
+   5          sbit RS = P3^7;
+   6          char *name = "Muhammad Ilyas";
+   7          char *regID = "21pwcse2055";
+   8          unsigned int i=0;
+   9          
+  10          void delay(unsigned int d) {
+  11   1        unsigned int i=0;
+  12   1        for(i=0; i<d; i++) {}
+  13   1      }
+  14          
+  15          
+  16          void writecmd(int z) 
+  17          { 
+  18   1       RS = 0; //rs
+  19   1       P2 = z;
+  20   1       E = 1; //e
+  21   1       delay(150); 
+  22   1       E = 0;  //e
+  23   1       delay(150); 
+  24   1      }
+  25          
+  26          void writedata(char t) 
+  27          { 
+  28   1       RS = 1; //rs
+  29   1       P2 = t; 
+  30   1       E = 1; //e
+  31   1       delay(150); 
+  32   1       E = 0; //e
+  33   1       delay(150); 
+  34   1      } 
+  35          
+  36          void lcdinit(void) 
+  37          { 
+  38   1       writecmd(0x30); 
+  39   1       delay(300); 
+  40   1       writecmd(0x30); 
+  41   1       delay(650); 
+  42   1       writecmd(0x38); 
+  43   1       writecmd(0x0c); 
+  44   1       writecmd(0x01); 
+  45   1       writecmd(0x06); 
+  46   1      } 
+  47          
+  48          
+  49          
+  50          void main() {
+  51   1        lcdinit();
+  52   1      
+  53   1          writecmd(0x80);
+  54   1          for(i=0; i<14; i++) {
+C51 COMPILER V9.60.7.0   TASK2                                                             05/25/2024 23:07:29 PAGE 2   
+
+  55   2            writedata(*name++);
+  56   2            delay(10000);
+  57   2          }
+  58   1          
+  59   1          
+  60   1          writecmd(0xc0);
+  61   1          for(i=0; i<12; i++) {
+  62   2            writedata(*regID++);
+  63   2            delay(10000);
+  64   2          }
+  65   1        
+  66   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    214    ----
+   CONSTANT SIZE    =     27    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      8    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

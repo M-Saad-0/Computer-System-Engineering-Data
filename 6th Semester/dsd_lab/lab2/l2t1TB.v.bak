@@ -1,0 +1,6 @@
+module HA(A, B, S, Cr);
+input A, B;
+output S, Cr;
+xor x(S, A, B);
+and a(Cr, A, B);
+endmodule

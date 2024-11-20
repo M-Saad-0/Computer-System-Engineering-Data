@@ -1,0 +1,14 @@
+x = 0 : 0.05: 2*pi;
+n = 0 : 0.1: 2*pi;
+y1 = exp(-x).*sin(8*x);
+y2 = exp(-n).*sin(8*n);
+subplot(2, 1, 1);
+plot(x, y1, 'linewidth', 2);
+xlabel('Time Interval');
+ylabel('Amplitude');
+title('Continuous Signal of exp(-x)*sin(8*x)   x is 0 to 2\pi');
+subplot(2, 1, 2);
+stem(n, y2, 'linewidth', 2 );
+xlabel('Sample Numbers');
+ylabel('Amplitude');
+title('Discrete Signal of exp(-x)*sin(8*n)   n is 0 to 2\pi');

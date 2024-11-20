@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.xst" -ofn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.syr" 
+xst -intstyle ise -ifn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.xst" -ofn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.syr" 
+xst -intstyle ise -ifn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.xst" -ofn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "TopMultiplexer.ngc" TopMultiplexer.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopMultiplexer_map.ncd TopMultiplexer.ngd TopMultiplexer.pcf 
+par -w -intstyle ise -ol high -mt off TopMultiplexer_map.ncd TopMultiplexer.ncd TopMultiplexer.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopMultiplexer.twx TopMultiplexer.ncd -o TopMultiplexer.twr TopMultiplexer.pcf 
+xst -intstyle ise -ifn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.xst" -ofn "H:/6th semester Data/By Hammad/DSD-Lab/Lab 08/Task 01/Task01/TopMultiplexer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "TopMultiplexer.ngc" TopMultiplexer.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopMultiplexer_map.ncd TopMultiplexer.ngd TopMultiplexer.pcf 
+par -w -intstyle ise -ol high -mt off TopMultiplexer_map.ncd TopMultiplexer.ncd TopMultiplexer.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopMultiplexer.twx TopMultiplexer.ncd -o TopMultiplexer.twr TopMultiplexer.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopMultiplexer.ucf -p xc6slx9-csg324-2 "TopMultiplexer.ngc" TopMultiplexer.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopMultiplexer.ucf -p xc6slx9-csg324-2 "TopMultiplexer.ngc" TopMultiplexer.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopMultiplexer_map.ncd TopMultiplexer.ngd TopMultiplexer.pcf 
+par -w -intstyle ise -ol high -mt off TopMultiplexer_map.ncd TopMultiplexer.ncd TopMultiplexer.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopMultiplexer.twx TopMultiplexer.ncd -o TopMultiplexer.twr TopMultiplexer.pcf -ucf TopMultiplexer.ucf 
+bitgen -intstyle ise -f TopMultiplexer.ut TopMultiplexer.ncd 

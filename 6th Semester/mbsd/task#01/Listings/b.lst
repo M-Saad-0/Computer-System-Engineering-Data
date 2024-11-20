@@ -1,0 +1,60 @@
+A51 MACRO ASSEMBLER  B                                                                    03/19/2024 04:10:12 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\b.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE b.a51 SET(SMALL) DEBUG PRINT(.\Listings\b.lst) OBJECT(.\Objects\b.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             ORG 00
+0000                   2                     J:
+0000 D291              3                     SETB P1.1
+0002 1116              4                     ACALL DELAY8ms
+0004 C291              5                     CLR P1.1
+0006 110D              6                     ACALL DELAY4ms
+0008 D291              7                     SETB P1.1
+000A 020000            8                     LJMP J
+                       9                     
+                      10                     
+000D                  11                     DELAY4ms:       
+000D 7A13             12                     MOV R2, #19  ;1
+000F                  13                     ODELAY4:
+000F 7961             14                     MOV R1, #97     ;19
+0011                  15                     IDELAY4:
+0011 D9FE             16                     DJNZ R1, IDELAY4        ;3648
+0013 DAFA             17                     DJNZ R2, ODELAY4        ;38
+0015 22               18                     RET 
+                      19                     
+0016                  20                     DELAY8ms:
+0016 7A0E             21                     MOV R2, #14  ;1 
+0018                  22                     ODELAY8:
+0018 79FF             23                     MOV R1, #255    ;14
+001A                  24                     IDELAY8:
+001A D9FE             25                     DJNZ R1, IDELAY8        ;7140
+001C DAFA             26                     DJNZ R2, ODELAY8        ;28
+001E 22               27                     RET 
+                      28             END
+                                                                             
+A51 MACRO ASSEMBLER  B                                                                    03/19/2024 04:10:12 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY4MS . . . . .  C ADDR   000DH   A   
+DELAY8MS . . . . .  C ADDR   0016H   A   
+IDELAY4. . . . . .  C ADDR   0011H   A   
+IDELAY8. . . . . .  C ADDR   001AH   A   
+J. . . . . . . . .  C ADDR   0000H   A   
+ODELAY4. . . . . .  C ADDR   000FH   A   
+ODELAY8. . . . . .  C ADDR   0018H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

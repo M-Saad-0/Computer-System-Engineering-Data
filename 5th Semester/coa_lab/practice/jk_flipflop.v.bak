@@ -1,0 +1,8 @@
+module jk_flipflop(J, K, C, Q, Q_);
+	input J, K, C;
+	output Q, Q_;
+	wire s, r;
+	nand n1(s, J, Q_);
+	nand n2(r, K, Q);
+	sr_latch sr(s, r, Q, Q_);
+endmodule

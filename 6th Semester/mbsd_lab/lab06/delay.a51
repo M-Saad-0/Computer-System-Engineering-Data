@@ -1,0 +1,23 @@
+ORG 00H
+			MOV R0, #30H	;src
+			MOV R1, #40H	;dst
+			MOV R5, #10
+			
+	HERE:	MOV A, @R0
+			MOV @R1, A
+			INC R1
+			INC R0
+			ACALL DELAY
+			DJNZ R5, HERE
+			
+			
+	DELAY:	
+	START:	MOV R4, #255
+	AGAIN:	MOV R3, #255
+	ONCE:	MOV R2, #255
+			DJNZ R2, ONCE
+			DJNZ R3, AGAIN
+			DJNZ R4, START
+			RET
+			
+			

@@ -1,0 +1,164 @@
+h1{
+    color: firebrick;
+    align-items: center;  
+    font-family: cursive;;
+/*    background-color: coral;*/
+}
+p{
+/*
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: normal;
+*/
+    font: normal 16px helvetica;
+    line-height: 1.6em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: black;
+    color: #fff;
+    border-right: 5px wheat solid;
+    border-bottom: 5px wheat solid;
+    border-top: 5px wheat solid;
+    border-left: 5px wheat solid;
+/*    border: 5px red solid;*/
+    border-width: 3px;
+    border-top-style: groove;
+    
+    padding-top:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    
+    padding: 5px;
+    
+    margin: 20px 0;
+   border-spacing: 5px 1rem;
+    border-collapse: separate;
+}
+.box-1 button{
+    color: white;
+    background-color: mediumvioletred;
+}
+.box-1 button:hover{
+    color: blanchedalmond;
+    background-color: red;
+}
+.box-1 button:active{
+    background-color: cornflowerblue;
+}
+.box-1 button:visited{
+    background-color: black;
+}
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    Letter-spacing:0.2em;
+    word-spacing: 1em;
+        
+}
+
+#bin:active{
+    background-color: aquamarine;
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+.box-2 h1{
+    background-color: black;
+}
+.box-2{
+    border: 6px dotted #ccc;
+    padding: 20px;
+    margin-top: 90px;
+    margin: 20px 0;
+    border-collapse: separate;
+    border-spacing: 5px 1rem;
+}
+
+.categories{
+    border: 1px, #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2{text-align: center}
+.categories ul{
+    padding: 0px;
+    list-style: armenian;
+    padding-left: 20px;
+        
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: rebeccapurple;
+}
+a:active{
+    color: goldenrod;
+}
+a:visited{
+    color: aqua;
+}
+.categories li{
+    padding-bottom:8px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('..image.jpg')
+}
+
+
+
+
+.myForm{
+    padding: 20px;
+}
+.myForm.form-group{
+    padding-bottom: 15px;
+}
+.myForm label{
+    display: block;
+}
+
+.myForm input[type="text"], .myForm textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.myForm.form{
+    background-color: blueviolet;
+    border-color: blue;
+    color: azure;
+    
+}
+
+
+.mn{
+    float:left;
+}
+#sidebar{
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    
+    
+}
+.clr{
+   clear: both;  
+}

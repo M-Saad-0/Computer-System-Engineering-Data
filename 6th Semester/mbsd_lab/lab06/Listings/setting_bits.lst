@@ -1,0 +1,48 @@
+A51 MACRO ASSEMBLER  SETTING_BITS                                                         04/02/2024 09:22:27 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\setting_bits.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE setting_bits.a51 SET(SMALL) DEBUG PRINT(.\Listings\setting_bits.lst) OB
+                      JECT(.\Objects\setting_bits.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00H
+0000 D296              2                             SETB P1.6
+0002 D297              3                             SETB P1.7
+                       4                             
+0004 20970B            5             L1:             JB P1.7, SETP10
+0007 C290              6                             CLR P1.0
+0009 8000              7                             SJMP NEXT
+                       8             
+000B 209608            9             NEXT:   JB P1.6, SETP17
+000E C297             10                             CLR P1.7
+0010 80F2             11                             SJMP L1
+                      12             
+0012 D290             13             SETP10: SETB P1.0
+0014 80F5             14                             SJMP NEXT
+                      15             
+0016 D297             16             SETP17: SETB P1.7
+0018 80EA             17                             SJMP L1
+                      18                             
+                      19     END
+A51 MACRO ASSEMBLER  SETTING_BITS                                                         04/02/2024 09:22:27 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+L1 . . . . . . . .  C ADDR   0004H   A   
+NEXT . . . . . . .  C ADDR   000BH   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+SETP10 . . . . . .  C ADDR   0012H   A   
+SETP17 . . . . . .  C ADDR   0016H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,362 @@
+    1  sudo apt install '/media/sd/2EB4BCFFB4BCCA9B/code_1.75.1-1675893397_amd64.deb' '/media/sd/2EB4BCFFB4BCCA9B/google-chrome-stable_current_amd64.deb' && sudo apt update && sudo apt upgrade
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  sudo add-apt-repository ppa:linrunner/tlp
+    5  sudo apt update
+    6  sudo apt install tlp tlp-rdw
+    7  sudo systemctl enable tlp.service
+    8  tlp
+    9  tlp start
+   10  sudo tlp start
+   11  sudo add-apt-repository ppa:danielrichter2007/grub-customizer && sudo apt-get update && sudo apt-get install grub-customizer
+   12  sudo apt install vlc
+   13  sudo apt update && sudo apt install vlc
+   14  poweroff
+   15  curl -fsSL https://fnm.vercel.app/install | bash
+   16  FNM
+   17  fnm
+   18  exit 
+   19  fnm install
+   20  eval "$(fnm env)"
+   21  fnm --version
+   22  cat .node-version
+   23  fnm install
+   24  fnm list
+   25  fnm list-remote
+   26  fnm install v20.6.1
+   27  cp manjaro-cin* /media/sd/Ventoy
+   28  ./VentoyGUI.x86_64
+   29  sudo apt update
+   30  sudo apt upgrade
+   31  node
+   32  clear
+   33  exit
+   34  cd Documents
+   35  lls
+   36  ls
+   37  clear
+   38  ls
+   39  clear
+   40  mkdir
+   41  mkdir react
+   42  mkdir r1
+   43  cd r1
+   44  npm init react-app .
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd react
+   49  cd r1
+   50  ls
+   51  cd ..
+   52  ls
+   53  cd react
+   54  npm init react-app r1
+   55  cd r1
+   56  npm start
+   57  code .
+   58  cd ../..
+   59  mkdir node
+   60  cd node
+   61  mkdir n1
+   62  cd n1
+   63  npm init --yes
+   64  ls
+   65  code .
+   66  note
+   67  note
+   68  npm link
+   69  note
+   70  npm link
+   71  note
+   72  ./note
+   73  note
+   74  which note
+   75  note
+   76  node *
+   77  npm link note
+   78  npm link
+   79  note
+   80  npm link --force
+   81  note
+   82  node * "This is notes"
+   83  go
+   84  clear
+   85  cd Downloads
+   86  ls
+   87  tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
+   88  sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
+   89  clear
+   90  exit
+   91  sudo apt update
+   92  sudo apt install tlp tlp-rdw
+   93  sudo tlp start
+   94  sudo systemctl enable tlp
+   95  sudo tlp status
+   96  sudo tlp start
+   97  go
+   98  sudo nano ~/.bashrc
+   99  source ~/.bashrc
+  100  go
+  101  clear
+  102  poweroff
+  103  npm i yargs
+  104  node index.js "This is my notes"
+  105  node index.js new "This is my notes"
+  106  node index.js all
+  107  node index.js "ok or not"
+  108  node index.js "should not get nothing"
+  109  node index.js new "should not get nothing"
+  110  node index.js new "ok or not"
+  111  node index.js filter "ok"
+  112  node index.js find "ok"
+  113  node index.js remove 1696009937593
+  114  clear
+  115  node index.js clean
+  116  npm link .
+  117  note
+  118  notes
+  119  npm link
+  120  note
+  121  note all
+  122  note new "I will be a very good programmer one day inshallah." --tags "dreams"
+  123  note all
+  124  note
+  125  note all
+  126  npm i jest --save-dev
+  127  npm test
+  128  node server.js
+  129  npm i open
+  130  node ./src/server.js
+  131  note web
+  132  note all
+  133  note remove 1696010905035
+  134  note all
+  135  note new "I am having an urge but I am not going to do anything because I am lost already and when I do that, it makes things worse. I know I feel after doing. So I am not going to do that. I will stop myself at all cost. It might not give me anything but it saves me from a lot of sorries and pain."
+  136  clear
+  137  note all
+  138  note remove 1696132900727
+  139  note new "I am having an urge but I am not going to do anything because I am lost already and when I do that, it makes things worse. I know I feel after doing. So I am not going to do that. I will stop myself at all cost. It might not give me anything but it saves me from a lot of sorries and pain.
+  140  " --tag "goals,hopes,dreams"
+  141  note all
+  142  note new "I am having an urge but I am not going to do anything because I am lost already and when I do that, it makes things worse. I know I feel after doing. So I am not going to do that. I will stop myself at all cost. It might not give me anything but it saves me from a lot of sorries and pain.
+  143  " --tag "goals,hopes,dreams"
+  144  note all
+  145  note remove all
+  146  note removeall
+  147  note all
+  148  clear
+  149  note all
+  150  note remove 1696133082994
+  151  clear
+  152  claear
+  153  exit
+  154  man script
+  155  history
+  156  man script
+  157  man ps
+  158* 
+  159  ls
+  160  ls -l
+  161  clear
+  162  finger
+  163  who
+  164  w
+  165  who
+  166  clear
+  167  touch file.js
+  168  nano *.js
+  169  node *.js
+  170  rm -rf *.js
+  171  umask
+  172  umask 777
+  173  umask 000
+  174  ls -l
+  175  clear
+  176  clrart
+  177  clear
+  178  clar
+  179  clrar
+  180  clear
+  181  top
+  182  clear
+  183  sort
+  184  ls
+  185  awk
+  186  man awk
+  187  gcc
+  188  gccc
+  189  clear
+  190  grep l
+  191  grep "l"
+  192  who
+  193  who | grep sd
+  194  who | grep s
+  195  who | grep d
+  196  top | grep terminal
+  197  top
+  198  ls | grep w
+  199  ls | grep sd
+  200  who | grep sd
+  201  top | grep ksmd
+  202  top | grep fire
+  203  man grep | grep -c
+  204  man grep
+  205  ls | grep D -wc
+  206  ls | grep D -c
+  207  ls | grep D
+  208  ls | grep D -c
+  209  top | grep D -c
+  210  ps | grep D -c
+  211  ps | grep D 
+  212  ps | grep 0 
+  213  ps | grep echo 
+  214  echo "sdgdsfhg"
+  215  echo Download
+  216  clear
+  217  echo file.js "sdgdsfhg"
+  218  ls
+  219  touch file.js
+  220  echo file.js "sdgdsfhg"
+  221  ls
+  222  nano file.js
+  223  echo file.js "sdgdsfhgsddgdf"
+  224  echo file.js > "sdgdsfhgsddgdf"
+  225  nano file.js
+  226  echo file.js | "sdgdsfhgsddgdf"
+  227  cat "sdgdsfhgsddgdf" | echo *.js
+  228  nano file.js
+  229  cat file.js > "siugfhiuerhg"
+  230  nano file.js
+  231  cat file.js | echo "siugfhiuerhg"
+  232  nano file.js
+  233  clear
+  234  nano file.js
+  235  cat file.js
+  236  echo "usdngj"
+  237  echo "usdngj" > cat 
+  238  echo "usdngj" > file.js
+  239  cat file.js
+  240  echo "console.log("hsjfhuidshivnsdjivhiuehg")" > file.js
+  241  cat file.js
+  242  echo "co" > file.js
+  243  cat file.js
+  244  nano file.js
+  245  xed file.js
+  246  man touch
+  247  man ln
+  248  ls
+  249  ln file.js file2
+  250  ls
+  251  nano file2
+  252  nano file.js
+  253* 
+  254  nano file.js
+  255  rm -rf file.js
+  256  nano file2
+  257  ls
+  258  rm -rf file2
+  259  lsw
+  260  ls
+  261  ,ls
+  262  ls
+  263  mkdir cse302
+  264  cd sce302
+  265  cd cse302
+  266* 
+  267  cd labs
+  268  mkdir lab1
+  269  cd lab1
+  270  touch myfile.txt
+  271  nano *
+  272  ln myfile.txt -s 
+  273* ln myfile.txt -s file2.txt
+  274  ls
+  275  ln myfile.txt file1.txt
+  276  ls
+  277  nano file2.txt
+  278  rm -rf myfile.txt
+  279  ls
+  280  nano file2.txt
+  281  touch myfile.txt
+  282  ls
+  283  nano file1.txt
+  284  nano myfile.txt
+  285  echo cat file1.txt > myfile.txt
+  286  nano myfile*
+  287  echo {cat file1.txt} > myfile.txt
+  288  nano myfile*
+  289  nano file2.txt
+  290  nano myfile*
+  291  nano file2.txt
+  292  nano myfile*
+  293  nano file1.*
+  294  ls -l
+  295  ls
+  296  ln myfile.txt file1.txt
+  297  ln myfile.txt file1.txt -r
+  298  ln myfile.txt file1.txt
+  299  ls
+  300  clear
+  301  ls
+  302  ls -l
+  303  ls
+  304  sudo nano ~/.profile
+  305  $PATH
+  306  sudo nano ~/.profile
+  307  CLEAR
+  308  clear
+  309  history
+  310  ps -a | tr "\n"
+  311  man tr
+  312  ps -a | tr -d "\n"
+  313  ps -l | tr -d "\n"
+  314  aw
+  315  ps -l | tr -d "\n"
+  316  ps -l
+  317  ps -l | awk{print $2} |  tr -d "\n" 
+  318  ps -l | awk {print $2} |  tr -d "\n" 
+  319  ps -x
+  320  ps -x | awk {print $1} |  tr -d "\n" 
+  321  ps -x | awk {print$1} |  tr -d "\n" 
+  322  ps -x | awk {print$1}' |  tr -r "\n" ","
+  323  ps -x | awk '{print$1}' |  tr -r "\n" ","
+  324  ps -x | awk '{print$1}' |  tr "\n" ","
+  325  ps -x
+  326  ps -x | awk '{print$1}' |  tr "\n" ","who
+  327  ps -x | awk '{print$1}' |  tr "\n" ","
+  328  who
+  329  who | awk '{print$1}' |  tr "\n" ","
+  330  who | awk '{print$1;print$3}' |  tr "\n" ","
+  331  who | awk '{print$1;print$3;print$2}' |  tr "\n" ","
+  332  who | awk '{print$1;print$3;print$"\n"' |  tr "\n" ","
+  333  who | awk '{print$1;print$3;print"\n"' |  tr "\n" ","
+  334  who | awk '{print$1;print$3;print\n' |  tr "\n" ","
+  335  who | awk '{print$1;print$3;print("\n")' |  tr "\n" ","
+  336  who | awk '{print$1,$3}' |  tr "\n" ","
+  337  sort | who | awk '{print$1,$3}' |  tr "\n" ","
+  338  who | awk '{print$1,$3}' |  tr "\n" "," | sort
+  339  who | awk '{print$1,$3}' |  tr "\n" "," 
+  340  who | awk '{print$1,$3}' |  tr "\n" "," | sort
+  341  man sort
+  342  who | <awk '{print$1,$3}'> |  tr "\n" "," | sort
+  343  who | awk '{print"<"$1">","<"$3">"}' |  tr "\n" "," | sort
+  344  who | awk '{print"<"$1">""<"$3">"}' |  tr "\n" "," | sort
+  345  who | awk '{print"<"$1">" "<"$3">"}' |  tr "\n" "," | sort
+  346  man sort
+  347  who | awk '{print"<"$1">" "<"$3">"}' |  tr "\n" "," | sort
+  348  ls
+  349  echo file2.txt > history
+  350  nano file2.txt
+  351  cat file2.txt > history
+  352  nano file2.txt
+  353  cat history > file2.txt
+  354  nano file2.txt
+  355  cat history 
+  356  ls
+  357  rm -rf history
+  358  history
+  359  history | cat > file2.txt
+  360  nano file2.txt
+  361  history | cat 
+  362  history | cat > file2.txt

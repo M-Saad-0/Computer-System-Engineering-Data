@@ -1,0 +1,1 @@
+"mem_addr.a51" SET (SMALL) DEBUG PRINT(.\Listings\mem_addr.lst) OBJECT(.\Objects\mem_addr.obj) EP

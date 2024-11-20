@@ -1,0 +1,15 @@
+t = 0:0.05:3;
+p = -0.4;
+w = 2*p*(1250);
+A = 3;
+x = A*exp(1j*(w*t + p));
+subplot(2,1,1);
+plot(t, real(x));
+title('Real part of Exponential Signal');
+xlabel('x-axis');
+ylabel('Signal Amplitude');
+subplot(2,1,2);
+plot(t, imag(x));
+title('Imaginary part of Exponential Signal');
+xlabel('x-axis');
+ylabel('Signal Amplitude');

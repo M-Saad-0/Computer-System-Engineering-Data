@@ -1,0 +1,11 @@
+de = 3.33;
+cp = 3.67;
+cpL = 3.67;
+cs1 = 3.33;
+cs1L = 3.00;
+cps = 2.67;
+edg = 3.33;
+edgL = 3.33;
+ps = 3.00;
+CGPA = ((de + cp + cs1)*3 + (cpL + edgL + cs1L) + (ps + cps + edg)*2)/18;
+fprintf('CGPA is: %i' , CGPA);

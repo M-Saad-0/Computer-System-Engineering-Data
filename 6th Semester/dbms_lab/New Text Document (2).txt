@@ -1,0 +1,6 @@
+ikram@gmail.com password
+afnan@gnail.com	password
+usman@gmail.com	password
+imran@gmail.com	password
+
+amin@gmail.com	password

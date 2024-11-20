@@ -1,0 +1,35 @@
+A51 MACRO ASSEMBLER  TSK2                                                                 02/24/2024 23:21:34 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\tsk2.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE tsk2.a51 SET(SMALL) DEBUG PRINT(.\Listings\tsk2.lst) OBJECT(.\Objects\t
+                      sk2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00H
+0000                   2     HERE:
+0000 759080            3             MOV P1,#80H
+0003 75A001            4             MOV P2,#01H
+0006 75B002            5             MOV P3,#02H
+0009 80F5              6             SJMP HERE
+                       7     END
+A51 MACRO ASSEMBLER  TSK2                                                                 02/24/2024 23:21:34 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+HERE . . . . . . .  C ADDR   0000H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+P3 . . . . . . . .  D ADDR   00B0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

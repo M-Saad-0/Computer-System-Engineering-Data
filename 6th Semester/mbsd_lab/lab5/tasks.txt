@@ -1,0 +1,65 @@
+//**task1**
+#include <reg51.h>
+void delay()
+{
+int i=0;
+for(i=0; i<1000000; i++)
+{
+}
+}
+void main()
+{
+P1 = 0x19;
+delay();
+}
+
+
+
+//**task2**
+#include <reg51.h>
+void delay()
+{
+int i=0;
+for(i=0; i<1000000; i++)
+{
+}
+}
+void main()
+{
+P1 = 0x40;
+delay();
+}
+
+
+//**task3**
+#include <reg51.h>
+void delay()
+{
+int i=0;
+for(i=0; i<10000; i++)
+{
+}
+}
+void main()
+{
+P1 = 0x40;
+delay();
+P1 = 0x79;
+delay();
+P1 = 0x24;
+delay();
+P1 = 0x30;
+delay();
+P1 = 0x19;
+delay();
+P1 = 0x12;
+delay();
+P1 = 0x02;
+delay();
+P1 = 0x78;
+delay();
+P1 = 0x00;
+delay();
+P1 = 0x10;
+delay();
+}

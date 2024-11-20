@@ -1,0 +1,209 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    05/25/2024  21:59:18  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\l11task.obj TO .\Objects\lab8 PRINT (.\Listings\lab8.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\l11task.obj (L11TASK)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?COPY)
+
+
+LINK MAP OF MODULE:  .\Objects\lab8 (L11TASK)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0017H     UNIT         _DATA_GROUP_
+            IDATA   001FH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     00F6H     UNIT         ?C?LIB_CODE
+            CODE    08F6H     0069H     UNIT         ?PR?MAIN?L11TASK
+            CODE    095FH     0031H     UNIT         ?PR?_CONVERT_DISPLAY?L11TASK
+            CODE    0990H     0028H     UNIT         ?PR?_DELAY?L11TASK
+            CODE    09B8H     0012H     UNIT         ?CO?L11TASK
+            CODE    09CAH     000CH     UNIT         ?C_C51STARTUP
+            CODE    09D6H     000AH     UNIT         ?PR?_CMDWRT?L11TASK
+            CODE    09E0H     000AH     UNIT         ?PR?_DATAWRT?L11TASK
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab8 (L11TASK)
+
+
+SEGMENT                                DATA_GROUP 
+  +--> CALLED SEGMENT                START    LENGTH
+----------------------------------------------------
+?C_C51STARTUP                        -----    -----
+  +--> ?PR?MAIN?L11TASK
+
+?PR?MAIN?L11TASK                     0008H    0014H
+  +--> ?CO?L11TASK
+  +--> ?PR?_CMDWRT?L11TASK
+  +--> ?PR?_DELAY?L11TASK
+  +--> ?PR?_CONVERT_DISPLAY?L11TASK
+
+?PR?_CMDWRT?L11TASK                  -----    -----
+  +--> ?PR?_DELAY?L11TASK
+
+?PR?_CONVERT_DISPLAY?L11TASK         001CH    0003H
+  +--> ?PR?_CMDWRT?L11TASK
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/25/2024  21:59:18  PAGE 2
+
+
+  +--> ?PR?_DATAWRT?L11TASK
+
+?PR?_DATAWRT?L11TASK                 -----    -----
+  +--> ?PR?_DELAY?L11TASK
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab8 (L11TASK)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        L11TASK
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  C:0998H         PUBLIC        _delay
+  C:09D6H         PUBLIC        _cmdwrt
+  C:08F6H         PUBLIC        main
+  C:09B8H         SYMBOL        _?ix1000
+  C:09BDH         SYMBOL        _?ix1001
+  B:00B0H.2       PUBLIC        intr_adc
+  B:00B0H.6       PUBLIC        en
+  B:00B0H.0       PUBLIC        rd_adc
+  C:095FH         PUBLIC        _convert_display
+  B:00B0H.7       PUBLIC        rs
+  B:00A0H.6       PUBLIC        rw
+  B:00B0H.1       PUBLIC        wr_adc
+  C:09E0H         PUBLIC        _datawrt
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        i
+  D:0009H         SYMBOL        cmd
+  D:000EH         SYMBOL        data1
+  D:001BH         SYMBOL        value
+  -------         ENDDO         
+  C:08F6H         LINE#         29
+  C:08F6H         LINE#         31
+  C:08F6H         LINE#         35
+  C:0909H         LINE#         37
+  C:091CH         LINE#         43
+  C:091FH         LINE#         45
+  C:0922H         LINE#         49
+  C:0924H         LINE#         51
+  C:0924H         LINE#         53
+  C:092EH         LINE#         55
+  C:0931H         LINE#         57
+  C:093AH         LINE#         65
+  C:093CH         LINE#         67
+  C:093EH         LINE#         69
+  C:0940H         LINE#         73
+  C:0940H         LINE#         75
+  C:0940H         LINE#         77
+  C:0942H         LINE#         79
+  C:0945H         LINE#         81
+  C:0947H         LINE#         83
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/25/2024  21:59:18  PAGE 3
+
+
+  C:094AH         LINE#         85
+  C:094CH         LINE#         87
+  C:094FH         LINE#         89
+  C:0954H         LINE#         91
+  C:095BH         LINE#         93
+  C:095DH         LINE#         95
+  -------         ENDPROC       MAIN
+  -------         PROC          _CMDWRT
+  D:0007H         SYMBOL        x
+  C:09D6H         LINE#         101
+  C:09D6H         LINE#         103
+  C:09D6H         LINE#         105
+  C:09D8H         LINE#         107
+  C:09DAH         LINE#         109
+  C:09DAH         LINE#         111
+  C:09DAH         LINE#         113
+  C:09DDH         LINE#         115
+  C:09DFH         LINE#         117
+  -------         ENDPROC       _CMDWRT
+  -------         PROC          _DATAWRT
+  D:0007H         SYMBOL        y
+  C:09E0H         LINE#         119
+  C:09E0H         LINE#         121
+  C:09E0H         LINE#         123
+  C:09E2H         LINE#         125
+  C:09E4H         LINE#         127
+  C:09E4H         LINE#         129
+  C:09E4H         LINE#         131
+  C:09E7H         LINE#         133
+  C:09E9H         LINE#         135
+  -------         ENDPROC       _DATAWRT
+  -------         PROC          _CONVERT_DISPLAY
+  D:001CH         SYMBOL        value
+  -------         DO            
+  D:0007H         SYMBOL        x1
+  D:001DH         SYMBOL        x2
+  D:001EH         SYMBOL        x3
+  -------         ENDDO         
+  C:095FH         LINE#         137
+  C:0961H         LINE#         139
+  C:0961H         LINE#         145
+  C:0966H         LINE#         149
+  C:096CH         LINE#         150
+  C:096EH         LINE#         151
+  C:0971H         LINE#         153
+  C:097AH         LINE#         154
+  C:097AH         LINE#         155
+  C:0980H         LINE#         157
+  C:0983H         LINE#         159
+  C:0986H         LINE#         160
+  C:098BH         LINE#         161
+  -------         ENDPROC       _CONVERT_DISPLAY
+  C:0994H         SYMBOL        L?0022
+  -------         PROC          L?0021
+  -------         ENDPROC       L?0021
+  C:0994H         SYMBOL        L?0022
+  -------         PROC          _DELAY
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/25/2024  21:59:18  PAGE 4
+
+
+  D:0006H         SYMBOL        z
+  -------         DO            
+  D:0004H         SYMBOL        p
+  D:0002H         SYMBOL        q
+  -------         ENDDO         
+  C:0998H         LINE#         166
+  C:0998H         LINE#         168
+  C:0998H         LINE#         172
+  C:09A2H         LINE#         174
+  C:09A2H         LINE#         176
+  C:09B0H         LINE#         178
+  C:09B7H         LINE#         180
+  -------         ENDPROC       _DELAY
+  -------         ENDMOD        L11TASK
+
+  -------         MODULE        ?C?COPY
+  C:08D0H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00E8H BYTE (11%) *
+******************************************************************************
+
+Program Size: data=32.0 xdata=0 code=493
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

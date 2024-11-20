@@ -1,0 +1,1 @@
+This is a text written for question 5 in assignment 1. The filename is sent by the client and the data in that file is sent by the server using fifo.

@@ -1,0 +1,23 @@
+* C:\Users\p\Documents\lab9and10.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Jun 07 06:04:13 2022
+
+
+
+** Analysis setup **
+.OP 
+.OP
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "lab9and10.net"
+.INC "lab9and10.als"
+
+
+.probe
+
+
+.END

@@ -1,0 +1,10 @@
+solved =>google account -> email not set as doc id
+solved =>google account -> login not working correctly
+solved =>simple login also not working -> All problem are due to firestore snapstop not used correctly
+solved =>changing theme does work
+solved =>cannot set price
+payment has to be implemented
+solved =>delete account
+email verification
+solved =>splashscreen->push
+solved =>isDarkMode does not work

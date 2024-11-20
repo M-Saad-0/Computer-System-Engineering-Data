@@ -1,0 +1,13 @@
+x = -2:0.005:2;
+y1 = sin(x*pi+pi/2);
+y2 = cos(x*pi+0);
+subplot(2, 1, 1);
+plot(x, y1, 'linewidth', 2);
+xlabel('Time Interval');
+ylabel('Amplitude');
+title('sin wave phase angle \pi/2');
+subplot(2, 1, 2);
+plot(x, y2, 'linewidth', 2);
+xlabel('Time Interval');
+ylabel('Amplitude');
+title('cos wave phase angle \pi/2');

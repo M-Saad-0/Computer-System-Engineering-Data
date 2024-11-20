@@ -1,0 +1,88 @@
+<!--
+<script>
+    var num;
+    prompt(num);
+    var n=Math.floor(Math.random()*3);
+    document.write(n);
+    if(num==n)
+    {
+        documen.write("Youare the lukiest person alive");
+    }
+    else
+        {
+            document.write("Try again by refreshing the page");
+        }
+</script>-->
+<!--
+<script>
+    function ourRange(ourMin, ourMax)
+    {
+        return Math.floor(Math.random()*(ourMax-ourMin))+ourMin;
+    }
+    
+    document.write(ourRange(100, 115));
+</script>-->
+<!--
+<script>
+    function convertToInteger(str)
+    {
+        return parseInt(str);
+    }
+    console.log(convertToInteger("4"));
+    
+    function convertToInt(str)
+    {
+        return parseInt(str, 2);//conversion biniary into integer
+    }
+    console.log(convertToInt("1001011001010110"));
+</script>-->
+<!--
+<script>
+    //let and var
+    var catName="Quincy";
+    let quote;
+    let catName="Beau";//let does not enable us to declare a variable twice that is why this code will not run. Also let is blocke scoped and var is function scoped which let cannot be accessed outside if or for blocks while if var is used inside a function it can be used anywhere in the function
+    function catTalk()
+    {
+        "use strict";//strict mode catcch coding mistakes like using a variable without declaring it
+        catName="Oliver";
+        quote=catName+"says Meow!";
+    }
+    catTalk();
+</script>-->
+<!--
+<script>
+    function pritManyTimes(str)
+    {
+        "use strict";
+        const SENTENCES = str + " is cool!";//you can intialize const only once  it is comma=on to const with capitals
+        for(var i=0; i<str.length; i+=2)
+            {
+                console.log(SENTENCES);
+            }
+    }
+    pritManyTimes("Constant");
+</script>-->
+<!--
+
+<script>
+    function freezObj()
+    {
+        "use strict";
+        const MATH_CONSTANT=
+              {
+                  PI:3.14
+              };
+        Object.freeze(MATH_CONSTANT);//if you want to freeze a constant type
+        try{
+            MATH_CONSTANT=99;
+        }
+            catch(ex){
+            console.log(ex);
+        }
+            return MATH_CONSTANT.PI;
+        }
+    console.log(freezObj());
+    
+    
+</script>-->

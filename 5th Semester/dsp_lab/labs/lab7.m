@@ -1,0 +1,61 @@
+fs = 1000;
+t = 0:1/fs:0.2;
+carrierfreq = 200;
+f1 = 30;
+f2 = 60;
+fdev = 50;
+fdevl = 100;
+
+x1 = sin(2*pi*f1*t);
+x2 = sin(2*pi*f2*t);
+x = x1 + x2;
+carrier_signal = sin(2*pi*carrierfreq*t);
+mod_signal = fmmod(x, carrierfreq, fs, fdev);
+mod_signal_2 = fmmod(x, carrierfreq, fs, fdevl);
+demod_signal = fmdemod(mod_signal, carrierfreq, fs, fdev);
+
+figure(1);
+hold on;
+plot(t, x, 'k', 'LineWidth', 2);
+plot(t, carrier_signal, 'b', 'LineWidth', 2);
+hold off;
+xlabel('Time (seconds)');
+ylabel('Amplitude');
+title('Original and Carrier Signals');
+legend('Original Signal', 'Carrier Signal');
+grid on;
+
+figure(2);
+hold on;
+plot(t, x, 'c', 'LineWidth', 2);
+plot(t, mod_signal, 'g', 'LineWidth', 2);
+hold off;
+axis([0, 0.2, -4, 4]);
+xlabel('Time (seconds)');
+ylabel('Amplitude');
+title('Original and Modulated Signals');
+legend('Original Signal', 'Modulated Signal (fdev=50)');
+grid on;
+
+figure(3);
+hold on;
+plot(t, x, 'm', 'LineWidth', 2);
+plot(t, mod_signal_2, 'r', 'LineWidth', 2);
+hold off;
+axis([0, 0.2, -4, 4]);
+xlabel('Time (seconds)');
+ylabel('Amplitude');
+title('Original and Modulated Signals');
+legend('Original Signal', 'Modulated Signal (fdev=100)');
+grid on;
+
+figure(4);
+hold on;
+plot(t, x, 'r', 'LineWidth', 2);
+plot(t, demod_signal, 'k', 'LineWidth', 2);
+hold off;
+xlabel('Time (seconds)');
+ylabel('Amplitude');
+title('Original and Demodulated Signals');
+legend('Original Signal', 'Demodulated Signal (fdev=50)');
+grid on;

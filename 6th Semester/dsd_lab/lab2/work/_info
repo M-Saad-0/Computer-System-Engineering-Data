@@ -1,0 +1,469 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vbuffer
+Z0 !s110 1708844523
+!i10b 1
+!s100 dn?`OzmPdEM@SH0441O0R2
+IDS`X<a<bHnmh5]KH[F22S0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/University/semester6/dsd_lab/lab2
+Z3 w1708841030
+Z4 8F:/University/semester6/dsd_lab/lab2/lab01.v
+Z5 FF:/University/semester6/dsd_lab/lab2/lab01.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1708844523.000000
+Z8 !s107 F:/University/semester6/dsd_lab/lab2/lab01.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|F:/University/semester6/dsd_lab/lab2/lab01.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vbufferTB
+R0
+!i10b 1
+!s100 CUn5KY[@d1_MY>=`CL0gW2
+ITZfe5UoCAfSY3^BY8X02o0
+R1
+R2
+R3
+R4
+R5
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nbuffer@t@b
+vCarry
+Z12 !s110 1708844522
+!i10b 1
+!s100 cFAeR:IQI@nGQAPkM8?D^3
+IFI[O<N@ZC>a>YA5U1?:?80
+R1
+R2
+Z13 w1708505763
+Z14 8F:/University/semester6/dsd_lab/lab2/l2t1.v
+Z15 FF:/University/semester6/dsd_lab/lab2/l2t1.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z16 !s108 1708844522.000000
+Z17 !s107 F:/University/semester6/dsd_lab/lab2/l2t1.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|F:/University/semester6/dsd_lab/lab2/l2t1.v|
+!i113 1
+R10
+R11
+n@carry
+vequation
+R0
+!i10b 1
+!s100 <FiPKPXiGE?RLlodj;8Jc0
+I;ki6amjmF^1fXnACIckOR3
+R1
+R2
+R3
+R4
+R5
+L0 69
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vequationTB
+R0
+!i10b 1
+!s100 bO<YMY@DX`<`PXdSI120M2
+If;VXZ5MDGaUg`GGZ9g_BA2
+R1
+R2
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nequation@t@b
+vFA_beha
+R0
+!i10b 1
+!s100 VDcP=oi2ZTUbW<>m:3Jj>1
+Ic0;BITE@ElRhSFjVKi@992
+R1
+R2
+w1708507488
+8F:/University/semester6/dsd_lab/lab2/FA_be.v
+FF:/University/semester6/dsd_lab/lab2/FA_be.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 F:/University/semester6/dsd_lab/lab2/FA_be.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/University/semester6/dsd_lab/lab2/FA_be.v|
+!i113 1
+R10
+R11
+n@f@a_beha
+vFA_DataFlow_TB
+R12
+!i10b 1
+!s100 Ok09KSPDX>ilbagU]lfYK2
+ICDQW^km2@NbURNZNTn3jF0
+R1
+R2
+Z19 w1708844158
+Z20 8F:/University/semester6/dsd_lab/lab2/fullAdder.v
+Z21 FF:/University/semester6/dsd_lab/lab2/fullAdder.v
+Z22 L0 10
+R6
+r1
+!s85 0
+31
+R16
+Z23 !s107 F:/University/semester6/dsd_lab/lab2/fullAdder.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|F:/University/semester6/dsd_lab/lab2/fullAdder.v|
+!i113 1
+R10
+R11
+n@f@a_@data@flow_@t@b
+vfTB
+!s110 1708843909
+!i10b 1
+!s100 4I1C_NSU<l1[C>L2Gd`;a3
+I9S?Uf4[FBRbj^D?SF=TJG1
+R1
+R2
+w1708843158
+R20
+R21
+R22
+R6
+r1
+!s85 0
+31
+!s108 1708843909.000000
+R23
+R24
+!i113 1
+R10
+R11
+nf@t@b
+vfullAdder
+R12
+!i10b 1
+!s100 kEIRcV6OiYIX`4iX22eQc2
+IM^IOa8aGhSfSI`24:UzT81
+R1
+R2
+R19
+R20
+R21
+L0 1
+R6
+r1
+!s85 0
+31
+R16
+R23
+R24
+!i113 1
+R10
+R11
+nfull@adder
+vHA
+R12
+!i10b 1
+!s100 ^2lTO1HX<3bm>:7[Fc4k00
+IZZ;f;BT7Qb3UZO^PF>^n22
+R1
+R2
+R13
+R14
+R15
+Z25 L0 13
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@h@a
+vHA1
+!s110 1708505281
+!i10b 1
+!s100 2M24k]oB4mkj=m1J0Rk<a2
+ISjbS8mgYIEdW^Z<;_C`Ih3
+R1
+R2
+w1708502646
+R14
+R15
+L0 20
+R6
+r1
+!s85 0
+31
+!s108 1708505280.000000
+R17
+R18
+!i113 1
+R10
+R11
+n@h@a1
+vinverter
+R0
+!i10b 1
+!s100 C5Dl5e<3gb30XV?QBYah^3
+IMMB2NM>Ne0Z[Vo4:=T?Ro3
+R1
+R2
+R3
+R4
+R5
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vinverterTB
+R0
+!i10b 1
+!s100 ja7km7PaA[iHhU[eI:9XN3
+Ij;QDf60SLeCN@z>YNii7M0
+R1
+R2
+R3
+R4
+R5
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+ninverter@t@b
+vorUnand
+R0
+!i10b 1
+!s100 nbbbfzhE1_BQcY^XJ<7Uc2
+I=OXD6Kb7D<ZN;Ro@I`bWT2
+R1
+R2
+R3
+R4
+R5
+L0 46
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nor@unand
+vorUnandTB
+R0
+!i10b 1
+!s100 c:MbbGD3d@44CPNm8gZ=f1
+IMjd:?4`36Bmg8zJS:@QVj0
+R1
+R2
+R3
+R4
+R5
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nor@unand@t@b
+vrca4_DataFlow_TB
+R12
+!i10b 1
+!s100 MhOl^RNm[1W14L6kHE>==3
+IlF<NB[alA8b_0ZJ=D3]432
+R1
+R2
+w1708844503
+Z26 8F:/University/semester6/dsd_lab/lab2/l2t2TB.v
+Z27 FF:/University/semester6/dsd_lab/lab2/l2t2TB.v
+L0 1
+R6
+r1
+!s85 0
+31
+R16
+Z28 !s107 F:/University/semester6/dsd_lab/lab2/l2t2TB.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|F:/University/semester6/dsd_lab/lab2/l2t2TB.v|
+!i113 1
+R10
+R11
+nrca4_@data@flow_@t@b
+vrca4TB
+!s110 1708844176
+!i10b 1
+!s100 nU`aI_LS^FWWeMDjn_CNe1
+I4HQd<1jaZIg=X5_[n2IR40
+R1
+R2
+w1708843904
+R26
+R27
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1708844176.000000
+R28
+R29
+!i113 1
+R10
+R11
+nrca4@t@b
+vrippleCarryAdder
+R12
+!i10b 1
+!s100 7UiCZD1JWV3J9Hh0=@8MA0
+IJe0K`2ie4nBUeWcm2m6jI0
+R1
+R2
+Z30 w1708507578
+Z31 8F:/University/semester6/dsd_lab/lab2/rippleCarryAdder.v
+Z32 FF:/University/semester6/dsd_lab/lab2/rippleCarryAdder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R16
+Z33 !s107 F:/University/semester6/dsd_lab/lab2/rippleCarryAdder.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|F:/University/semester6/dsd_lab/lab2/rippleCarryAdder.v|
+!i113 1
+R10
+R11
+nripple@carry@adder
+vrippleCarryAdderBe
+R12
+!i10b 1
+!s100 ?ganVGf1^UO9HX<CCV5_81
+I<LgSM3MP6z5C8b@G]>5=^3
+R1
+R2
+R30
+R31
+R32
+R25
+R6
+r1
+!s85 0
+31
+R16
+R33
+R34
+!i113 1
+R10
+R11
+nripple@carry@adder@be
+vrippleCarryAdderTestBench
+!s110 1708843878
+!i10b 1
+!s100 :OPoH9NFgnS>dhB[VXGd30
+IjPTcMeNWKOR`Ac9W9oERa3
+R1
+R2
+w1708843874
+R26
+R27
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1708843878.000000
+R28
+R29
+!i113 1
+R10
+R11
+nripple@carry@adder@test@bench
+vSum
+R12
+!i10b 1
+!s100 WTQYRCFT;@k0UT[HBlRE?0
+IZQ@Sg]FZ_YUjbGRnJT?]32
+R1
+R2
+R13
+R14
+R15
+L0 7
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@sum

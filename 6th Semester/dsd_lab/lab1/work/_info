@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/semester_5/coa_lab/project
+vbuffer
+Z0 !s110 1707883429
+!i10b 1
+!s100 UCYS89XM_02E66PBn245>2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2h>W35C`XagC1g09n1SmF0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/semester6/dsd_lab/lab1
+w1707879743
+8D:/University/semester6/dsd_lab/lab1/buffer.v
+FD:/University/semester6/dsd_lab/lab1/buffer.v
+!i122 30
+L0 1 5
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1707883428.000000
+!s107 D:/University/semester6/dsd_lab/lab1/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsd_lab/lab1/buffer.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vbufferTB
+R0
+!i10b 1
+!s100 1g4IE@bWiFCjR^QZcPCz@1
+R1
+IFAZLHzfBaP1@Cn]O>b>:71
+R2
+R3
+w1707880590
+8D:/University/semester6/dsd_lab/lab1/bufferTB.v
+FD:/University/semester6/dsd_lab/lab1/bufferTB.v
+!i122 31
+L0 1 12
+R4
+r1
+!s85 0
+31
+Z7 !s108 1707883429.000000
+!s107 D:/University/semester6/dsd_lab/lab1/bufferTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsd_lab/lab1/bufferTB.v|
+!i113 1
+R5
+R6
+nbuffer@t@b
+vOR
+R0
+!i10b 1
+!s100 l3dgY[Z:amX3iERgOSWDc0
+R1
+Ia?9?c?hokQa?e[TSQTcBb3
+R2
+R3
+w1707881831
+8D:\University\semester6\dsd_lab\lab1\orGate.v
+FD:\University\semester6\dsd_lab\lab1\orGate.v
+!i122 32
+L0 1 8
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:\University\semester6\dsd_lab\lab1\orGate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\University\semester6\dsd_lab\lab1\orGate.v|
+!i113 1
+R5
+R6
+n@o@r
+vORtb
+!s110 1707883430
+!i10b 1
+!s100 L>mo;F_e29R5V`YBbiCD01
+R1
+IzSMTbY_IP<^kfVEC3=Kk<0
+R2
+R3
+w1707882041
+8D:\University\semester6\dsd_lab\lab1\orGateTB.v
+FD:\University\semester6\dsd_lab\lab1\orGateTB.v
+!i122 33
+L0 1 15
+R4
+r1
+!s85 0
+31
+R7
+!s107 D:\University\semester6\dsd_lab\lab1\orGateTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\University\semester6\dsd_lab\lab1\orGateTB.v|
+!i113 1
+R5
+R6
+n@o@rtb

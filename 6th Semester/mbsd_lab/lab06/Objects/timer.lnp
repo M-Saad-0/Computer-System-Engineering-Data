@@ -1,0 +1,9 @@
+".\Objects\STARTUP.obj",
+".\Objects\delay.obj",
+".\Objects\copying_80_bits.obj",
+".\Objects\adding_4_bites.obj",
+".\Objects\bcd_addition.obj",
+".\Objects\setting_bits.obj",
+".\Objects\mem_addr.obj" 
+TO ".\Objects\timer" 
+PRINT(".\Listings\timer.m51")

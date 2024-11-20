@@ -1,0 +1,188 @@
+# Compile of BEHAV_CIRCUIT.v was successful.
+# Compile of COUNTER.v was successful.
+# Compile of DATAFLOW_CIRCUIT.v was successful.
+# Compile of MUX81.v was successful.
+# Compile of PISO.v was successful.
+# Compile of STRUCT_CIRCUIT.v was successful.
+# Compile of TB_DATAFLOW_CIRCUIT.v was successful.
+# Compile of TB_PISO.v was successful.
+# Compile of TB_TOP.v was successful.
+# Compile of TOP.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.TOP
+# vsim -gui work.TOP 
+# Start time: 22:38:15 on Apr 06,2024
+# Loading work.TOP
+# Loading work.COUNTER
+# Loading work.MUX81
+add wave -position insertpoint  \
+sim:/TOP/CLOCK
+run
+run
+run
+run
+run
+quit -sim
+vsim -gui work.TB_TOP
+# End time: 22:39:56 on Apr 06,2024, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 7
+# vsim -gui work.TB_TOP 
+# Start time: 22:39:56 on Apr 06,2024
+# Loading work.TB_TOP
+# Loading work.TOP
+# Loading work.COUNTER
+# Loading work.MUX81
+add wave -position insertpoint sim:/TB_TOP/*
+run
+#                    0: CLR = 0, UD = x, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = xx
+#                    5: CLR = 0, UD = x, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                   10: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                   15: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                   25: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                   35: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                   45: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                   55: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                   60: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                   65: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                   75: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                   85: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                   95: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+run
+#                  105: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  115: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  125: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  135: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  145: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  155: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  165: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  175: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  185: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  195: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+run
+#                  205: CLR = 1, UD = 0, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  210: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  215: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  225: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  235: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  245: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  255: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  265: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  275: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  285: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  295: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+run
+#                  305: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  315: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  325: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  335: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  345: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  355: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  365: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  375: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  385: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  395: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+run
+#                  405: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  415: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  425: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  435: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  445: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  455: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  465: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  475: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  485: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  495: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+run
+#                  505: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  515: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  525: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  535: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  545: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  555: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  565: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  575: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  585: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  595: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+run
+#                  605: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  615: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  625: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  635: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  645: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  655: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  665: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  675: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  685: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  695: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+run
+#                  705: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  715: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  725: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  735: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  745: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  755: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  765: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  775: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  785: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  795: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+run
+#                  805: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  815: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  825: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  835: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  845: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  855: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  865: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  875: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  885: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  895: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+run
+#                  905: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  915: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+#                  925: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = e7
+#                  935: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = d0
+#                  945: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 11
+#                  955: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ff
+#                  965: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = ab
+#                  975: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = cc
+#                  985: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 99
+#                  995: CLR = 1, UD = 1, I0 = 11, I1 = ff, I2 = ab, I3 = cc, I4 = 99, I5 = 88, I6 = e7, I7 = d0, OUT = 88
+quit -sim
+# End time: 22:42:48 on Apr 06,2024, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 1
+vsim -gui work.TB_PISO
+# vsim -gui work.TB_PISO 
+# Start time: 22:56:23 on Apr 06,2024
+# Loading work.TB_PISO
+# Loading work.PISO
+add wave -position insertpoint sim:/TB_PISO/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:57:41 on Apr 06,2024, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 1
+vsim -gui work.TB_DATAFLOW_CIRCUIT
+# vsim -gui work.TB_DATAFLOW_CIRCUIT 
+# Start time: 22:57:59 on Apr 06,2024
+# Loading work.TB_DATAFLOW_CIRCUIT
+# Loading work.DATAFLOW_CIRCUIT
+add wave -position insertpoint sim:/TB_DATAFLOW_CIRCUIT/*
+run
+#                    0 OUT = 00000000
+#                    5 OUT = 00010000
+#                   10 OUT = 00000100
+#                   15 OUT = 00100000
+#                   20 OUT = 00000000
+#                   25 OUT = 01000000
+#                   30 OUT = 10000000
+run
+run
+run
+run
+run
+# End time: 22:59:12 on Apr 06,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 1

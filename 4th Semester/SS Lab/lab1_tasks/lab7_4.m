@@ -1,0 +1,13 @@
+n = -4:0.005:4;
+i = sqrt(-1);
+y = 5*exp(i*n*pi/4);
+subplot(2,1,1);
+plot(n, y, 'linewidth', 2);
+xlabel('Time');
+ylabel('Amplitude');
+title('Original Signal 5*exp(i*n*pi/4)');
+subplot(2,1,2);
+plot(n, -y, 'linewidth', 2);
+xlabel('Time');
+ylabel('Amplitude');
+title('Flipped Signal');

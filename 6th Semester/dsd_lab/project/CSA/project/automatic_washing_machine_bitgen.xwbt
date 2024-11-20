@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\PC\Documents\CSA\project\automatic_washing_machine.ncd
+OUTFILE=C:\Users\PC\Documents\CSA\project\automatic_washing_machine.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=C:\Users\PC\Documents\CSA\project
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn TopMultiplexer.prj
+-top TopMultiplexer
+-p xc6slx9csg324-2
+-ofn TopMultiplexer.ngc
+-opt_mode speed
+-opt_level 1
+-lc auto
+-bufg 16

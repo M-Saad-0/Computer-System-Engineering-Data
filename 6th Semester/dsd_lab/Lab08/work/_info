@@ -1,0 +1,200 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/programs/intelFPGA/20.1/modelsim_ase/win32aloem
+vBCD
+Z0 !s110 1714117317
+!i10b 1
+!s100 @h`LJZiR6JoeRVb14ERfM3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMAEf3VheoG=nPeEf7G]Ak1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/semester6/dsd_lab/Lab08
+Z4 w1714117093
+Z5 8D:/Task 01/Task01/Task01.v
+Z6 FD:/Task 01/Task01/Task01.v
+!i122 0
+L0 32 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1714117317.000000
+!s107 D:/Task 01/Task01/Task01.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Task 01/Task01/Task01.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@c@d
+vBCD7_seg
+R0
+!i10b 1
+!s100 dKLOQLaV3>b@CT[9O64_62
+R1
+I]b`e@Dbc4Qjd[]f@kIU=<1
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 45 21
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 D:/Task 01/Task01/Task01.v|
+R9
+!i113 1
+R10
+R11
+n@b@c@d7_seg
+vClock_Divider
+R0
+!i10b 1
+!s100 ;nCO5P9B;Ji1Y^>Wf5nfD3
+R1
+I0GA_TNaNlj[R3E1^fJWEf1
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 3 15
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@clock_@divider
+vcounter18bit
+R0
+!i10b 1
+!s100 ka<GcVnPlC:CMk=gd4]aJ1
+R1
+ITA3[cS>SD2VWa3j4UXEQF2
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 19 11
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vdecoder2x4
+R0
+!i10b 1
+!s100 2b^@hTMFf^o?2G5j34=ZM1
+R1
+IV[l:5WYWJOR:SfD>27bfi2
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 93 15
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vmux4x1
+R0
+!i10b 1
+!s100 ^4MaWF5T5A8kR^i_E11ef3
+R1
+I]=JbN]b9CMfJ:]ZUB]:G53
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 77 15
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vTask01
+R0
+!i10b 1
+!s100 lTX7KoLm=6<<U<T>>4@LJ0
+R1
+IY@g1[V39oFcBI73IQE0Z91
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 67 9
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@task01
+vTopMultiplexer
+R0
+!i10b 1
+!s100 BIWhlcN^5Dj>5Q]5f0RHz0
+R1
+IG6loW:<AEb?:fDHgX9>MZ0
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 110 23
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@top@multiplexer

@@ -1,0 +1,94 @@
+#include <reg51.h>
+
+unsigned int i = 0x00;
+unsigned int j = 0x00;
+
+void start_timer()
+{
+	TMOD = 0x06;
+	IE = 0x82;
+}
+
+void timer() interrupt 0
+{
+	TH0 = 0x00;
+	TL0 = 0x00;
+}
+
+void init()
+{
+	TR0 = 1;
+}
+void main()
+{
+	init();
+	start_timer();
+	while(1)
+	{
+		if(TL0>9)
+		{
+			TL0=0x00;
+			TH0=0x00;
+		}
+		P1=TL0;
+	}
+}
+
+
+
+
+#include <reg51.h>
+
+
+	unsigned int i = 0x00;
+	unsigned int j = 0x00;
+
+void Delay(){
+	int k=0;
+	for(k=0;k<10000;k++){}
+}
+
+
+void main()
+{
+
+	while(1){
+	for(i=0; i<=0x90; i=i+0x10) {
+			for(j=0x00; j<0x09; j=j+0x01) {
+				Delay();
+				P1 = i|j;
+	}
+	}}
+
+	}
+
+
+
+
+#include <reg51.h>
+unsigned int i = 0x00;
+unsigned int j = 0x00;
+
+void Delay(){
+	int k=0;
+	for(k=0;k<10000;k++){}
+}
+
+void bigDelay() {
+	int m=0;
+	for(m; m<50;m++)
+		Delay();
+	
+}
+
+void main()
+{
+
+	while(1){
+
+			for(j=0x00; j<=0x09; j=j+0x01) {
+				bigDelay();
+				P1 = j;
+				}
+		}
+}

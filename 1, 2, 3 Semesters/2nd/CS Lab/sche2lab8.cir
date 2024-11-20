@@ -1,0 +1,22 @@
+* C:\Users\p\Documents\sche2lab8.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Jun 06 15:22:04 2022
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "sche2lab8.net"
+.INC "sche2lab8.als"
+
+
+.probe
+
+
+.END

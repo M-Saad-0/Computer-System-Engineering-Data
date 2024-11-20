@@ -1,0 +1,15 @@
+D:/University/semester_5/coa_lab/project/buffer.v {1 {vlog -work work -stats=none D:/University/semester_5/coa_lab/project/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} D:/University/semester_5/coa_lab/project/bufferTB.v {1 {vlog -work work -stats=none D:/University/semester_5/coa_lab/project/bufferTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bufferTB
+
+Top level modules:
+	bufferTB
+
+} {} {}}

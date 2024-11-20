@@ -1,0 +1,8 @@
+module HA1(S, Cout, A, B, Cin);
+input A, B, Cin;
+output S, Cout;
+wire h, c1, c2;
+HA H(h, c1, A, B);
+HA H1(S, c2, Cin, h);
+or o(Cout, c1, c2);
+endmodule

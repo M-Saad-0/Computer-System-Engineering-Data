@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\timers.obj" 
+TO ".\Objects\examPrep" 
+PRINT(".\Listings\examPrep.m51")

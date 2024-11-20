@@ -1,0 +1,22 @@
+* C:\Users\p\Documents\sche1.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Sat Jun 04 16:22:17 2022
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "sche1.net"
+.INC "sche1.als"
+
+
+.probe
+
+
+.END

@@ -1,0 +1,13 @@
+a1 = 0.2; a2 = 2.5;
+n = -10:0.5:10;
+x1 = a1.^abs(n); x2 = a2.^abs(n);
+subplot(2,1,1);
+plot(n, x1, 'linewidth', 3);
+title('Signal of a\^abs(n) for 0<a<1');
+xlabel('n');
+ylabel('Amplitude');
+subplot(2,1,2);
+plot(n, x2, 'linewidth', 3);
+title('Signal of a\^abs(n) for a>1');
+xlabel('n');
+ylabel('Amplitude');

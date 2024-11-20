@@ -1,0 +1,63 @@
+(1)Bernouli Trial: 
+        Eight balls are drawn from a bag containing 10 white and
+10 black balls. Predict whether the trials are Bernoulli trials if the
+ball drawn is replaced and not replaced.
+
+(2)Bionomial Law:
+        Let k be the number of active speakers in a group of 8
+speakers. Suppose that a speaker is active with probability
+1/3. Find the probability that the number of active speakers
+is greater than 6.
+
+(3)Geometric Distrution:
+        Computer A sends a message to computer B over an
+unreliable radio link. The message is encoded so that B can
+detect when errors have been introduced into the message
+during transmission. If B detects an error, it requests A to
+retransmit it. If the probability of a message transmission
+error is 0.1, what is the probability that a message needs to
+be transmitted i) twice ii) more than two times?
+
+(4)Random Varible:
+        A coin is tossed three times and the sequence of heads and
+tails is noted. The sample space for this experiment is S =
+{HHH, HHT, ... , TTT}. Let X be the number of heads in the
+three tosses. Let Y be the number of points obtained for
+each outcome such that 8 points are awarded for three
+heads, 1 point for two heads and no point otherwise. Find SY.
+
+(5)Probability Mass Function:
+        Let Y be the number of points obtained for each outcome in
+three independent tosses of a fair coin such that 8 points
+are awarded for three heads, 1 point for two heads and no
+point otherwise. Find the pmf of Y.
+
+(6)Expected Value:
+        A fair coin is flipped 5 times and the number of heads X is
+noted. Find the pmf and E[X] of X.
+
+(7)Variance Of Discrete:
+       Let X be the number of heads in three tosses of a fair coin.
+Find VAR[X].
+
+(8)Bayes Theorem:
+        Eight balls are drawn from a bag containing 10 white and
+10 black balls. Predict whether the trials are Bernoulli trials if the
+ball drawn is replaced and not replaced.
+
+(9)Total Probability:
+       An urn contains two black balls and three white balls. Two
+balls are selected at random from the urn without
+replacement and the sequence of colors is noted. Find the
+probability that the second ball is white (irrespective of
+first outcome).
+
+(10)Conditional Probability:
+        An urn contains two black balls and three white balls. Two
+balls are selected at random from the urn without
+replacement and the sequence of colors is noted. Find the
+probability that both balls are black.
+
+ 
+
+

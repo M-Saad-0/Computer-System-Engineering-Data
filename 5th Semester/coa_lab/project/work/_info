@@ -1,0 +1,521 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vaccumulator
+Z0 !s110 1706710774
+!i10b 1
+!s100 PPA8?@IXD>O0C7ZWWT4[c1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INF<bZ?3UkW4163_<oGM2z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/semester_5/coa_lab/project
+Z4 w1706710755
+Z5 8D:/University/semester_5/coa_lab/project/o.v
+Z6 FD:/University/semester_5/coa_lab/project/o.v
+!i122 50
+L0 96 18
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1706710774.000000
+Z9 !s107 D:/University/semester_5/coa_lab/project/o.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/o.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vadder
+!s110 1706710772
+!i10b 1
+!s100 ^:>=FzS309f_4O?=Z2NU13
+R1
+IOEQUC1HA6K7<f839e;NiI2
+R2
+R3
+Z13 w1677981425
+8D:/University/semester_5/coa_lab/project/adder.v
+FD:/University/semester_5/coa_lab/project/adder.v
+!i122 42
+L0 1 10
+R7
+r1
+!s85 0
+31
+Z14 !s108 1706710772.000000
+!s107 D:/University/semester_5/coa_lab/project/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/adder.v|
+!i113 1
+R11
+R12
+vaddsub
+R0
+!i10b 1
+!s100 ElL;c3QD^0eO=KYWmP<9U1
+R1
+IQ6M@MkNb`g5kF:W;7`5dS0
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 115 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+valu
+Z15 !s110 1706710438
+!i10b 1
+!s100 Pl?dNiTmR>CVYDDQkX=F:2
+R1
+IEDM3]gWedS=G;efWmG4ao2
+R2
+R3
+Z16 w1706710430
+R5
+R6
+!i122 41
+L0 117 36
+R7
+r1
+!s85 0
+31
+Z17 !s108 1706710437.000000
+R9
+R10
+!i113 1
+R11
+R12
+vbuffer
+Z18 !s110 1707880596
+!i10b 1
+!s100 UCYS89XM_02E66PBn245>2
+R1
+IhRSUMf:=J`z_QmKMja^Cg1
+R2
+R3
+w1707879743
+8D:/University/semester_5/coa_lab/project/buffer.v
+FD:/University/semester_5/coa_lab/project/buffer.v
+!i122 61
+L0 1 5
+R7
+r1
+!s85 0
+31
+Z19 !s108 1707880596.000000
+!s107 D:/University/semester_5/coa_lab/project/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/buffer.v|
+!i113 1
+R11
+R12
+vbufferTB
+R18
+!i10b 1
+!s100 1g4IE@bWiFCjR^QZcPCz@1
+R1
+IX9JXn<Nf`ogG[LAADQCdE0
+R2
+R3
+w1707880590
+8D:/University/semester_5/coa_lab/project/bufferTB.v
+FD:/University/semester_5/coa_lab/project/bufferTB.v
+!i122 62
+L0 1 12
+R7
+r1
+!s85 0
+31
+R19
+!s107 D:/University/semester_5/coa_lab/project/bufferTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/bufferTB.v|
+!i113 1
+R11
+R12
+nbuffer@t@b
+vclock
+Z20 !s110 1706710773
+!i10b 1
+!s100 Pb=QXDR<n>0HfhDn=DU[n1
+R1
+IQ]GEM@B7blUToSB9ODdU`3
+R2
+R3
+R13
+8D:/University/semester_5/coa_lab/project/clock.v
+FD:/University/semester_5/coa_lab/project/clock.v
+!i122 43
+L0 1 9
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/University/semester_5/coa_lab/project/clock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/clock.v|
+!i113 1
+R11
+R12
+vcontrol_unit
+R0
+!i10b 1
+!s100 i<URWn;<YK1POXG7D3E811
+R1
+IgF<[M5E8469CER_gJh[hz1
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 147 62
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcontroller
+R20
+!i10b 1
+!s100 mk;HSAM>6aRV`1oYWEmiD1
+R1
+I2G@[3]?<F5cX;^?X<1g]k1
+R2
+R3
+R13
+8D:/University/semester_5/coa_lab/project/controller.v
+FD:/University/semester_5/coa_lab/project/controller.v
+!i122 44
+L0 1 109
+R7
+r1
+!s85 0
+31
+Z21 !s108 1706710773.000000
+!s107 D:/University/semester_5/coa_lab/project/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/controller.v|
+!i113 1
+R11
+R12
+vinputMAR
+R0
+!i10b 1
+!s100 8zDQdHL8FP_CBaG9fV7e91
+R1
+Ib4=GTba9]J@oBX^D3WecC3
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 34 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+ninput@m@a@r
+vir
+R20
+!i10b 1
+!s100 7;^2z:=b`HR<BXjbC@<If3
+R1
+IV^>61?b3LbZ6M;6AL0FKG1
+R2
+R3
+R13
+8D:/University/semester_5/coa_lab/project/ir.v
+FD:/University/semester_5/coa_lab/project/ir.v
+!i122 45
+Z22 L0 1 21
+R7
+r1
+!s85 0
+31
+R21
+!s107 D:/University/semester_5/coa_lab/project/ir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/ir.v|
+!i113 1
+R11
+R12
+vIR
+R0
+!i10b 1
+!s100 iTEWboFXZdRUdib?fPCgB1
+R1
+ID9zb>^GA;f`1K@J>=FSa[2
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 76 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@i@r
+vmar
+R15
+!i10b 1
+!s100 ASmfR:KfGkD6mff3T741L0
+R1
+IkeUSY_ZQ<@]mG6]AaGAHL0
+R2
+R3
+R16
+R5
+R6
+!i122 41
+L0 42 19
+R7
+r1
+!s85 0
+31
+R17
+R9
+R10
+!i113 1
+R11
+R12
+vmemory
+R20
+!i10b 1
+!s100 GzFdfTaTZBR:YlE7<ac851
+R1
+Io3zfL]W>j6E3nEF>[bhG?3
+R2
+R3
+R13
+8D:/University/semester_5/coa_lab/project/memory.v
+FD:/University/semester_5/coa_lab/project/memory.v
+!i122 46
+L0 1 26
+R7
+r1
+!s85 0
+31
+R21
+!s107 D:/University/semester_5/coa_lab/project/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/memory.v|
+!i113 1
+R11
+R12
+voutreg
+R0
+!i10b 1
+!s100 zL_jV852F9dkHkjnZzaO=2
+R1
+I;A^Sj]mEGjD?XG4E:_H:M0
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 135 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vpc
+R0
+!i10b 1
+!s100 77FMzYKiNPWFB<Az8oFl=1
+R1
+I:<aTPL35[n>1Y^zB>=dQ53
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 2 30
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vram
+R0
+!i10b 1
+!s100 YMLom^oKP]B>6n>RdjLZC2
+R1
+I:dD`Wjee:g1AKa=<`VaGD3
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 57 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vreg_a
+R0
+!i10b 1
+!s100 l^^;n[;CMW>6VU@foT7R33
+R1
+IK:@neD_XBQ^MG>n=j=?S>2
+R2
+R3
+R13
+8D:/University/semester_5/coa_lab/project/reg_a.v
+FD:/University/semester_5/coa_lab/project/reg_a.v
+!i122 48
+R22
+R7
+r1
+!s85 0
+31
+R21
+!s107 D:/University/semester_5/coa_lab/project/reg_a.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/reg_a.v|
+!i113 1
+R11
+R12
+vreg_b
+R0
+!i10b 1
+!s100 c7A<Zj<fI3nB`V5bG0S<d3
+R1
+I_L4`V?l5PjNLgWfl^NMnR2
+R2
+R3
+R13
+8D:/University/semester_5/coa_lab/project/reg_b.v
+FD:/University/semester_5/coa_lab/project/reg_b.v
+!i122 49
+R22
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/University/semester_5/coa_lab/project/reg_b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester_5/coa_lab/project/reg_b.v|
+!i113 1
+R11
+R12
+vregB
+R0
+!i10b 1
+!s100 aYPDB0jchAi[Fmi3Te=Bz3
+R1
+I6jG0]S]b1R4N5Z2C<J8Tm0
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 123 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nreg@b
+vsap1_tb
+R15
+!i10b 1
+!s100 ?zB2^IY5W25HRL<OBoVZK3
+R1
+IgT2CU9@]j;0Jl>>cM0H:d2
+R2
+R3
+R16
+R5
+R6
+!i122 41
+L0 229 107
+R7
+r1
+!s85 0
+31
+R17
+R9
+R10
+!i113 1
+R11
+R12
+vsap1main
+R0
+!i10b 1
+!s100 b:I785F10DO0XIof`^gO>2
+R1
+IhUZTC3Cf2`N6cj7N`zejj1
+R2
+R3
+R4
+R5
+R6
+!i122 50
+L0 210 36
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

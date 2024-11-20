@@ -1,0 +1,20 @@
+t = -10:10;
+u = [zeros(1, 10) ones(1, 11)];
+alpha = 3; beta = 3;
+x1 = exp(-alpha*t).*u;
+h1 = exp(-beta*t).*u;
+alpha = 3; beta = 7;
+x = exp((-alpha)*t).*u;
+h = exp((-beta)*t).*u;
+subplot(2,1,1);
+stem(conv(x1, h1), 'filled', 'linewidth', 2);
+grid on;
+title('Convolution of x(t) and h(t). alpha=beta');
+xlabel('Sample Number');
+ylabel('Sample Height');
+subplot(2,1,2);
+stem(conv(x, h),'filled',  'linewidth', 2);
+grid on;
+title('Convolution of x(t) and h(t). alpha!=beta')
+xlabel('Sample Number');
+ylabel('Sample Height');

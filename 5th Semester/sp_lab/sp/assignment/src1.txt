@@ -1,0 +1,1 @@
+This is a text from source 1 which will copied to dst_(fd).

@@ -1,0 +1,59 @@
+F:/University/semester6/dsd_lab/lab2/fullAdder.v {1 {vlog -work work -stats=none F:/University/semester6/dsd_lab/lab2/fullAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fullAdder
+-- Compiling module FA_DataFlow_TB
+
+Top level modules:
+	fullAdder
+	FA_DataFlow_TB
+
+} {} {}} F:/University/semester6/dsd_lab/lab2/l2t1.v {1 {vlog -work work -stats=none F:/University/semester6/dsd_lab/lab2/l2t1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Carry
+-- Compiling module Sum
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} F:/University/semester6/dsd_lab/lab2/lab01.v {1 {vlog -work work -stats=none F:/University/semester6/dsd_lab/lab2/lab01.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module buffer
+-- Compiling module bufferTB
+-- Compiling module inverter
+-- Compiling module inverterTB
+-- Compiling module orUnand
+-- Compiling module orUnandTB
+-- Compiling module equation
+-- Compiling module equationTB
+
+Top level modules:
+	bufferTB
+	inverterTB
+	orUnandTB
+	equationTB
+
+} {} {}} F:/University/semester6/dsd_lab/lab2/rippleCarryAdder.v {1 {vlog -work work -stats=none F:/University/semester6/dsd_lab/lab2/rippleCarryAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rippleCarryAdder
+-- Compiling module rippleCarryAdderBe
+
+Top level modules:
+	rippleCarryAdder
+	rippleCarryAdderBe
+
+} {} {}} F:/University/semester6/dsd_lab/lab2/FA_be.v {1 {vlog -work work -stats=none F:/University/semester6/dsd_lab/lab2/FA_be.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FA_beha
+
+Top level modules:
+	FA_beha
+
+} {} {}} F:/University/semester6/dsd_lab/lab2/l2t2TB.v {1 {vlog -work work -stats=none F:/University/semester6/dsd_lab/lab2/l2t2TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rca4_DataFlow_TB
+
+Top level modules:
+	rca4_DataFlow_TB
+
+} {} {}}

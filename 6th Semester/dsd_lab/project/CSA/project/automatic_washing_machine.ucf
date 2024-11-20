@@ -1,0 +1,20 @@
+
+# PlanAhead Generated physical constraints 
+
+INST "clk_BUFGP" LOC = V10;
+NET "clk" LOC = V10;
+NET "cycle_timeout" LOC = F17;
+NET "detergent_added" LOC = F18;
+NET "drained" LOC = E18;
+NET "door_close" LOC = E16;
+NET "filled" LOC = D18;
+NET "reset" LOC = D17;
+NET "spin_timeout" LOC = C18;
+NET "start" LOC = C17;
+NET "done" LOC = P15;
+NET "door_lock" LOC = P16;
+NET "drain_value_on" LOC = N15;
+NET "fill_value_on" LOC = N16;
+NET "motor_on" LOC = U17;
+NET "soap_wash" LOC = U18;
+NET "water_wash" LOC = T17;

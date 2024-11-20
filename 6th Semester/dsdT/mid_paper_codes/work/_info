@@ -1,0 +1,251 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/semester6/dsdT/flipfliops
+vBEHAV_CIRCUIT
+!s110 1712420120
+!i10b 1
+!s100 Nj@Kc02k79WT9^RQiLFKK0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN?C_:MfU]Yl]HzFnLPm`W1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/University/semester6/dsdT/mid_paper_codes
+w1712419907
+8D:/University/semester6/dsdT/mid_paper_codes/BEHAV_CIRCUIT.v
+FD:/University/semester6/dsdT/mid_paper_codes/BEHAV_CIRCUIT.v
+!i122 0
+L0 1 25
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1712420120.000000
+!s107 D:/University/semester6/dsdT/mid_paper_codes/BEHAV_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/BEHAV_CIRCUIT.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@b@e@h@a@v_@c@i@r@c@u@i@t
+vCOUNTER
+Z6 !s110 1712420121
+!i10b 1
+!s100 o?a4SYS66iaXBeGWL@eEf1
+R0
+INALSMz8lFVB:kTWhWhLLD2
+R1
+R2
+w1712419923
+8D:/University/semester6/dsdT/mid_paper_codes/COUNTER.v
+FD:/University/semester6/dsdT/mid_paper_codes/COUNTER.v
+!i122 1
+L0 1 18
+R3
+r1
+!s85 0
+31
+Z7 !s108 1712420121.000000
+!s107 D:/University/semester6/dsdT/mid_paper_codes/COUNTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/COUNTER.v|
+!i113 1
+R4
+R5
+n@c@o@u@n@t@e@r
+vDATAFLOW_CIRCUIT
+R6
+!i10b 1
+!s100 Z8fA7g4KjoQajk>hIcJMc0
+R0
+I86Gf`8WTgj]<JVd9>PIfE0
+R1
+R2
+w1712419921
+8D:/University/semester6/dsdT/mid_paper_codes/DATAFLOW_CIRCUIT.v
+FD:/University/semester6/dsdT/mid_paper_codes/DATAFLOW_CIRCUIT.v
+!i122 2
+Z8 L0 1 20
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/University/semester6/dsdT/mid_paper_codes/DATAFLOW_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/DATAFLOW_CIRCUIT.v|
+!i113 1
+R4
+R5
+n@d@a@t@a@f@l@o@w_@c@i@r@c@u@i@t
+vMUX81
+R6
+!i10b 1
+!s100 [k]gBIXc^<koJoGTi<j>91
+R0
+Ig[8SSEz;S68I8nmDkXWd30
+R1
+R2
+w1712419918
+8D:/University/semester6/dsdT/mid_paper_codes/MUX81.v
+FD:/University/semester6/dsdT/mid_paper_codes/MUX81.v
+!i122 3
+L0 1 22
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/University/semester6/dsdT/mid_paper_codes/MUX81.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/MUX81.v|
+!i113 1
+R4
+R5
+n@m@u@x81
+vPISO
+R6
+!i10b 1
+!s100 =F;fS9>GholUi@IVhVdXc2
+R0
+I;096WQBGGcB9jHH2J2KTd0
+R1
+R2
+w1712419916
+8D:/University/semester6/dsdT/mid_paper_codes/PISO.v
+FD:/University/semester6/dsdT/mid_paper_codes/PISO.v
+!i122 4
+R8
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/University/semester6/dsdT/mid_paper_codes/PISO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/PISO.v|
+!i113 1
+R4
+R5
+n@p@i@s@o
+vSTRUCT_CIRCUIT
+R6
+!i10b 1
+!s100 58Vn3jSjBllG3z]5I@MoE0
+R0
+IBM2gLh36061F^35DROJLD3
+R1
+R2
+w1712419914
+8D:/University/semester6/dsdT/mid_paper_codes/STRUCT_CIRCUIT.v
+FD:/University/semester6/dsdT/mid_paper_codes/STRUCT_CIRCUIT.v
+!i122 5
+Z9 L0 1 21
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/University/semester6/dsdT/mid_paper_codes/STRUCT_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/STRUCT_CIRCUIT.v|
+!i113 1
+R4
+R5
+n@s@t@r@u@c@t_@c@i@r@c@u@i@t
+vTB_DATAFLOW_CIRCUIT
+R6
+!i10b 1
+!s100 nf?32>NKcLmf7^X@0TNDR2
+R0
+ISW:6]V?`Hnj2nf?HRYV^m1
+R1
+R2
+w1712419911
+8D:/University/semester6/dsdT/mid_paper_codes/TB_DATAFLOW_CIRCUIT.v
+FD:/University/semester6/dsdT/mid_paper_codes/TB_DATAFLOW_CIRCUIT.v
+!i122 6
+L0 2 22
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/University/semester6/dsdT/mid_paper_codes/TB_DATAFLOW_CIRCUIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/TB_DATAFLOW_CIRCUIT.v|
+!i113 1
+R4
+R5
+n@t@b_@d@a@t@a@f@l@o@w_@c@i@r@c@u@i@t
+vTB_PISO
+Z10 !s110 1712420122
+!i10b 1
+!s100 `f_eAa70BXWW@bS79O?;i2
+R0
+IfSTf7BSBMfbB1Z13[Z9XT2
+R1
+R2
+w1712419948
+8D:/University/semester6/dsdT/mid_paper_codes/TB_PISO.v
+FD:/University/semester6/dsdT/mid_paper_codes/TB_PISO.v
+!i122 7
+R9
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/University/semester6/dsdT/mid_paper_codes/TB_PISO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/TB_PISO.v|
+!i113 1
+R4
+R5
+n@t@b_@p@i@s@o
+vTB_TOP
+R10
+!i10b 1
+!s100 6RYGYA>jKV2AY[Wd4M^Z]1
+R0
+IYMA4F9T`6L8TYjL>_d6N:1
+R1
+R2
+w1712419962
+8D:/University/semester6/dsdT/mid_paper_codes/TB_TOP.v
+FD:/University/semester6/dsdT/mid_paper_codes/TB_TOP.v
+!i122 8
+L0 1 26
+R3
+r1
+!s85 0
+31
+Z11 !s108 1712420122.000000
+!s107 D:/University/semester6/dsdT/mid_paper_codes/TB_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/TB_TOP.v|
+!i113 1
+R4
+R5
+n@t@b_@t@o@p
+vTOP
+R10
+!i10b 1
+!s100 gmMK[6W;1`=TEMdY??Rk=2
+R0
+IgD;[J@aSCzegz69EW^DD>0
+R1
+R2
+w1712419937
+8D:/University/semester6/dsdT/mid_paper_codes/TOP.v
+FD:/University/semester6/dsdT/mid_paper_codes/TOP.v
+!i122 9
+L0 1 13
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/University/semester6/dsdT/mid_paper_codes/TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/mid_paper_codes/TOP.v|
+!i113 1
+R4
+R5
+n@t@o@p

@@ -1,0 +1,6 @@
+module HalfAdder(A, B, S, C);
+input A, B;
+output S, C;
+xor x1(A, B, S);
+and x2(A, B, C);
+endmodule

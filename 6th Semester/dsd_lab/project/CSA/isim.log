@@ -1,0 +1,13 @@
+ISim log file
+Running: E:\Profess\University\6th semester\mine\DSD lab\lab13\labtask\CSA\tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb.v" Line 5.  For instance tb/t1/, width 5 of formal port sum is not equal to width 1 of actual signal sum.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+x:0000, y:0000, z:0001, sum:1, cout:0
+x:0000, y:1001, z:1001, sum:0, cout:0

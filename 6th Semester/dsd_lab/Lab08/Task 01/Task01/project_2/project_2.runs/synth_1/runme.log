@@ -1,0 +1,9 @@
+
+*** Running xst
+    with args -ifn "TopMultiplexer.xst" -ofn "TopMultiplexer.srp" -intstyle ise
+
+^C
+
+*** Running xst
+    with args -ifn "TopMultiplexer.xst" -ofn "TopMultiplexer.srp" -intstyle ise
+

@@ -1,0 +1,71 @@
+Create table type( type varchar(10),Fee numeric(3), primarykey(type));
+
+Create table tournament ( TourID numeric(2),tourName varchar(10),TourType varchar(10),primary key(TourId));
+
+Create table team( TeamName varchar(10),PracticeNight varchar(10),Manager numeric(3),primary key(TeamName),foreign key(Manager) references member(memberId));
+
+Create table Entry( memberId numeric(5) , TourId numeric(2), Year YEAR,primary key(memberId,TourId),foreign key(memberid) references member(memberId,foreign key(TourId) references tournament(TourId) );
+
+Create table member (memeberId numeric(5), FirstName varchar(10), LastName varchar(10),MemberType varchar(10),Phone numeric(6),Handicap numeric(3) ,JoinDate Date,Couch numeric(3),Team varchar(10),Gender varchar(1),primary key(memberId),foreign key(MemberType) references type(type),foreign key(Team) references team(TeamName));
+
+
+
+Golf Club Relational Schema Gender Team MType Coach Phone JoinDate F Junior 153 963270 10-May-09 Memberid LastName FirstName Handicap 118 McKenzie Melissa 30 138 Stone Michael 30 153 Nolan Brenda 11 176 Branch Helen м Senior 983223 13-May-13 25-Jul-10 F 442649 TeamB Senior Social F 589419 18-Nov-15 178 Beck Sarah F Social 226596 06-Jan-14 228 Burton Sandra F 153 21-Jun-15 26 14 244493 722954 235 William M Junior TeamB Senior Senior 153 Cooper Spence 12-Feb-12 239 Thomas 10 M 697720 04-Jun-10 258 Olson Barbara 16 F Senior 370186 11-Jul-15 286 Pollard Robert 19 M TeamB Junior 235 617681 26-Jul-15 290 Buxton Thomas 26 M Senior 235 268936 10-Jul-12 323 Wilcox Daniel 3 M TeamA Senior 665993 30-Apr-13 331 Schmidt Thomas 25 M Senior 153 867492 20-Mar-13 332 Bridges Deborah 12 F Senior 235 279087 05-Mar-11 339 Young Betty 21 F Teams Senior 507813 30-Mar-13 414 5 F 153 459558 Gilmore Taylor Jane William Robert TeamA Junior TeamA Senior 7 M 235 415 461 137353 12-May-11 09-Nov-11 18-Jul-09 Reed 3 M TeamA Senior 235 994664 469 Carolyn 29 F Junior 688378 27-Dec-14 Willis Kent 487 Susan Social 707217 19-Sep-14 Member Table Figure 6.3a - Member Table Member Tourld Year Team Table TeamName Practice Night Manager Team A Tuesday 239 Team B Monday 153 24 2013 24 2014 25 2014 36 2014 118 228 228 228 235 235 235 235 239 38 2012 Tournament Table 38 2014 2013 Tourld Tourname TourType 24 Leeston Social 25 Kaiapoi Social 36 WestCoast Social 38 Canterburry Open 40 Otago Open LIST 2014 2014 239 40 2012 258 24 2013 38 2013 258 286 286 24 2012 24 2013 286 24 2014 Type Table 415 25 2014 Type Fee Associate 60 Junior 150 Senior 300 Social 50 415 36 2013 415 36 2014 Entry Table 「一 38 2012 415 415 415 2014 38 40 2012 Figure 6.3b - Team, Tournament, Type, and Entry Tables
+
+
+Here are the MySQL statements involving ALTER TABLE for the tasks you described:
+
+**a) Add new column DOB to store member date of birth:**
+
+```sql
+ALTER TABLE member ADD DOB DATE DEFAULT NULL;
+```
+
+**b) Change the name of DOB to M_DOB and make it NOT NULL:**
+
+```sql
+ALTER TABLE member CHANGE DOB M_DOB DATE NOT NULL;
+```
+
+**c) Drop the M_DOB column:**
+
+```sql
+ALTER TABLE member DROP COLUMN M_DOB;
+```
+
+**d) Drop the primary key TourID from tournament table:**
+
+**Important Note:** Dropping a primary key can potentially corrupt your data. Make sure you have a backup and understand the consequences before proceeding.
+
+```sql
+ALTER TABLE tournament DROP PRIMARY KEY;
+```
+
+**e) Add a new primary key TourID to tournament table:**
+
+```sql
+ALTER TABLE tournament ADD PRIMARY KEY (TourID);
+```
+
+**f) Drop the foreign key Coach from member table:**
+
+Assuming the foreign key constraint is named `coach_fk`:
+
+```sql
+ALTER TABLE member DROP FOREIGN KEY coach_fk;
+```
+
+**g) Add a new foreign key Coach from member table:**
+
+Assuming the foreign key references the CoachID column in the coaches table:
+
+```sql
+ALTER TABLE member
+ADD FOREIGN KEY (Coach) REFERENCES coaches(CoachID);
+```
+
+**Remember:**
+
+* Replace `member` and `tournament` with the actual names of your tables.
+* Modify the foreign key references (`CoachID` and `coaches` table) according to your specific schema.
+* Use these statements with caution, especially when dropping primary or foreign keys. 

@@ -1,0 +1,136 @@
+F:/software/University/semester_5/coa_lab/lab7/D_flipflop_tb.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/D_flipflop_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module D_flipflop_tb
+
+Top level modules:
+	D_flipflop_tb
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/T_flipflop_tb.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/T_flipflop_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module T_flipflop_tb
+
+Top level modules:
+	T_flipflop_tb
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder2x4.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder2x4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder2x4
+
+Top level modules:
+	decoder2x4
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/d3x8TB.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/d3x8TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d3x8TB
+
+Top level modules:
+	d3x8TB
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/JK_flipflop_tb.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/JK_flipflop_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JK_flipflop_tb
+
+Top level modules:
+	JK_flipflop_tb
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/D_flipflop.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/D_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module D_flipflop
+
+Top level modules:
+	D_flipflop
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/T_flipflop.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/T_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module T_flipflop
+
+Top level modules:
+	T_flipflop
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder4x16TB.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder4x16TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder4x16TB
+
+Top level modules:
+	decoder4x16TB
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/SR_latch.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/SR_latch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SR_latch
+
+Top level modules:
+	SR_latch
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/SR_flipflop.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/SR_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SR_flipflop
+
+Top level modules:
+	SR_flipflop
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder3x8.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder3x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder3x8
+
+Top level modules:
+	decoder3x8
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder4x8.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder4x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder2x4TB.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder2x4TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder2x4TB
+
+Top level modules:
+	decoder2x4TB
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.vhd {0 {vcom -work work -2002 -explicit -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error (suppressible): F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.vhd(2): (vcom-1491) Empty source files.
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/SR_flipflop_tb.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/SR_flipflop_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TFlipFlop
+-- Compiling module TFlipFlopTB
+
+Top level modules:
+	TFlipFlopTB
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/SR_latch_tb.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/SR_latch_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SR_latch_tb
+
+Top level modules:
+	SR_latch_tb
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/d3x8.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/d3x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d3x8
+
+Top level modules:
+	d3x8
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder3x8TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder3x8TB
+
+Top level modules:
+	decoder3x8TB
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/JK_flipflop.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/JK_flipflop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JK_flipflop
+
+Top level modules:
+	JK_flipflop
+
+} {} {}} F:/software/University/semester_5/coa_lab/lab7/decoder4x16.v {1 {vlog -work work -stats=none F:/software/University/semester_5/coa_lab/lab7/decoder4x16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder4x16
+
+Top level modules:
+	decoder4x16
+
+} {} {}}

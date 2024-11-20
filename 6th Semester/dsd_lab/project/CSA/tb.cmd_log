@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb.xst" -ofn "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "tb.ngc" tb.ngd  
+xst -intstyle ise -ifn "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb.xst" -ofn "E:/Profess/University/6th semester/mine/DSD lab/lab13/labtask/CSA/tb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "tb.ngc" tb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/tb.xst" -ofn "C:/Users/PC/Documents/CSA/tb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/tb.xst" -ofn "C:/Users/PC/Documents/CSA/tb.syr" 
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/tb.xst" -ofn "C:/Users/PC/Documents/CSA/tb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 tb.ngc tb.ngd  

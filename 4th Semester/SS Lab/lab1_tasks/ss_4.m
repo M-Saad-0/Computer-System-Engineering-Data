@@ -1,0 +1,10 @@
+h = [4/3 0 0 0 0 0 ];
+n = -10:10;
+let_a = 4;
+let_b = 2;
+x = let_a*n + let_b;
+plot(conv(x, h), 'linewidth', 2);
+grid on;
+title('Convolution of x(t) and h(t)');
+xlabel('Sample Number');
+ylabel('Sample Height');

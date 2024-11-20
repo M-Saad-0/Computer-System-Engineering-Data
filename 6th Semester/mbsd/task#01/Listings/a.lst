@@ -1,0 +1,50 @@
+A51 MACRO ASSEMBLER  A                                                                    03/19/2024 03:39:50 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\a.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE a.a51 SET(SMALL) DEBUG PRINT(.\Listings\a.lst) OBJECT(.\Objects\a.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00
+0000                   2             HERE: 
+0000 C290              3             CLR P1.0
+0002 1109              4             ACALL DELAY
+0004 D290              5             SETB P1.0
+0006 020000            6             LJMP HERE
+                       7             
+                       8             
+0009                   9     DELAY:
+0009 7A0A             10         MOV R2, #10   
+000B                  11     ODELAY:
+000B 7900             12         MOV R1, #256 
+*** ______________________________________^
+*** WARNING #A52 IN 12 (a.a51, LINE 12): VALUE HAS BEEN TRUNCATED TO 8 BITS
+000D                  13     IDELAY:
+000D D9FE             14         DJNZ R1, IDELAY 
+000F DAFA             15         DJNZ R2, ODELAY
+0011 22               16         RET            
+                      17     
+                      18     
+                      19     END
+                                     
+A51 MACRO ASSEMBLER  A                                                                    03/19/2024 03:39:50 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY. . . . . . .  C ADDR   0009H   A   
+HERE . . . . . . .  C ADDR   0000H   A   
+IDELAY . . . . . .  C ADDR   000DH   A   
+ODELAY . . . . . .  C ADDR   000BH   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,35 @@
+module decoder2x4TB();
+	reg A, B, e;
+	wire [3:0]I;
+	decoder2x4 d2x4(A, B, e, I);
+	initial begin
+		$display("A  B  e  I0  I1  I2  I3");
+		e = 0;
+		A = 0;
+		B = 0;
+		#100
+		$display("%b  %b  %b  %b   %b   %b   %b", A,  B,  e,  I[0],  I[1],  I[2],  I[3]);
+		
+		e = 1;
+		A = 0;
+		B = 0;
+		#100
+		$display("%b  %b  %b  %b   %b   %b   %b", A,  B,  e,  I[0],  I[1],  I[2],  I[3]);
+	
+		e = 1;
+		A = 0;
+		B = 1;
+		#100
+		$display("%b  %b  %b  %b   %b   %b   %b", A,  B,  e,  I[0],  I[1],  I[2],  I[3]);
+		e = 1;
+		A = 1;
+		B = 0;
+		#100
+		$display("%b  %b  %b  %b   %b   %b   %b", A,  B,  e,  I[0],  I[1],  I[2],  I[3]);
+		e = 1;
+		A = 1;
+		B = 1;
+		#100
+		$display("%b  %b  %b  %b   %b   %b   %b", A,  B,  e,  I[0],  I[1],  I[2],  I[3]);	
+	end
+endmodule

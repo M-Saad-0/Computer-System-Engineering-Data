@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 24 19:22:54 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "door_close" LOCATE = SITE "E16" LEVEL 1;
+COMP "detergent_added" LOCATE = SITE "F18" LEVEL 1;
+COMP "soap_wash" LOCATE = SITE "U18" LEVEL 1;
+COMP "done" LOCATE = SITE "P15" LEVEL 1;
+COMP "drained" LOCATE = SITE "E18" LEVEL 1;
+COMP "water_wash" LOCATE = SITE "T17" LEVEL 1;
+COMP "door_lock" LOCATE = SITE "P16" LEVEL 1;
+COMP "start" LOCATE = SITE "C17" LEVEL 1;
+COMP "fill_value_on" LOCATE = SITE "N16" LEVEL 1;
+COMP "reset" LOCATE = SITE "D17" LEVEL 1;
+COMP "drain_value_on" LOCATE = SITE "N15" LEVEL 1;
+COMP "filled" LOCATE = SITE "D18" LEVEL 1;
+COMP "spin_timeout" LOCATE = SITE "C18" LEVEL 1;
+COMP "motor_on" LOCATE = SITE "U17" LEVEL 1;
+COMP "cycle_timeout" LOCATE = SITE "F17" LEVEL 1;
+SCHEMATIC END;
+

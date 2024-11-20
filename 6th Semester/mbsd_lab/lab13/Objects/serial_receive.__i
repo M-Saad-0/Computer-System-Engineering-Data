@@ -1,0 +1,1 @@
+"serial_receive.c" OPTIMIZE (8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\serial_receive.lst) TABS (2) OBJECT(.\Objects\serial_receive.obj)

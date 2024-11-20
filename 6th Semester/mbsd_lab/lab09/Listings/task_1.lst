@@ -1,0 +1,99 @@
+C51 COMPILER V9.60.7.0   TASK_1                                                            05/12/2024 23:24:08 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK_1
+OBJECT MODULE PLACED IN .\Objects\task_1.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE task_1.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ta
+                    -sk_1.lst) TABS(2) OBJECT(.\Objects\task_1.obj)
+
+line level    source
+
+   1            #include <stdio.h>
+   2            #include <reg51.h>
+   3          
+   4            sbit RowA = P1^0;
+   5            sbit RowB = P1^1;
+   6            sbit RowC = P1^2;
+   7            sbit RowD = P1^3;
+   8            sbit C1 = P1^4;
+   9            sbit C2 = P1^5;
+  10            sbit C3 = P1^6;
+  11            sbit C4 = P1^7;
+  12          
+  13            unsigned int value;
+  14            unsigned int bcd;
+  15            
+  16            void READ_SWITCHES(void);
+  17                      
+  18                      
+  19                      
+  20          
+  21            void delay(int a){
+  22   1            int i;
+  23   1          for(i=0; i<a; i++);
+  24   1        }
+  25          
+  26            int main(void){
+  27   1            while(1)
+  28   1            {
+  29   2              READ_SWITCHES();
+  30   2              P3 = value;
+  31   2              P2 = bcd;
+  32   2            }
+  33   1        }
+  34          
+  35          
+  36            void READ_SWITCHES(void){
+  37   1            RowA = 0; 
+  38   1            RowB = 1;
+  39   1            RowC = 1;
+  40   1            RowD = 1;
+  41   1          
+  42   1          if(C1 == 0) {bcd = 1; value =  0xF9;}
+  43   1          if(C2 == 0) {bcd = 2; value =  0xA4;}
+  44   1          if(C3 == 0) {bcd = 3; value =  0xB0;}
+  45   1          
+  46   1            RowA = 1; 
+  47   1            RowB = 0;
+  48   1            RowC = 1;
+  49   1            RowD = 1;
+  50   1          
+  51   1          if(C1 == 0) {  bcd = 4; value =  0x99;}
+  52   1          if(C2 == 0) {  bcd = 5; value =  0x92;}
+  53   1          if(C3 == 0) {  bcd = 6; value =  0x82;}
+  54   1          
+C51 COMPILER V9.60.7.0   TASK_1                                                            05/12/2024 23:24:08 PAGE 2   
+
+  55   1            RowA = 1; 
+  56   1            RowB = 1;
+  57   1            RowC = 0;
+  58   1            RowD = 1;
+  59   1          
+  60   1          if(C1 == 0) {  bcd = 7; value =  0xF8;}
+  61   1          if(C2 == 0) {  bcd = 8; value =  0x80;}
+  62   1          if(C3 == 0) {  bcd = 9; value =  0x98;}
+  63   1           
+  64   1            RowA = 1; 
+  65   1            RowB = 1;
+  66   1            RowC = 1;
+  67   1            RowD = 0;
+  68   1          if(C1 == 0) {  bcd = 0Xff; value =  0xFF;}
+  69   1          if(C2 == 0) {  bcd = 0; value =  0xC0;}
+  70   1          if(C3 == 0) {  bcd = 0xff; value =  0xFF; } 
+  71   1          
+  72   1        }
+  73          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    246    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

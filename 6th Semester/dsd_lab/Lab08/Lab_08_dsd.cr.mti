@@ -1,0 +1,15 @@
+{D:/Task 01/Task01/Task01.v} {1 {vlog -work work -stats=none {D:/Task 01/Task01/Task01.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Clock_Divider
+-- Compiling module counter18bit
+-- Compiling module BCD
+-- Compiling module BCD7_seg
+-- Compiling module Task01
+-- Compiling module mux4x1
+-- Compiling module decoder2x4
+-- Compiling module TopMultiplexer
+
+Top level modules:
+	TopMultiplexer
+
+} {} {}}

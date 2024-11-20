@@ -1,0 +1,82 @@
+C51 COMPILER V9.60.7.0   TASK                                                              05/21/2024 10:28:50 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE TASK
+OBJECT MODULE PLACED IN .\Objects\task.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE task.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\task
+                    -.lst) TABS(2) OBJECT(.\Objects\task.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #include <stdio.h>
+   3          
+   4          sbit button = P3^2;
+   5          unsigned int count = 0;
+   6          unsigned int j = 0;
+   7          
+   8          
+   9          unsigned int sinWave[] = {50, 60, 70, 80, 90, 100, 110, 100, 90, 80, 70, 60, 50, 50, 60, 70, 80, 90, 100, 
+             -110, 100, 90, 80, 70, 60, 50};
+  10          unsigned int triangleWave[] = {100, 90,  80, 70, 60, 50};
+  11          unsigned int squareWave[] = {50, 200};
+  12          
+  13          void delay(int i) {
+  14   1        for(j=0; j<i; j++) {
+  15   2        }
+  16   1      }
+  17          
+  18          
+  19          void counter() interrupt 0 {
+  20   1        count++;
+  21   1        if(count==3) {
+  22   2          count = 0;
+  23   2        }
+  24   1      }
+  25          void waveChanger(){
+  26   1            if(count==0){
+  27   2              unsigned int i=0;
+  28   2              for(i=0; i<25; i++)
+  29   2                P1 = sinWave[i];
+  30   2              delay(500);
+  31   2              
+  32   2            }else if(count==1){
+  33   2              unsigned int i=0;
+  34   2              for(i=0; i<6; i++)
+  35   2                P1 = triangleWave[i];
+  36   2              delay(500);
+  37   2            } else {
+  38   2              unsigned int i=0;
+  39   2              for(i=0; i<2; i++)
+  40   2                P1 = squareWave[i];
+  41   2              delay(500);
+  42   2              }
+  43   1            }
+  44          
+  45                
+  46          
+  47          void main(void){ 
+  48   1          EA = 1;
+  49   1          EX0 = 1;
+  50   1          IT0= 1;
+  51   1          while(1) {
+  52   2            waveChanger();
+  53   2          }
+C51 COMPILER V9.60.7.0   TASK                                                              05/21/2024 10:28:50 PAGE 2   
+
+  54   1          
+  55   1       }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    185    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     72       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

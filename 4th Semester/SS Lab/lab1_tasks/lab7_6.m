@@ -1,0 +1,16 @@
+ph = 90; 
+n = -3:0.001:3;
+s = cos(2*pi*n + ph);
+A_Factor = 2;
+subplot(2,1,1);
+plot(n, s, 'linewidth', 2); grid;
+xlabel('Time');
+ylabel('Amplitude');
+axis([-3, 3, -2, 2]);
+title('Original Signal');
+subplot(2,1,2);
+plot(n, A_Factor*s, 'linewidth', 2); grid;
+xlabel('Time');
+ylabel('Amplitude');
+axis([-3, 3, -2, 2]);
+title('Scalled Signal');

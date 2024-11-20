@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\blog.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:blog.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "blog.css",
+              "DocumentMoniker": "D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\blog.css",
+              "RelativeDocumentMoniker": "blog.css",
+              "ToolTip": "D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\blog.css",
+              "RelativeToolTip": "blog.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-23T12:05:29.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\University\\semester6\\dbms\\lab1\\bootstrap-5.2.3-examples\\bootstrap-5.2.3-examples\\blog\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAFIAAAAAMjMzMzMLwFgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-02-23T12:00:49.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

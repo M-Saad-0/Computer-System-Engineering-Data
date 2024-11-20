@@ -1,0 +1,70 @@
+C51 COMPILER V9.60.7.0   T1                                                                03/12/2024 21:14:56 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE T1
+OBJECT MODULE PLACED IN .\Objects\t1.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE t1.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\t1.lst
+                    -) TABS(2) OBJECT(.\Objects\t1.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          
+   3          void delay()
+   4          {
+   5   1        int i=0;
+   6   1        for(i=0; i<10000; i++)
+   7   1        {
+   8   2        }
+   9   1      }
+  10          
+  11          void main()
+  12          {
+  13   1        P1 = 0x40;
+  14   1        delay();
+  15   1        P1 = 0x79;
+  16   1        delay();
+  17   1        P1 = 0x24;
+  18   1        delay();
+  19   1        P1 = 0x30;
+  20   1        delay();
+  21   1        P1 = 0x19;
+  22   1        delay();
+  23   1        P1 = 0x12;
+  24   1        delay();
+  25   1        P1 = 0x02;
+  26   1        delay();
+  27   1        P1 = 0x78;
+  28   1        delay();
+  29   1        P1 = 0x00;
+  30   1        delay();
+  31   1        P1 = 0x10;
+  32   1        delay();
+  33   1      }
+  34          //_gfe dcba
+  35          //0100 0000 40
+  36          //0111 1001 79
+  37          //0010 0100 24
+  38          //0011 0000 30
+  39          //0001 1001 19
+  40          //0001 0010 12
+  41          //0000 0010 02
+  42          //0111 1000 78
+  43          //0000 0000 00
+  44          //0001 0000 10
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     75    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+C51 COMPILER V9.60.7.0   T1                                                                03/12/2024 21:14:56 PAGE 2   
+
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

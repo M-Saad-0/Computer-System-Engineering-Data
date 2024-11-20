@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/programs/intelFPGA/20.1
+vd_ff
+Z0 !s110 1711047551
+!i10b 1
+!s100 W`7Gl_@F3Y:_3?ZBHbM6S2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRTj51NDh6YfEV@ioc4XW11
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/semester6/dsdT/flipfliops
+w1710377999
+8D:/University/semester6/dsdT/flipfliops/d_ff.v
+FD:/University/semester6/dsdT/flipfliops/d_ff.v
+!i122 57
+L0 1 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1711047551.000000
+!s107 D:/University/semester6/dsdT/flipfliops/d_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/flipfliops/d_ff.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vgray_counter_3bit
+Z8 !s110 1711047552
+!i10b 1
+!s100 M4[^c4e?@_fLS;>h:0oWW1
+R1
+I=HU6I[dV6DC7ADWbB0ECQ1
+R2
+R3
+w1711046323
+8D:\University\semester6\dsdT\flipfliops\grayCounter.v
+FD:\University\semester6\dsdT\flipfliops\grayCounter.v
+!i122 62
+L0 2 20
+R4
+r1
+!s85 0
+31
+Z9 !s108 1711047552.000000
+!s107 D:\University\semester6\dsdT\flipfliops\grayCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\University\semester6\dsdT\flipfliops\grayCounter.v|
+!i113 1
+R6
+R7
+vmux8x1
+R8
+!i10b 1
+!s100 EgD2YWQTU^S]^ZMzW>FA]1
+R1
+I0Y^O=fPR[z=MhfIhBF^3L1
+R2
+R3
+w1711047545
+8D:\University\semester6\dsdT\flipfliops\mux8x1.v
+FD:\University\semester6\dsdT\flipfliops\mux8x1.v
+!i122 63
+L0 2 10
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:\University\semester6\dsdT\flipfliops\mux8x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\University\semester6\dsdT\flipfliops\mux8x1.v|
+!i113 1
+R6
+R7
+vripple_counter
+R0
+!i10b 1
+!s100 FVa[3KHGjJma10i1ZeOV^1
+R1
+IbKN^=L5GKX<d21K[ik@5D0
+R2
+R3
+w1710386466
+8D:/University/semester6/dsdT/flipfliops/ripple_counter.v
+FD:/University/semester6/dsdT/flipfliops/ripple_counter.v
+!i122 61
+L0 2 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/semester6/dsdT/flipfliops/ripple_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/flipfliops/ripple_counter.v|
+!i113 1
+R6
+R7
+vstimulus
+R0
+!i10b 1
+!s100 UmV[Q6gaRmJGVR_z7<iC93
+R1
+I]gVZO]jVGaE;eFDMRkW7P1
+R2
+R3
+w1710386172
+8D:\University\semester6\dsdT\flipfliops\stimulus.v
+FD:\University\semester6\dsdT\flipfliops\stimulus.v
+!i122 59
+L0 2 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\University\semester6\dsdT\flipfliops\stimulus.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\University\semester6\dsdT\flipfliops\stimulus.v|
+!i113 1
+R6
+R7
+vt_ff
+R0
+!i10b 1
+!s100 HREL=3OWkeE?5RFbCX@Si3
+R1
+IY3K9P8>3VS2hZGk[MIL6Z1
+R2
+R3
+w1710378321
+8D:/University/semester6/dsdT/flipfliops/t_ff.v
+FD:/University/semester6/dsdT/flipfliops/t_ff.v
+!i122 58
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/semester6/dsdT/flipfliops/t_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/flipfliops/t_ff.v|
+!i113 1
+R6
+R7
+vtop
+R0
+!i10b 1
+!s100 m]<JJNQ60oFF[GfWBeA1h2
+R1
+IT]]J5Xjh_KHBf3UmI>8fM0
+R2
+R3
+w1710378275
+8D:/University/semester6/dsdT/flipfliops/top.v
+FD:/University/semester6/dsdT/flipfliops/top.v
+!i122 60
+L0 2 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/semester6/dsdT/flipfliops/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/semester6/dsdT/flipfliops/top.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,32 @@
+D:/University/semester6/dsdT/flipfliops/stimulus.v {1 {vlog -work work -stats=none {D:\University\semester6\dsdT\flipfliops\stimulus.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stimulus
+
+Top level modules:
+	stimulus
+
+} {} {}} D:/University/semester6/dsdT/flipfliops/t_ff.v {1 {vlog -work work -stats=none D:/University/semester6/dsdT/flipfliops/t_ff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module t_ff
+
+Top level modules:
+	t_ff
+
+} {} {}} D:/University/semester6/dsdT/flipfliops/top.v {1 {vlog -work work -stats=none D:/University/semester6/dsdT/flipfliops/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/University/semester6/dsdT/flipfliops/ring_counter.v {1 {vlog -work work -stats=none D:/University/semester6/dsdT/flipfliops/ring_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} D:/University/semester6/dsdT/flipfliops/d_ff.v {1 {vlog -work work -stats=none D:/University/semester6/dsdT/flipfliops/d_ff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_ff
+
+Top level modules:
+	d_ff
+
+} {} {}}

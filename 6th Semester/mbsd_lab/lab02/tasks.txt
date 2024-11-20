@@ -1,0 +1,96 @@
+task 1 assembly
+
+RG 00H
+HERE:
+MOV P0,#0H
+MOV P0,#01H
+ACALL DELAY
+MOV P0,#02H
+ACALL DELAY
+MOV P0, #03H
+SJMP HERE
+DELAY:
+MOV R0,#10
+LOOP:
+DJNZ R0,LOOP
+DJNZ R1,DELAY
+MOV R1,#5
+RET
+END
+
+ 
+task 1 C
+
+#include <reg51.h>
+#include <stdio.h>
+void Delay(int d)
+{
+ for(int i=0; i<d; i=0.1+i)
+ {
+ printf(".");
+ } 
+}
+void main(void)
+{ 
+ while (1)
+ {
+ P0 = 0x01;
+ Delay(50);
+ P0 = 0x03;
+ Delay(50);
+ P0 = 0x03;
+ } 
+}
+
+
+task 2 assembly part 1 
+
+ORG 00H
+HERE:
+MOV P1,#01H
+MOV P2,#02H
+MOV P3,#04H
+SJMP HERE
+END
+
+
+task 2 C part 1
+include <reg51.h>
+#include <stdio.h>
+int A;
+void main(void)
+{ 
+ 
+ while(1) {
+ P1=0x01;
+ P2=0x02;
+ P3=0x04;
+ }
+ 
+}
+
+task 2 assembly part 2
+
+ORG 00H
+HERE:
+MOV P1,#80H
+MOV P2,#01H
+MOV P3,#02H
+SJMP HERE
+END
+
+task 2 C part 2
+
+#include <reg51.h>
+#include <stdio.h>
+int A;
+void main(void)
+{ 
+ 
+ while(1) {
+ P1=0x80;
+ P2=0x01;
+ P3=0x02;
+ }
+ 
+}

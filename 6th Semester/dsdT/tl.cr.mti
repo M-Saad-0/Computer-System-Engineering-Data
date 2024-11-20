@@ -1,0 +1,16 @@
+{C:/Users/M-Saad/Desktop/Project 4 - 64-Bit Adder/ripple_adder_64/ripple_adder_64.v} {1 {vlog -work work -stats=none {C:/Users/M-Saad/Desktop/Project 4 - 64-Bit Adder/ripple_adder_64/ripple_adder_64.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_adder_64
+-- Compiling module full_adder
+
+Top level modules:
+	ripple_adder_64
+
+} {} {}} {C:/Users/M-Saad/Desktop/Project 4 - 64-Bit Adder/ripple_adder_64/ripple_adder_64_test.v} {1 {vlog -work work -stats=none {C:/Users/M-Saad/Desktop/Project 4 - 64-Bit Adder/ripple_adder_64/ripple_adder_64_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_adder_64_test
+
+Top level modules:
+	ripple_adder_64_test
+
+} {} {}}

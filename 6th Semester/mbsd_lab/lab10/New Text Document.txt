@@ -1,0 +1,297 @@
+#include <stdio.h>
+#include <reg51.h>
+sbit E = P3^6;
+sbit RS = P3^7;
+sbit RowA = P1^0;
+sbit RowB = P1^1;
+sbit RowC = P1^2;
+sbit RowD = P1^3;
+sbit C1 = P1^4;
+sbit C2 = P1^5;
+sbit C3 = P1^6;
+sbit C4 = P1^7;
+//  Write Your Name on First Line and registration Number on second line of LCD.
+
+void cct_init(void);
+void delay(int);
+void lcdinit(void);
+void writecmd(int);
+void writedata(char);
+char READ_SWITCHES(void);
+char get_key(void);
+int get_num(char);
+void disp_num(int);
+char get_operator(char);
+
+					
+int main(void){
+    char key;
+    int num1 = 0, num2 = 0, result = 0;
+    char operators = '\0'; // Initialize operator as null character
+
+    cct_init();
+    lcdinit();
+
+    while(1){
+        key = get_key();
+        if(key == '=') {
+            // Perform calculation when '=' key is pressed
+            switch(operators) {
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case 'X':
+                    result = num1 * num2;
+                    break;
+                case '/':
+                    if(num2 != 0)
+                        result = num1 / num2;
+                    else
+                        result = 0; // Handle division by zero
+                    break;
+                default:
+                    result = 0;
+                    break;
+            }
+            // Display the result on the LCD
+            writecmd(0x01); // Clear display
+            delay(1000);
+            writedata(result + '0');
+            delay(1000);
+            // Reset variables for next calculation
+            num1 = num2 = result = 0;
+            operators = '\0';
+        } else if(key == 'C') {
+            // Clear display and reset variables on 'C' key press
+            writecmd(0x01);
+            delay(1000);
+            num1 = num2 = result = 0;
+            operators = '\0';
+        } else {
+            // Process numeric keys and arithmetic operator keys
+            if(operators == '\0') {
+                // If operator is not set, get the first number
+                num1 = get_num(key);
+            } else {
+                // If operator is set, get the second number
+                num2 = get_num(key);
+            }
+            if(num1 != -1 && num2 != -1) {
+                // If both numbers are valid, display them on the LCD
+                if(operators == '\0') {
+                    writedata(num1 + '0');
+                } else {
+                    writedata(num2 + '0');
+                }
+            }
+            if(key != '+' && key != '-' && key != '*' && key != '/') {
+                // If key is not an operator, set the operator
+                operators = get_operator(key);
+            }
+        }
+    }
+}
+
+char READ_SWITCHES(void){
+		RowA = 0; 
+		RowB = 1;
+		RowC = 1;
+		RowD = 1;
+	
+	if(C1 == 0) { delay(10000); while(C1 ==0); return '7';}
+	if(C2 == 0) { delay(10000); while(C2 ==0); return '8';}
+	if(C3 == 0) { delay(10000); while(C3 ==0); return '9';}
+	if(C4 == 0) { delay(10000); while(C4 ==0); return '/';}
+	
+	  RowA = 1; 
+		RowB = 0;
+		RowC = 1;
+		RowD = 1;
+	
+	if(C1 == 0) { delay(10000); while(C1 ==0); return '4';}
+	if(C2 == 0) { delay(10000); while(C2 ==0); return '5';}
+	if(C3 == 0) { delay(10000); while(C3 ==0); return '6';}
+	if(C4 == 0) { delay(10000); while(C4 ==0); return 'X';}
+	
+		RowA = 1; 
+		RowB = 1;
+		RowC = 0;
+		RowD = 1;
+	
+	if(C1 == 0) { delay(10000); while(C1 ==0); return '1';}
+	if(C2 == 0) { delay(10000); while(C2 ==0); return '2';}
+	if(C3 == 0) { delay(10000); while(C3 ==0); return '3';}
+	if(C4 == 0) { delay(10000); while(C4 ==0); return '-';}
+	 
+		RowA = 1; 
+		RowB = 1;
+		RowC = 1;
+		RowD = 0;
+	if(C1 == 0) { delay(10000); while(C1 ==0); return 'C';}
+	if(C2 == 0) { delay(10000); while(C2 ==0); return '0';}
+	if(C3 == 0) { delay(10000); while(C4 ==0); return '='; }
+	if(C4 == 0) { delay(10000); while(C4 ==0); return '+';}
+	
+	
+	
+	return 'n';
+	
+}
+
+char get_operator(char ch){
+    // Function to return the arithmetic operator corresponding to the key
+    switch(ch){
+        case '+': return '+'; break;
+        case '-': return '-'; break;
+        case 'X': return 'X'; break;
+        case '/': return '/'; break;
+        default : return '\0'; break; // Return null character for non-operator keys
+    }
+}
+
+void writedata(char t){
+		RS =1;
+		P2 = t;
+		E = 1;
+		delay(100);
+		E =0;
+		delay(100);
+}
+void writecmd(int z){
+		RS =0;
+		P2 = z;
+		E = 1;
+		delay(100);
+		E =0;
+		delay(100);
+}
+
+void delay(int a){
+		int i;
+	for(i=0; i<a; i++);
+}
+void cct_init(void){
+		P0 = 0X00;
+		P1 = 0XF0;
+	  P2 = 0X00;
+	  P3 = 0X00;
+}
+
+char get_key(void){
+		char key = 'n'; //assume no key is pressed
+	while(key == 'n'){
+		key = READ_SWITCHES();
+	}
+	return key;
+}
+
+
+int get_num(char ch){
+		switch(ch){
+			case '1': return 1; break;
+			case '2': return 2; break;
+			case '3': return 3; break;
+			case '4': return 4; break;
+			case '5': return 5; break;
+			case '6': return 6; break;
+			case '7': return 7; break;
+			case '8': return 8; break;
+			case '9': return 9; break;
+			case '0': return 0; break;
+			case '+': return '+'; break;
+			case '-': return '-'; break;
+			case '/': return '/'; break;
+			case 'X': return 'X'; break;
+			
+			
+			default : return 'E'; break; 
+		}
+}
+
+void disp_num(int num){
+		writedata(num + '0');
+}
+
+
+void lcdinit(void){
+	delay(15000);
+	writecmd(0X38);
+	writecmd(0X0C);
+	writecmd(0X01);
+	writecmd(0X06);
+	
+	
+}
+
+
+
+
+
+#include <reg51.h>
+
+sbit E = P3^6; 
+sbit RS = P3^7;
+char *name = "Muhammad Ilyas";
+char *regID = "21pwcse2055";
+unsigned int i=0;
+
+void delay(unsigned int d) {
+	unsigned int i=0;
+	for(i=0; i<d; i++) {}
+}
+
+
+void writecmd(int z) 
+{ 
+ RS = 0; //rs
+ P2 = z;
+ E = 1; //e
+ delay(150); 
+ E = 0;  //e
+ delay(150); 
+}
+
+void writedata(char t) 
+{ 
+ RS = 1; //rs
+ P2 = t; 
+ E = 1; //e
+ delay(150); 
+ E = 0; //e
+ delay(150); 
+} 
+
+void lcdinit(void) 
+{ 
+ writecmd(0x30); 
+ delay(300); 
+ writecmd(0x30); 
+ delay(650); 
+ writecmd(0x38); 
+ writecmd(0x0c); 
+ writecmd(0x01); 
+ writecmd(0x06); 
+} 
+
+
+
+void main() {
+	lcdinit();
+
+		writecmd(0x80);
+		for(i=0; i<14; i++) {
+			writedata(*name++);
+			delay(10000);
+		}
+		
+		
+		writecmd(0xc0);
+		for(i=0; i<12; i++) {
+			writedata(*regID++);
+			delay(10000);
+		}
+	
+}

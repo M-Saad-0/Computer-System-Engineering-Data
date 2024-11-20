@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.xst" -ofn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.syr" 
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.xst" -ofn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.syr" 
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.xst" -ofn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.syr" 
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.xst" -ofn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.syr" 
+xst -intstyle ise -ifn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.xst" -ofn "C:/Users/PC/Documents/CSA/project/automatic_washing_machine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc automatic_washing_machine.ucf -p xc6slx9-csg324-2 automatic_washing_machine.ngc automatic_washing_machine.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o automatic_washing_machine_map.ncd automatic_washing_machine.ngd automatic_washing_machine.pcf 
+par -w -intstyle ise -ol high -mt off automatic_washing_machine_map.ncd automatic_washing_machine.ncd automatic_washing_machine.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml automatic_washing_machine.twx automatic_washing_machine.ncd -o automatic_washing_machine.twr automatic_washing_machine.pcf -ucf automatic_washing_machine.ucf 
+bitgen -intstyle ise -f automatic_washing_machine.ut automatic_washing_machine.ncd 

@@ -1,0 +1,22 @@
+* F:\CS Lab\l12.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Jul 05 03:29:22 2022
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "l12.net"
+.INC "l12.als"
+
+
+.probe
+
+
+.END

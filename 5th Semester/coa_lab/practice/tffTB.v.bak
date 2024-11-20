@@ -1,0 +1,52 @@
+
+`timescale 1ns / 1ps
+
+module jk_flipflop_tb;
+
+    // Inputs
+    reg J;
+    reg K;
+    reg C;
+
+    // Outputs
+    wire Q;
+    wire Q_;
+
+    // Instantiate the Unit Under Test (UUT)
+    jk_flipflop uut (
+        .J(J), 
+        .K(K), 
+        .C(C), 
+        .Q(Q), 
+        .Q_(Q_)
+    );
+
+    initial begin
+        // Initialize Inputs
+        J = 0;
+        K = 0;
+        C = 0;
+
+        // Wait 100 ns for global reset to finish
+        #100;
+
+        // Add test cases here
+        // Set inputs and check outputs
+        J = 1;
+        K = 0;
+        C = 1;
+        #10;
+        J = 0;
+        K = 1;
+        C = 1;
+        #10;
+        J = 1;
+        K = 1;
+        C = 1;
+        #10;
+
+        // End simulation
+        $finish;
+    end
+
+endmodule

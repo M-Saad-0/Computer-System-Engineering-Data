@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="project.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="automatic_washing_machine.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="automatic_washing_machine.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="automatic_washing_machine.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="automatic_washing_machine.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="automatic_washing_machine.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="automatic_washing_machine.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="automatic_washing_machine.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="automatic_washing_machine.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="automatic_washing_machine.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="automatic_washing_machine.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="automatic_washing_machine.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="automatic_washing_machine.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="automatic_washing_machine.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="automatic_washing_machine.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="automatic_washing_machine.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="automatic_washing_machine.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="automatic_washing_machine.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="automatic_washing_machine.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="automatic_washing_machine.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="automatic_washing_machine.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="automatic_washing_machine.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="automatic_washing_machine.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="automatic_washing_machine.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="automatic_washing_machine.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="automatic_washing_machine_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="automatic_washing_machine_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="automatic_washing_machine_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="automatic_washing_machine_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="automatic_washing_machine_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="automatic_washing_machine_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="automatic_washing_machine_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="automatic_washing_machine_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="automatic_washing_machine_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="automatic_washing_machine_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="automatic_washing_machine_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="automatic_washing_machine_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="automatic_washing_machine_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="automatic_washing_machine_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="automatic_washing_machine_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4028057785039228320" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4952740392875321760" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2568299919144986462" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745293037926" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719280946" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2479136681669764438" xil_pn:start_ts="1719280946">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719281610" xil_pn:in_ck="162523892502331" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-7361632461594824017" xil_pn:start_ts="1719281597">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="automatic_washing_machine.lso"/>
+      <outfile xil_pn:name="automatic_washing_machine.ngc"/>
+      <outfile xil_pn:name="automatic_washing_machine.ngr"/>
+      <outfile xil_pn:name="automatic_washing_machine.prj"/>
+      <outfile xil_pn:name="automatic_washing_machine.stx"/>
+      <outfile xil_pn:name="automatic_washing_machine.syr"/>
+      <outfile xil_pn:name="automatic_washing_machine.xst"/>
+      <outfile xil_pn:name="automatic_washing_machine_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1719282156" xil_pn:in_ck="-4546917188174058921" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7116558325343007309" xil_pn:start_ts="1719282156">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1719282164" xil_pn:in_ck="-1415987793103491832" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7005845841595205409" xil_pn:start_ts="1719282156">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="automatic_washing_machine.bld"/>
+      <outfile xil_pn:name="automatic_washing_machine.ngd"/>
+      <outfile xil_pn:name="automatic_washing_machine_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1719282176" xil_pn:in_ck="-7592064553590962007" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-3239470449407159120" xil_pn:start_ts="1719282164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="automatic_washing_machine.pcf"/>
+      <outfile xil_pn:name="automatic_washing_machine_map.map"/>
+      <outfile xil_pn:name="automatic_washing_machine_map.mrp"/>
+      <outfile xil_pn:name="automatic_washing_machine_map.ncd"/>
+      <outfile xil_pn:name="automatic_washing_machine_map.ngm"/>
+      <outfile xil_pn:name="automatic_washing_machine_map.xrpt"/>
+      <outfile xil_pn:name="automatic_washing_machine_summary.xml"/>
+      <outfile xil_pn:name="automatic_washing_machine_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1719282194" xil_pn:in_ck="1637508197283407458" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1719282176">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="automatic_washing_machine.ncd"/>
+      <outfile xil_pn:name="automatic_washing_machine.pad"/>
+      <outfile xil_pn:name="automatic_washing_machine.par"/>
+      <outfile xil_pn:name="automatic_washing_machine.ptwx"/>
+      <outfile xil_pn:name="automatic_washing_machine.unroutes"/>
+      <outfile xil_pn:name="automatic_washing_machine.xpi"/>
+      <outfile xil_pn:name="automatic_washing_machine_pad.csv"/>
+      <outfile xil_pn:name="automatic_washing_machine_pad.txt"/>
+      <outfile xil_pn:name="automatic_washing_machine_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1719282236" xil_pn:in_ck="-4546917188174066546" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="6587536580693756888" xil_pn:start_ts="1719282221">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="automatic_washing_machine.bgn"/>
+      <outfile xil_pn:name="automatic_washing_machine.bin"/>
+      <outfile xil_pn:name="automatic_washing_machine.bit"/>
+      <outfile xil_pn:name="automatic_washing_machine.drc"/>
+      <outfile xil_pn:name="automatic_washing_machine.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1719282194" xil_pn:in_ck="-4006671412465170011" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1719282186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="automatic_washing_machine.twr"/>
+      <outfile xil_pn:name="automatic_washing_machine.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

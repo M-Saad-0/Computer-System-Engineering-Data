@@ -1,0 +1,100 @@
+<!--
+<script>
+    const incriment = (function(){
+        return function incriment(number, value=1)
+        {
+            return number + value;
+            
+        };
+    })();
+    console.log(incriment(5,2));
+    console.log(incriment(5));
+</script>-->
+<!--... is rest operator used passing many arguments to a function
+It converts the arguements into an array-->
+
+
+
+
+<!--
+<script>
+    const arr1=["Jan", "Feb", "Mar", "Apr", "May"];
+    let arr2;
+    (function(){
+        arr2=[...arr1];//this is known as spread operator, what it does is that it takes all element of one array and puts it in another array. if you use [, , ...arr1], it will skip the first two
+        arr1[0]="Dec";//so the value does not change if it was simply assigned the first element would have. ="Dec".
+    })();
+    console.log(arr2);
+    //need to learn Arrow functions
+</script>-->
+
+
+<!--
+<script>
+    var voxel = {x:3.6, y:7.4, z:6.54};
+    const {x:a, y:b, z:c}=voxel; //destructuring an object
+    
+    const AVG_TEMPERATURES = {
+        today:77.5,
+        tomorrow:79
+    };
+    function getTempOfTmrw(avgTemperature)
+    {
+        const{tomorrow:tempOfTomorrow}=avgTemperature;
+        return tempOfTomorrow;
+        
+    }
+    console.log(getTempOfTmrw(AVG_TEMPERATURES));
+</script>-->
+
+<!--
+<script>
+    const LOCAL_FORECAST=
+          {
+              today: {min:72, max:83},
+              tomorrow:{min:73.3, max:84.6}
+          };
+    function getMaxOfTmrw(forecast){
+        "use strict";
+        const{tomorrow:{max:maxOfTomorrow }}=forecast;
+        return maxOfTomorrow;
+    }
+    console.log(getMaxOfTmrw(LOCAL_FORECAST));
+</script>-->
+
+
+<!--
+<script>
+      const person={
+          age:15,
+          name:"mark"
+      };
+    console.log(`his name is ${person.name} and age is ${person.age}`);
+</script>
+-->
+
+<!--
+<script>
+      const bycicle=
+            {
+                gear:2,
+                setGear(newGear){
+                "use strict";
+                this.gear=newGear;
+            }
+            };
+    bycicle.setGear(3);
+    console.log(bycicle.gear)
+  
+</script>-->
+
+<script>
+    class SpaceShuttle{
+        constructor(targetPlanet)
+    {
+        this.targetPlanet=targetPlanet;
+    }
+    }
+    var zeus = new SpaceShuttle("Jupiter");
+    console.log(zeus.targetPlanet)
+</script>

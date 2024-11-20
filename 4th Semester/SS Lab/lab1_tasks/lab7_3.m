@@ -1,0 +1,16 @@
+n = -4:0.005:4;
+x = sin(2*pi*n);
+subplot(2, 1, 1);
+plot(n, x, 'linewidth', 2);
+xlabel('x-axis');
+ylabel('y-axis');
+title('Original Function');
+axis([-6, 6, -2,  2]);
+grid;
+subplot(2, 1, 2);
+plot(n+2, x, 'linewidth', 2);
+xlabel('x-axis');
+ylabel('y-axis');
+title('Delayed Function');
+axis([-6, 6, -2,  2]);
+grid;

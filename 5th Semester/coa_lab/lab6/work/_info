@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vHA
+!s110 1699402448
+!i10b 1
+!s100 6fRkKZXkYG`F?g0dDLJUI1
+IiE[4Ac=kNZQ8Kz=Jn0MKR1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dE:/Uni_Folder/semester_5/coa_lab/lab6
+w1699401845
+Z2 8E:/Uni_Folder/semester_5/coa_lab/lab6/halfAdder.v
+Z3 FE:/Uni_Folder/semester_5/coa_lab/lab6/halfAdder.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1699402448.000000
+Z5 !s107 E:/Uni_Folder/semester_5/coa_lab/lab6/halfAdder.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|E:/Uni_Folder/semester_5/coa_lab/lab6/halfAdder.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@h@a
+vHalfAdder
+Z9 !s110 1699421667
+!i10b 1
+!s100 ?ehc<;GUA6GH[KWPK@A=o2
+IY=_WGZjjmn3b^_gmdJVSL3
+R0
+R1
+w1699421635
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1699421667.000000
+R5
+R6
+!i113 1
+R7
+R8
+n@half@adder
+vstim_Ha
+R9
+!i10b 1
+!s100 kK5`ZI`?IZVEOihz;JHS[0
+I@G_[Eao2Yka4PO?@L>>bX1
+R0
+R1
+w1699421644
+8E:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v
+FE:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Uni_Folder/semester_5/coa_lab/lab6/hallAdderTestBench.v|
+!i113 1
+R7
+R8
+nstim_@ha

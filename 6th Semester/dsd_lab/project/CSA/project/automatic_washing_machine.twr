@@ -1,0 +1,147 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml automatic_washing_machine.twx
+automatic_washing_machine.ncd -o automatic_washing_machine.twr
+automatic_washing_machine.pcf -ucf automatic_washing_machine.ucf
+
+Design file:              automatic_washing_machine.ncd
+Physical constraint file: automatic_washing_machine.pcf
+Device,package,speed:     xc6slx9,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+-------------+------------+------------+------------+------------+------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------+------------+------------------+--------+
+cycle_timeout|    2.586(R)|      SLOW  |   -0.696(R)|      FAST  |clk_BUFGP         |   0.000|
+door_close   |    3.018(R)|      SLOW  |   -0.949(R)|      FAST  |clk_BUFGP         |   0.000|
+reset        |    2.475(R)|      SLOW  |   -0.624(R)|      FAST  |clk_BUFGP         |   0.000|
+spin_timeout |    3.593(R)|      SLOW  |   -1.120(R)|      FAST  |clk_BUFGP         |   0.000|
+start        |    3.634(R)|      SLOW  |   -1.349(R)|      FAST  |clk_BUFGP         |   0.000|
+-------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+done          |        12.440(R)|      SLOW  |         5.336(R)|      FAST  |clk_BUFGP         |   0.000|
+door_lock     |        12.456(R)|      SLOW  |         5.341(R)|      FAST  |clk_BUFGP         |   0.000|
+drain_value_on|        11.715(R)|      SLOW  |         4.908(R)|      FAST  |clk_BUFGP         |   0.000|
+fill_value_on |        11.502(R)|      SLOW  |         4.794(R)|      FAST  |clk_BUFGP         |   0.000|
+motor_on      |        11.304(R)|      SLOW  |         4.665(R)|      FAST  |clk_BUFGP         |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock detergent_added to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                 | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+water_wash  |        11.118(F)|      SLOW  |         5.060(F)|      FAST  |current_state[2]_GND_7_o_Mux_36_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+
+Clock drained to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                 | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+water_wash  |        11.650(F)|      SLOW  |         5.296(F)|      FAST  |current_state[2]_GND_7_o_Mux_36_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+
+Clock filled to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                 | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+soap_wash   |        11.271(F)|      SLOW  |         5.142(F)|      FAST  |current_state[2]_GND_6_o_Mux_34_o|   0.000|
+water_wash  |        11.446(F)|      SLOW  |         5.216(F)|      FAST  |current_state[2]_GND_7_o_Mux_36_o|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.988|         |         |         |
+detergent_added|    3.092|    5.498|         |         |
+drained        |    3.214|    5.498|         |         |
+filled         |    3.424|    5.799|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock detergent_added
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    5.469|         |
+filled         |         |         |         |    3.313|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock drained
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    5.469|         |
+filled         |         |         |         |    3.313|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock filled
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    5.469|         |
+filled         |         |         |         |    3.313|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+cycle_timeout  |motor_on       |   11.351|
+door_close     |door_lock      |   12.379|
+drained        |drain_value_on |   11.048|
+filled         |fill_value_on  |   11.011|
+spin_timeout   |done           |   12.151|
+spin_timeout   |drain_value_on |   11.426|
+start          |door_lock      |   13.042|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Jun 24 19:23:12 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+
