@@ -1,0 +1,23 @@
+Objective of the Lab:
+The objective of this lab is to analyze the time-domain behavior of a linear time-invariant (LTI) system described by the transfer function G(s) = 10/(s^2 + 2s + 20). The lab aims to:
+
+Find and compare the impulse and step responses of the system using both MATLAB and Simulink to verify the system's behavior.
+
+Apply a sinusoidal input to the system in both MATLAB and Simulink and compare the resulting outputs to understand the system's response to a periodic signal.
+
+
+Results and Observations:
+Document the results of your simulations. Provide plots and numerical data for the impulse, step, and sinusoidal responses from both MATLAB and Simulink. Note any similarities or differences between the simulations.
+
+Conclusions:
+In your lab report, draw the following conclusions:
+
+Discuss the behavior of the system based on the impulse and step responses. Explain the transient and steady-state characteristics.
+
+Compare the results from MATLAB and Simulink for the impulse and step responses, highlighting any discrepancies and the reliability of simulation tools.
+
+Analyze the system's response to a sinusoidal input in both MATLAB and Simulink. Discuss how the system behaves in the frequency domain, looking at amplitude and phase response.
+
+Summarize the key findings and insights gained from the lab experiment, emphasizing the importance of using simulation tools for system analysis.
+
+Mention any challenges faced during the experiment and propose potential improvements or further investigations.
