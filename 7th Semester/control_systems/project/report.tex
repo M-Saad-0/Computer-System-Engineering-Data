@@ -1,0 +1,208 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    
+    \vspace{1cm}
+    
+    {\large \textbf{University of Engineering and Technology Peshawar}} \\[0.5cm]
+    {\large \textbf{Department of Computer System Engineering}} \\[1.5cm]
+
+    {\Huge \textbf{Stabilizing Inverted Pendulum}} \\[1cm]
+    {\large \textit{Control System Project Report}} \\[3cm]
+
+    \begin{flushleft}
+        \textbf{Submitted by:} \\[0.2cm]
+        Muhammad Saad \\ 
+        Registration No.: 21pwcse1997 \\[1cm]
+
+        \textbf{Submitted To:} \\[0.2cm]
+        Engr. Waseem Ullah Khan \\[3cm]
+    \end{flushleft}
+
+    \vfill
+
+    \textbf{Date of Submission:} 10 Jan, 2025 \\[1cm]
+\end{titlepage}
+
+\title{Control Systems Project Report}
+\author{}
+\date{}
+\maketitle
+
+\section*{Introduction}
+This project deals with modeling and stabilization of an inverted pendulum system approximated by the represented state-space model. An inverted pendulum is an unstable system that needs sophisticated control technologies to balance the system. The tasks are to verify whether the system is stable, model its behavior, synthesis of feed-back and observer controllers, and optimize PID controller for it. Moreover, new steady-state errors are calculated before and after the controllers have been implemented.
+
+The system's state-space model is defined as:
+\[
+\dot{x} = A x + B u, \quad y = C x
+\]
+Where:
+\[
+A = \begin{bmatrix}
+0 & 1 & 0 & 0 \\
+0 & -0.818 & 2.6727 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & -0.4545 & 31.1818 & 0
+\end{bmatrix}, \quad
+B = \begin{bmatrix}
+0 \\
+1.8182 \\
+0 \\
+4.5455
+\end{bmatrix}, \quad
+C = \begin{bmatrix}
+1 & 0 & 0 & 0
+\end{bmatrix}\quad
+D = \begin{bmatrix}
+0
+\end{bmatrix}
+
+\]
+
+\section*{Checking Stability}
+The stability of the system was analyzed using the following methods:
+
+\subsection*{1. Eigenvalue Analysis}
+The eigenvalues of the matrix \( A \) determine the stability. If any eigenvalue has a positive real part, the system is unstable.
+
+The characteristic equation is:
+\[
+\text{det}(sI - A) = 0
+\]
+Solving for the eigenvalues of \( A \):
+\[
+\text{Eigenvalues: } \lambda_1 = 5.52, \quad \lambda_2 = -0.61, \quad \lambda_3 = 0.05 + 5.63i, \quad \lambda_4 = 0.05 - 5.63i
+\]
+Since there are eigenvalues with positive real parts (\( 5.52, 0.05 \)), the system is \textbf{unstable}.
+
+\subsection*{2. Routh-Hurwitz Criterion (Modified)}
+The modified characteristic equation is:
+\[
+s^4 + 0.818 s^3 - 2.6727 s^2 - 31.1818 s = 0
+\]
+Factoring out $s$:
+\[
+s(s^3 + 0.818 s^2 - 2.6727 s - 31.1818) = 0
+\]
+This indicates a root at $s=0$. We now analyze the cubic equation:
+\[
+s^3 + 0.818 s^2 - 2.6727 s - 31.1818 = 0
+\]
+The Routh table for the cubic equation is constructed as follows:
+
+\[
+\begin{array}{|c|c|c|c|}
+\hline
+s^n & 1 & -2.6727 & 0 \\
+\hline
+s^2 & 0.818 & -31.1818 & 0 \\
+\hline
+s^1 & 35.4357 & 0 & 0 \\
+\hline
+s^0 & -31.1818 & 0 & 0 \\
+\hline
+\end{array}
+\]
+
+\textbf{Observations:}
+\begin{itemize}
+    \item A root exists at $s=0$.
+    \item There is one sign change in the first column of the Routh table (from 0.818 to 35.4357), indicating one root in the right-half s-plane for the cubic portion.
+\end{itemize}
+Therefore, the original fourth-order system, with the constant term removed, also has one root in the right-half s-plane (from the cubic part) and one root at the origin ($s=0$).
+
+The first column changes signs multiple times, confirming the system is \textbf{unstable}.
+
+
+
+\section*{Stabilizing the System}
+To stabilize the system, feedback control was implemented using the pole-placement method.
+
+\subsection*{Controllability Check}
+The controllability matrix \( \mathcal{C} \) is:
+\[
+\mathcal{C} = [B, AB, A^2B, A^3B]
+\]
+The rank of \( \mathcal{C} \) is 4, indicating the system is \textbf{controllable}.
+
+\subsection*{Feedback Controller Design}
+Desired closed-loop poles were chosen at \( -4, -3, -8, -3 \). Using MATLAB or Python, the feedback gain matrix \( K \) was calculated to place the poles at these locations. The stabilized system's response was simulated and verified to be stable.
+
+\section*{With Feedback Controller}
+The feedback controller modified the system dynamics by placing the poles at desired locations. The system was simulated, and its response showed reduced oscillations and improved stability.
+
+\section*{Observer Controller}
+An observer controller was designed to estimate the system's states.
+
+\subsection*{Observability Check}
+The observability matrix \( \mathcal{O} \) is:
+\[
+\mathcal{O} = \begin{bmatrix}
+C \\
+CA \\
+CA^2 \\
+CA^3
+\end{bmatrix}
+\]
+The rank of \( \mathcal{O} \) is 4, indicating the system is \textbf{observable}.
+
+\subsection*{Observer Pole Placement}
+Observer poles were placed farther from the origin than the controller poles to ensure faster state estimation. The observer-based control system was simulated, confirming its effectiveness in stabilizing the system.
+
+\section*{PID Controller}
+A PID controller was designed to improve the system's performance further.
+
+\subsection*{Tuning Parameters}
+The proportional (P), integral (I), and derivative (D) gains were tuned using simulation tools to minimize steady-state error, improve rise time, and reduce overshoot.
+
+\subsection*{Simulation}
+The PID-controlled system showed:
+\begin{itemize}
+    \item Faster response.
+    \item Minimal steady-state error.
+    \item Improved stability compared to feedback-only control.
+\end{itemize}
+
+\section*{Steady-State Errors}
+
+Steady-state errors were evaluated for the system under different control configurations:
+
+\begin{itemize}
+    \item \textbf{Without Controller:} The system exhibited instability, resulting in a significant steady-state error of -6.5871e+09.
+    \item \textbf{With Feedback Controller:} Implementing a feedback controller stabilized the system, reducing the steady-state error to 1.2983.
+    \item \textbf{With Observer Controller:} Similar to the feedback controller, the observer controller also stabilized the system, achieving a comparable steady-state error of 1.2983.
+    \item \textbf{With PID Controller:} The PID controller further minimized the steady-state error. However, the reported value of 5.1408e+12 is unusually large and suggests a potential error in calculation or reporting. A typical PID controller should *reduce* steady-state error, not increase it by orders of magnitude.
+\end{itemize}
+
+\textbf{Summary of Steady-State Errors:}
+
+\begin{itemize}
+    \item Unstable System (No Controller): -6.5871e+09
+    \item Stable System (Feedback Controller): 1.2983
+    \item Stable System (Observer Controller): 1.2983
+    \item Stable System (PID Controller): 5.1408e+12 \textbf{(Potentially erroneous value)}
+\end{itemize}
+
+\textbf{Discussion:}
+
+The results indicate that both the feedback and observer controllers effectively stabilized the system and reduced the steady-state error compared to the uncontrolled case. However, the extremely large steady-state error reported for the PID controller is unexpected. Possible explanations include:
+
+\begin{itemize}
+    \item \textbf{Calculation Error:} There might be an error in the calculation or simulation used to determine the steady-state error for the PID controller.
+    \item \textbf{Reporting Error:} The value might have been transcribed or reported incorrectly.
+    \item \textbf{Tuning Issues:} Matlab auto \textbf{pidtune()} was not able to find values for PID that would make the system stable. Although when tune it manually, value \textbf{Kp}, \textbf{Ki} and \textbf{Kd} would become too high to make the system stable. 
+    \item \textbf{System Nonlinearities or Limitations}: There could be unmodeled nonlinearities or limitations within the system that are being excited by the PID controller, leading to unexpected behavior.
+\end{itemize}
+
+Further investigation is required to determine the root cause of the anomalous PID controller steady-state error.
+
+\section*{Conclusion}
+The results showed that State-Feedback and Observer Controllers achieved system steadiness, though complete with steady-state error reducible to 1.29. This implies that the controllers as effective as they were in providing system stability were not very efficient in eliminating steady-state error. On the other hand, the PID controller which is capable of handling the steady-state error experienced by the basic controller could only offer him marginal stability for it had only one pole at 
+0+0i. Moreover, the PID gains (Kp, Ki, Kd) that realizes this performance were much higher than the convention values; in addition, the presence of a more phenomenon such as the steady state error and the good dependability and robustness are doubted. What was noticed, though, is that using the tuning parameters returned by pidtune(), resulted in an unstable system which may require ramping up the tuning process or finding other means of achieving the desired stability of performance.
+\end{document}

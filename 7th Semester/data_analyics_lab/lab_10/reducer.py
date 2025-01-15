@@ -1,0 +1,1 @@
+lastFile = open('lastOutputFile.txt')

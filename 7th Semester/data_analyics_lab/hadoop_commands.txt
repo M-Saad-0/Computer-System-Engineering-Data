@@ -1,0 +1,45 @@
+#For making the directory in the local system use
+mkdir 
+
+# for creating a new document of any format use 
+touch filename.extension
+
+# To visualize the contents of any file use 
+cat filename.extension
+
+# To make a directory in the hadoop namenode us 
+
+hadoop fs -mkdir /nameofthefolder
+
+# To copy the data from the local machine to the namenode/ hadoop use
+
+hadoop fs -put pathofthesourcefolder/filename.extension /foldernameonthelocalhost(namenode/hadoop)
+hadoop fs -copyFromLocal /.........
+hadoop fs -copyFromLocal/-put -f(in case File exists there) /....(same as above)
+
+# To copy from the local host to the local machine
+
+hadoop fs -copyToLocal /folder_on_the_localhost/filename.extension /destination_folder's path
+hadoop fs -get /...
+
+
+# To format the namenode use 
+
+hdfs namenode -format
+
+# To stop the hadoop services use
+
+./stop-all.sh (For mac) -- from the path where hadoop is installed/placed 
+stop-all.cmd (For Windows) 
+
+# To execute the program locally you can use 
+
+cat filename.extension |python3 mapper.py |sort |python3 reducer.py
+
+# For the execution of program using hadoop you can use 
+
+hadoop jar hadoop------.jar -mapper "python3 /path_of_the_mapper.py" -reducer  
+"python3 /path_of_the_reducer.py" -input /folder_on_localhost/filename.extension
+-output /name_of_the_folder
+
+
